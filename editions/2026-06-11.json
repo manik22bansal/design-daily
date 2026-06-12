@@ -1,0 +1,29 @@
+{
+  "date": "2026-06-11",
+  "items": [
+    {
+      "id": "2026-06-11-1",
+      "title": "The Looking Glass: How to Disagree",
+      "url": "https://lg.substack.com/",
+      "source": "Julie Zhuo",
+      "lane": "essay",
+      "summary": "Zhuo on productive disagreement in design orgs — when to push and when to commit."
+    },
+    {
+      "id": "2026-06-11-2",
+      "title": "Fonts In Use: recent editorial picks",
+      "url": "https://fontsinuse.com/",
+      "source": "Fonts In Use",
+      "lane": "inspiration",
+      "summary": "Three recent identity systems where the typeface choice is doing the strategic heavy lifting."
+    },
+    {
+      "id": "2026-06-11-3",
+      "title": "Brand New: latest identity review",
+      "url": "https://www.underconsideration.com/brandnew/",
+      "source": "Brand New",
+      "lane": "news",
+      "summary": "Armin Vit's verdict on this week's major rebrand — sharp as ever on where craft meets strategy."
+    }
+  ]
+}

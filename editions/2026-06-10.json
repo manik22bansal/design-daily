@@ -1,0 +1,29 @@
+{
+  "date": "2026-06-10",
+  "items": [
+    {
+      "id": "2026-06-10-1",
+      "title": "The Shape of Design (free book)",
+      "url": "https://shapeofdesignbook.com/",
+      "source": "Frank Chimero",
+      "lane": "essay",
+      "summary": "Chimero's classic on why we design, not just how. Worth a re-read chapter on improvisation."
+    },
+    {
+      "id": "2026-06-10-2",
+      "title": "Mobbin: onboarding patterns in kids' apps",
+      "url": "https://mobbin.com/",
+      "source": "Mobbin",
+      "lane": "inspiration",
+      "summary": "A sweep of current onboarding flows in consumer education apps — useful contrast set for the Cuemath app's day-1 experience."
+    },
+    {
+      "id": "2026-06-10-3",
+      "title": "Design Spells",
+      "url": "https://www.designspells.com/",
+      "source": "Design Spells",
+      "lane": "voices",
+      "summary": "A catalogue of delightful details in software — the kind of small magic the belts/levels work should aspire to."
+    }
+  ]
+}

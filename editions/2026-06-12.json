@@ -1,0 +1,37 @@
+{
+  "date": "2026-06-12",
+  "items": [
+    {
+      "id": "2026-06-12-1",
+      "title": "Invisible Details of Interaction Design",
+      "url": "https://rauno.me/craft/interaction-design",
+      "source": "Rauno Freiberg",
+      "lane": "essay",
+      "summary": "A masterclass in the physics of good interfaces — momentum, friction, and why great interactions feel inevitable. The canonical craft essay of the last few years."
+    },
+    {
+      "id": "2026-06-12-2",
+      "title": "Godly — astronomically good web design",
+      "url": "https://godly.website/",
+      "source": "Godly",
+      "lane": "inspiration",
+      "summary": "Today's pick: three landing pages using oversized editorial serif type against utilitarian grids — directly relevant to the marketing-page direction."
+    },
+    {
+      "id": "2026-06-12-3",
+      "title": "Config 2026: what Figma shipped",
+      "url": "https://www.figma.com/blog/",
+      "source": "Figma Blog",
+      "lane": "news",
+      "summary": "The headline items from Config and what they change about day-to-day design work."
+    },
+    {
+      "id": "2026-06-12-4",
+      "title": "Great Animations",
+      "url": "https://emilkowal.ski/ui/great-animations",
+      "source": "Emil Kowalski",
+      "lane": "voices",
+      "summary": "What separates animation that serves comprehension from animation that performs. Short, opinionated, with live examples."
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+/* ---------------------------------------------------------------
+   Design Daily — a small, quiet, daily journal of the design world
+   Minimal editorial: one serif, one accent, hairlines, warm paper.
+   --------------------------------------------------------------- */
+
+:root {
+  --paper: #faf7f1;
+  --ink: #1c1914;
+  --ink-soft: #6e6557;
+  --rule: #e6e0d3;
+  --rule-strong: #1c1914;
+  --accent: #8a3324;
+  --accent-soft: rgba(138, 51, 36, 0.09);
+  --serif: "Newsreader", "Iowan Old Style", "Palatino", Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #161310;
+    --ink: #ebe5d8;
+    --ink-soft: #99917f;
+    --rule: #2d2920;
+    --rule-strong: #ebe5d8;
+    --accent: #d4724f;
+    --accent-soft: rgba(212, 114, 79, 0.12);
+  }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-optical-sizing: auto;
+  font-size: 1.0625rem;
+  line-height: 1.55;
+  max-width: 37rem;
+  margin: 0 auto;
+  padding: clamp(2.25rem, 6vw, 4.5rem) 1.375rem 5rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* A breath of print grain — barely there */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.35;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0.45 0 0 0 0 0.4 0 0 0 0 0.32 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+::selection { background: var(--accent-soft); color: var(--accent); }
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 1.5px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 1px;
+}
+
+/* ----------------------------- Masthead ----------------------------- */
+
+.masthead {
+  text-align: center;
+  margin-bottom: clamp(2.25rem, 7vw, 3.5rem);
+  animation: settle 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.masthead h1 {
+  font-size: clamp(2.375rem, 9vw, 3.125rem);
+  font-weight: 500;
+  font-variation-settings: "opsz" 72;
+  letter-spacing: -0.015em;
+  line-height: 1.05;
+}
+
+.masthead h1::first-letter { color: var(--accent); }
+
+/* Classic Oxford rule: thick over thin */
+.masthead::after {
+  content: "";
+  display: block;
+  margin-top: 1.375rem;
+  height: 5px;
+  border-top: 2.5px solid var(--rule-strong);
+  border-bottom: 1px solid var(--rule-strong);
+}
+
+#edition-date {
+  font-family: var(--sans);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: var(--ink-soft);
+  margin-top: 0.875rem;
+  min-height: 1em;
+}
+
+/* ------------------------------ Items ------------------------------ */
+
+#edition { counter-reset: entry; }
+
+.item {
+  position: relative;
+  counter-increment: entry;
+  padding: clamp(1.875rem, 5vw, 2.5rem) 0;
+  border-bottom: 1px solid var(--rule);
+  animation: settle 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.item:nth-child(1) { animation-delay: 0.08s; }
+.item:nth-child(2) { animation-delay: 0.16s; }
+.item:nth-child(3) { animation-delay: 0.24s; }
+.item:nth-child(4) { animation-delay: 0.32s; }
+.item:nth-child(5) { animation-delay: 0.40s; }
+.item:nth-child(6) { animation-delay: 0.48s; }
+.item:nth-child(7) { animation-delay: 0.56s; }
+
+.item:last-child { border-bottom: none; }
+
+.item-meta {
+  font-family: var(--sans);
+  font-size: 0.65rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--ink-soft);
+  display: flex;
+  align-items: baseline;
+  gap: 0.875em;
+  margin-bottom: 0.75rem;
+}
+
+/* Faint hanging entry numeral, like a journal folio */
+.item-meta::after {
+  content: counter(entry, decimal-leading-zero);
+  margin-left: auto;
+  font-family: var(--serif);
+  font-size: 0.8125rem;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: none;
+  color: var(--ink-soft);
+  opacity: 0.55;
+}
+
+.lane { color: var(--accent); }
+
+.source { position: relative; padding-left: 0.875em; }
+
+.source::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 3px;
+  height: 3px;
+  margin-top: -2.5px;
+  border-radius: 50%;
+  background: var(--rule);
+}
+
+.item-title {
+  font-size: clamp(1.375rem, 4.5vw, 1.5625rem);
+  font-weight: 500;
+  font-variation-settings: "opsz" 36;
+  letter-spacing: -0.01em;
+  line-height: 1.22;
+  text-wrap: balance;
+}
+
+/* The day's lead story sits a step larger */
+.item:first-child .item-title {
+  font-size: clamp(1.625rem, 6vw, 1.9375rem);
+  font-variation-settings: "opsz" 48;
+  line-height: 1.16;
+}
+
+.item-title a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.18s ease;
+}
+
+.item-title a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--accent-soft);
+  text-underline-offset: 0.18em;
+}
+
+.item-image {
+  width: 100%;
+  display: block;
+  border-radius: 3px;
+  margin-top: 1rem;
+  border: 1px solid var(--rule);
+}
+
+.item-summary {
+  margin-top: 0.75rem;
+  color: var(--ink-soft);
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 34rem;
+}
+
+/* ------------------------------ Votes ------------------------------ */
+
+.item-actions {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+}
+
+button.vote {
+  font-family: var(--sans);
+  font-size: 0.625rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  background: none;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  color: var(--ink-soft);
+  padding: 0.5em 1.1em 0.45em;
+  cursor: pointer;
+  transition: border-color 0.18s ease, color 0.18s ease, background 0.18s ease;
+}
+
+button.vote:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+button.vote:disabled {
+  cursor: default;
+  opacity: 0.45;
+}
+
+/* The cast vote keeps its ink */
+button.vote:disabled[data-vote] { border-style: dashed; }
+
+/* ------------------------------ Footer ------------------------------ */
+
+footer {
+  margin-top: clamp(2.5rem, 8vw, 4rem);
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--sans);
+}
+
+.archive-wrap summary {
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6em;
+  cursor: pointer;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.65rem;
+  font-weight: 500;
+  user-select: none;
+  transition: color 0.18s ease;
+}
+
+.archive-wrap summary::-webkit-details-marker { display: none; }
+
+.archive-wrap summary::after {
+  content: "+";
+  font-family: var(--serif);
+  font-size: 0.875rem;
+  line-height: 1;
+  color: var(--accent);
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.archive-wrap[open] summary::after { transform: rotate(45deg); }
+
+.archive-wrap summary:hover { color: var(--ink); }
+
+#archive {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+#archive a {
+  font-family: var(--serif);
+  font-size: 1rem;
+  color: var(--ink-soft);
+  text-decoration: none;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--rule);
+  transition: color 0.18s ease, padding-left 0.18s ease;
+}
+
+#archive a:last-child { border-bottom: none; }
+
+#archive a:hover { color: var(--ink); padding-left: 0.375rem; }
+
+#archive a.current {
+  color: var(--accent);
+  font-style: italic;
+}
+
+#archive a.current::after {
+  content: "— today's read";
+  font-family: var(--sans);
+  font-style: normal;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  margin-left: 0.875em;
+  opacity: 0.7;
+}
+
+.error {
+  color: var(--accent);
+  font-family: var(--sans);
+  font-size: 0.875rem;
+  padding: 2rem 0;
+}
+
+/* ------------------------------ Motion ------------------------------ */
+
+@keyframes settle {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0s !important;
+    transition-duration: 0.01ms !important;
+  }
+}
