@@ -16,33 +16,51 @@ function fmtDate(iso) {
 
 const voteKey = (id) => `vote:${id}`;
 
-function renderItem(item, editionDate) {
+// Generated editions may carry imperfect data — escape everything we interpolate.
+const esc = (s) =>
+  String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+
+function renderItem(item, editionDate, index) {
+  // Normalize: generated editions may omit fields.
+  const title = item.title || "Untitled";
+  const source = item.source || "";
+  const summary = item.summary || "";
+  const lane = item.lane || "";
+  const id = item.id || `${editionDate}-${index}`;
+  const url = /^https?:\/\//.test(item.url || "") ? item.url : "#";
+
   const el = document.createElement("article");
   el.className = "item";
-  const voted = localStorage.getItem(voteKey(item.id));
+  const voted = localStorage.getItem(voteKey(id));
   el.innerHTML = `
     <div class="item-meta">
-      <span class="lane lane-${item.lane}">${LANE_LABELS[item.lane] ?? item.lane}</span>
-      <span class="source">${item.source}</span>
+      ${lane ? `<span class="lane">${esc(LANE_LABELS[lane] ?? lane)}</span>` : ""}
+      ${source ? `<span class="source">${esc(source)}</span>` : ""}
     </div>
-    <h2 class="item-title"><a href="${item.url}" target="_blank" rel="noopener">${item.title}</a></h2>
-    ${item.image ? `<img class="item-image" src="${item.image}" alt="" loading="lazy">` : ""}
-    <p class="item-summary">${item.summary}</p>
+    <h2 class="item-title"><a href="${esc(url)}" target="_blank" rel="noopener">${esc(title)}</a></h2>
+    ${item.image ? `<img class="item-image" src="${esc(item.image)}" alt="" loading="lazy">` : ""}
+    ${summary ? `<p class="item-summary">${esc(summary)}</p>` : ""}
     <div class="item-actions">
-      <button class="vote" data-vote="more" ${voted ? "disabled" : ""}>${voted === "more" ? "Noted — more like this" : "More like this"}</button>
-      <button class="vote" data-vote="less" ${voted ? "disabled" : ""}>${voted === "less" ? "Noted — less of this" : "Less of this"}</button>
+      <button class="vote${voted === "more" ? " cast" : ""}" data-vote="more" ${voted ? "disabled" : ""}>${voted === "more" ? "Noted — more like this" : "More like this"}</button>
+      <button class="vote${voted === "less" ? " cast" : ""}" data-vote="less" ${voted ? "disabled" : ""}>${voted === "less" ? "Noted — less of this" : "Less of this"}</button>
     </div>`;
   el.querySelectorAll("button.vote").forEach((btn) =>
-    btn.addEventListener("click", () => castVote(editionDate, item, btn.dataset.vote, el)),
+    btn.addEventListener("click", () => castVote(editionDate, item, id, btn.dataset.vote, el)),
   );
   return el;
 }
 
-async function castVote(editionDate, item, vote, itemEl) {
+async function castVote(editionDate, item, id, vote, itemEl) {
   // Optimistic: record locally and update UI immediately; network is best-effort.
-  localStorage.setItem(voteKey(item.id), vote);
+  localStorage.setItem(voteKey(id), vote);
   itemEl.querySelectorAll("button.vote").forEach((b) => {
     b.disabled = true;
+    b.classList.toggle("cast", b.dataset.vote === vote);
     if (b.dataset.vote === vote) b.textContent = vote === "more" ? "Noted — more like this" : "Noted — less of this";
   });
   if (!VOTE_ENDPOINT) return;
@@ -50,22 +68,23 @@ async function castVote(editionDate, item, vote, itemEl) {
     await fetch(VOTE_ENDPOINT, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ editionDate, itemId: item.id, vote, source: item.source, lane: item.lane }),
+      body: JSON.stringify({ editionDate, itemId: id, vote, source: item.source, lane: item.lane }),
     });
   } catch (e) {
     console.warn("vote not delivered:", e);
   }
 }
 
-async function renderArchive(dates, currentDate) {
+function renderArchive(dates, currentDate) {
   const nav = document.querySelector("#archive");
   nav.innerHTML = dates
-    .map((d) => `<a href="?date=${d}" class="${d === currentDate ? "current" : ""}">${fmtDate(d)}</a>`)
+    .map((d) => `<a href="?date=${esc(d)}" class="${d === currentDate ? "current" : ""}">${esc(fmtDate(d))}</a>`)
     .join("");
 }
 
 async function main() {
   const dates = await loadJSON("editions/index.json");
+  dates.sort().reverse(); // ISO dates sort lexicographically; enforce newest-first
   const requested = new URLSearchParams(location.search).get("date");
   const date = dates.includes(requested) ? requested : dates[0];
   const edition = await loadJSON(`editions/${date}.json`);
@@ -73,7 +92,11 @@ async function main() {
   document.querySelector("#edition-date").textContent = fmtDate(date);
   const mainEl = document.querySelector("#edition");
   mainEl.innerHTML = "";
-  edition.items.forEach((item) => mainEl.appendChild(renderItem(item, date)));
+  if (!edition.items?.length) {
+    mainEl.innerHTML = `<p class="item-summary">Nothing in today's edition.</p>`;
+  } else {
+    edition.items.forEach((item, index) => mainEl.appendChild(renderItem(item, date, index)));
+  }
   renderArchive(dates, date);
 }
 

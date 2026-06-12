@@ -124,6 +124,7 @@ summary:focus-visible {
 .item:nth-child(5) { animation-delay: 0.40s; }
 .item:nth-child(6) { animation-delay: 0.48s; }
 .item:nth-child(7) { animation-delay: 0.56s; }
+.item:nth-child(n+8) { animation-delay: 0.56s; }
 
 .item:last-child { border-bottom: none; }
 
@@ -252,7 +253,7 @@ button.vote:disabled {
 }
 
 /* The cast vote keeps its ink */
-button.vote:disabled[data-vote] { border-style: dashed; }
+button.vote.cast:disabled { border-style: dashed; }
 
 /* ------------------------------ Footer ------------------------------ */
 
