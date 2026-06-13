@@ -1,4 +1,4 @@
-const VOTE_ENDPOINT = ""; // set in Task 3 (Val.town URL); empty = signals stay local-only
+const VOTE_ENDPOINT = "https://manik22bansal--64ce13cc671511f1b67a1607ee4eb77e.web.val.run"; // Val.town designDailyVote; empty = signals stay local-only
 
 const LANE_LABELS = { essay: "Essay", inspiration: "Inspiration", news: "News", voices: "Voices" };
 
