@@ -245,17 +245,6 @@ summary:focus-visible {
   color: var(--ink);
 }
 
-.why-label {
-  display: block;
-  margin-bottom: 0.15rem;
-  font-family: var(--sans);
-  font-style: normal;
-  font-size: 0.625rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.18em;
-  color: var(--accent);
-}
 
 /* ------------------------- Votes & starring ------------------------- */
 
