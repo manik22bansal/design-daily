@@ -19,7 +19,7 @@ Design lead at Cuemath. Active work: K-12 edtech UX, gamification/motivation sys
 - Dribbble-style concept fluff with no shipped reality
 - Commentary on commentary; engagement-bait threads
 - Generic AI-hype takes with no design substance
-- Paywalled / member-locked articles where the actual substance isn't readable (e.g. Brand New full reviews) — surfacing just an image isn't enough
+- WEAK paywalled / member-locked picks where the free part is nothing useful (e.g. a Brand New review where only the logo image is free) — surfacing just an image isn't enough. Genuinely excellent paid pieces ARE welcome, but must be tagged `(paid)` so there's no surprise click, and they have to clear a high "would have featured it even if free" bar.
 - Picks where it's not immediately obvious WHAT it is and WHY it's relevant to me (this is a presentation requirement, see below)
 
 ## Presentation

@@ -172,6 +172,25 @@ summary:focus-visible {
   background: var(--rule);
 }
 
+/* Paywall flag — a quiet but unmissable heads-up before the click.
+   Outlined oxblood pill in the meta row: same tracked sans caps as its
+   neighbours, but boxed and accent-coloured so the eye catches it. The
+   dot separator (.source::before / .edition-ref::before) doesn't precede
+   it — the border already sets it apart. Sits slightly raised to centre
+   the small caps inside the box on the baseline-aligned meta row. */
+.paid-tag {
+  font-size: 0.6rem;
+  letter-spacing: 0.16em;
+  line-height: 1;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  padding: 0.3em 0.6em;
+  position: relative;
+  top: -0.12em;
+  white-space: nowrap;
+}
+
 /* Edition date on starred cards */
 .edition-ref {
   position: relative;

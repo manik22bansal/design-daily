@@ -80,6 +80,7 @@ function renderItem(item, editionDate, index, opts = {}) {
     <div class="item-meta">
       ${lane ? `<span class="lane">${esc(LANE_LABELS[lane] ?? lane)}</span>` : ""}
       ${source ? `<span class="source">${esc(source)}</span>` : ""}
+      ${item.paid === true ? `<span class="paid-tag" title="Behind a paywall — heads up before you click">Paid</span>` : ""}
       ${opts.showDate && fmtDateShort(editionDate) ? `<span class="edition-ref">${esc(fmtDateShort(editionDate))}</span>` : ""}
     </div>
     <h2 class="item-title"><a href="${esc(url)}" target="_blank" rel="noopener">${esc(title)}</a></h2>
