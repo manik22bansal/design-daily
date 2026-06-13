@@ -230,6 +230,33 @@ summary:focus-visible {
   max-width: 34rem;
 }
 
+/* "Why this is for you" — the personal note. Sits apart from the plain
+   "what it is" summary: indented behind a thin oxblood rule, italic serif,
+   with a small caps accent label so its purpose reads at a glance. */
+.item-why {
+  margin-top: 0.875rem;
+  padding-left: 0.9rem;
+  border-left: 1.5px solid var(--accent);
+  max-width: 34rem;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: var(--ink);
+}
+
+.why-label {
+  display: block;
+  margin-bottom: 0.15rem;
+  font-family: var(--sans);
+  font-style: normal;
+  font-size: 0.625rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--accent);
+}
+
 /* ------------------------- Votes & starring ------------------------- */
 
 .item-actions {
@@ -401,11 +428,13 @@ button.star.pop .icon {
 .item-meta,
 .item-title,
 .item-image,
-.item-summary { transition: opacity 0.35s ease; }
+.item-summary,
+.item-why { transition: opacity 0.35s ease; }
 
 .item.dismissed .item-meta,
 .item.dismissed .item-title,
-.item.dismissed .item-summary { opacity: 0.4; }
+.item.dismissed .item-summary,
+.item.dismissed .item-why { opacity: 0.4; }
 
 .item.dismissed .item-image { opacity: 0.4; filter: grayscale(0.6); }
 

@@ -66,6 +66,7 @@ function renderItem(item, editionDate, index, opts = {}) {
   const title = item.title || "Untitled";
   const source = item.source || "";
   const summary = item.summary || "";
+  const why = item.why || ""; // old sample editions omit this — render nothing when absent
   const lane = item.lane || "";
   const id = item.id || `${editionDate}-${index}`;
   const url = /^https?:\/\//.test(item.url || "") ? item.url : "#";
@@ -84,6 +85,7 @@ function renderItem(item, editionDate, index, opts = {}) {
     <h2 class="item-title"><a href="${esc(url)}" target="_blank" rel="noopener">${esc(title)}</a></h2>
     ${item.image ? `<img class="item-image" src="${esc(item.image)}" alt="" loading="lazy">` : ""}
     ${summary ? `<p class="item-summary">${esc(summary)}</p>` : ""}
+    ${why ? `<p class="item-why"><span class="why-label">Why this is for you</span>${esc(why)}</p>` : ""}
     <div class="item-actions">${voteButtonsHTML(voted)}
       <button class="star${starred ? " starred" : ""}" aria-pressed="${starred}" aria-label="${starred ? "Unstar this item" : "Star this item"}">${ICON_STAR}</button>
     </div>`;

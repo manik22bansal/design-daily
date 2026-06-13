@@ -7,7 +7,8 @@
       "url": "https://linear.app/now/output-isn-t-design",
       "source": "Karri Saarinen — Linear",
       "lane": "essay",
-      "summary": "Linear's founder argues the hard part of design was never generating the form, it's understanding the problem well enough to know what should exist at all. The sharpest rebuttal yet to the 'AI collapses design into output' pitch, and a useful spine for how we think about tooling at Cuemath."
+      "summary": "Linear's founder makes the case that the real work of design is figuring out what should exist and why, not the act of producing a polished screen. AI can spit out interfaces fast, but mistaking that output for design gives you products that look slick and fall apart in use.",
+      "why": "You're deciding how AI fits into how designers work at Cuemath — this is a clear, founder-level argument for keeping judgment and problem-framing at the centre rather than letting tools auto-generate the answer."
     },
     {
       "id": "2026-06-13-2",
@@ -15,7 +16,8 @@
       "url": "https://www.lukew.com/ff/entry.asp?2145=",
       "source": "Luke Wroblewski",
       "lane": "voices",
-      "summary": "Four years of building AI-native products distilled into the UI patterns that keep surviving the platform churn: suggested follow-ups, citations, progressive disclosure of tool calls. Practitioner writing, not hype, from someone shipping the thing."
+      "summary": "A veteran product designer lays out the handful of interface ideas that keep working as AI products evolve from simple chat to multi-step agents: suggesting next questions, showing sources so people trust answers, and letting users hide or reveal the messy detail of what the AI is doing.",
+      "why": "A practical checklist of what actually works in AI interfaces, useful as you shape AI-assisted features in the Cuemath app rather than guessing at patterns from scratch."
     },
     {
       "id": "2026-06-13-3",
@@ -23,7 +25,8 @@
       "url": "https://www.nngroup.com/articles/autonomy-relatedness-competence/",
       "source": "Tanner Kohler — Nielsen Norman Group",
       "lane": "essay",
-      "summary": "Self-Determination Theory applied straight to interface design, with Duolingo and Minecraft as worked examples. This is the research bedrock under the belts/XP/levels work, worth re-grounding in before the next motivation-system decision."
+      "summary": "Walks through the three things psychology says people need to stay motivated — a sense of choice, feeling connected to others, and feeling capable — and shows how products like Duolingo and Minecraft build them in (and how clumsy apps break them).",
+      "why": "This is the motivation research that sits directly under your belts, XP, and levels work — a clean re-grounding before the next call on how the app keeps kids coming back."
     },
     {
       "id": "2026-06-13-4",
@@ -31,7 +34,8 @@
       "url": "https://maggieappleton.com/tools-for-thought",
       "source": "Maggie Appleton",
       "lane": "essay",
-      "summary": "A reframe of what 'tools for thought' even means: writing, maps, the Socratic method all qualify, not just note-taking apps. Quietly relevant to anyone designing how kids actually build mathematical understanding rather than just drilling it."
+      "summary": "Argues that the phrase 'tools for thought' has been hijacked by note-taking apps, when really it covers much older human inventions — writing, maps, mathematical notation, the back-and-forth of Socratic questioning — that all expanded what our minds can do.",
+      "why": "A useful lens for designing how kids genuinely build mathematical understanding, since maths notation itself is one of these thinking tools rather than just content to drill."
     },
     {
       "id": "2026-06-13-5",
@@ -39,7 +43,8 @@
       "url": "https://fontsinuse.com/uses/77542/htag-magazine",
       "source": "Fonts In Use",
       "lane": "inspiration",
-      "summary": "A Belgian HR magazine that refuses to look like B2B: Right Grotesk display, Newsreader body, Silka for the system layer, all color-blocked and grid-offset into something with real editorial nerve. A clean case study in three-register type systems."
+      "summary": "A Belgian HR magazine that deliberately ignores how dull business publications usually look. It runs three typefaces with clear jobs — a bold one for headlines, a readable serif for long text, a plain one for labels — plus strong colour blocks and an off-kilter grid.",
+      "why": "A tidy worked example of giving each typeface a defined role, the same discipline you apply to the CueDesign type system and Cuemath's editorial work."
     },
     {
       "id": "2026-06-13-6",
@@ -47,7 +52,8 @@
       "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_lithuanian_culture_institute_by_andstudio.php",
       "source": "Brand New",
       "lane": "news",
-      "summary": "Armin Vit's crew reviews andstudio's identity for the Lithuanian Culture Institute under the headline 'Fair and Square' — a fresh look at how a national cultural body gets a wordmark with teeth."
+      "summary": "A quick before-and-after look at the rebrand of Lithuania's national culture body, where andstudio replaced the old mark with a colourful, square-based geometric system under the title 'Fair and Square'. The detailed write-up sits behind Brand New's paywall; the logo comparison is the free part.",
+      "why": "A national-institution identity built from a simple geometric building block, the kind of system thinking that maps onto how a brand like Cuemath scales one idea across many touchpoints."
     }
   ]
 }
