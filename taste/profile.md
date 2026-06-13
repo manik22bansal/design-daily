@@ -11,6 +11,8 @@ Design lead at Cuemath. Active work: K-12 edtech UX, gamification/motivation sys
 - Psychology of motivation, learning, and play
 - Strong opinions from practitioners who ship
 - Design systems practice at scale
+- Product thinking — strategy, frameworks, building (design and product are tightly linked)
+- Design × AI: how real designers are evolving their day-to-day workflow with AI tools (practical, not hype)
 
 ## Allergic to
 - Listicles, "10 tips", growth-hack content

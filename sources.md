@@ -2,6 +2,8 @@
 
 Scores 1–5. New sources start at 3. Signals adjust scores: **star** +0.75 (cap 5), **poop/less** −0.5. A poop may include a free-text reason — that reason is reader guidance, fold its substance into `taste/profile.md`, not just the score. A source below 2 moves to Retired with a dated note. The curator may add newly discovered sources at 3 with a `new` flag.
 
+Sections group sources by domain. They do NOT map 1:1 to the four edition lanes (essay / inspiration / news / voices) — a Lenny's piece is tagged `essay`, a product launch is `news`, a Shreyas thread is `voices`. Product thinking and Design × AI are first-class: design and product are tightly linked, and how designers are evolving their day-to-day with AI is a standing interest.
+
 ## Essays & craft
 | Source | URL | Score | Notes |
 |---|---|---|---|
@@ -61,6 +63,21 @@ Scores 1–5. New sources start at 3. Signals adjust scores: **star** +0.75 (cap
 | Tobias van Schneider | vanschneider.com | 3 | Studio perspective |
 | Andy Allen | notboring.software | 3 | Software with personality |
 | Amy Hupe | amyhupe.co.uk | 3 | Design systems practice, content + inclusion |
+
+## Product thinking
+| Source | URL | Score | Notes |
+|---|---|---|---|
+| Lenny's Newsletter | lenny.substack.com | 4 | The benchmark product newsletter — practitioner interviews, frameworks |
+| John Cutler — The Beautiful Mess | cutlefish.substack.com | 4 | Product operating models, systems thinking |
+| First Round Review | review.firstround.com | 4 | Deep essays on building products and teams |
+| Shreyas Doshi | x.com/shreyas | 3 | Product strategy + craft, sharp threads |
+
+## Design × AI
+| Source | URL | Score | Notes |
+|---|---|---|---|
+| Luke Wroblewski | lukew.com | 4 | Practitioner writing on AI + product/design, primary source |
+| Shape of AI | shapeof.ai | 4 | UX patterns for AI products (Emily Campbell) |
+| Jakob Nielsen — UX Tigers | uxtigers.com | 3 | AI + UX, research-grounded, opinionated |
 
 ## Retired / do not cite
 | Source | Why |
