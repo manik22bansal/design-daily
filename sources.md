@@ -33,7 +33,7 @@ Sections group sources by domain. They do NOT map 1:1 to the four edition lanes 
 | Minimal Gallery | minimal.gallery | 4 | Restraint done well |
 | Fonts In Use | fontsinuse.com | 4 | Typography in the wild |
 | Typewolf | typewolf.com | 4 | Type trends + site of the day |
-| Brand New | underconsideration.com/brandnew | 4 | Identity reviews (also news) |
+| Brand New | underconsideration.com/brandnew | 3.5 | Identity reviews (also news). ⚠ Full reviews are member-paywalled — only the logo images are free. Cite only when the free portion genuinely stands alone (rare). |
 | Cosmos | cosmos.so | 3 | Visual research boards |
 | Savee | savee.com | 3 | Visual reference |
 | httpster | httpster.net | 3 | Web design showcase |

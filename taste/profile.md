@@ -19,6 +19,11 @@ Design lead at Cuemath. Active work: K-12 edtech UX, gamification/motivation sys
 - Dribbble-style concept fluff with no shipped reality
 - Commentary on commentary; engagement-bait threads
 - Generic AI-hype takes with no design substance
+- Paywalled / member-locked articles where the actual substance isn't readable (e.g. Brand New full reviews) — surfacing just an image isn't enough
+- Picks where it's not immediately obvious WHAT it is and WHY it's relevant to me (this is a presentation requirement, see below)
+
+## Presentation
+- Every item must make two things instantly clear, in plain English: (1) what the piece actually is, and (2) why it was shortlisted for me specifically. If the "why" isn't obvious, the pick fails — no matter how good the article is.
 
 ## Lane weighting
 Roughly even across the week; news only when it actually matters.
