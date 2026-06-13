@@ -19,6 +19,8 @@ Scores 1–5. New sources start at 3. Signals adjust scores: **star** +0.75 (cap
 | Brian Lovin | brianlovin.com | 3 | Product design notes |
 | Dan Mall | danmall.com | 3 | Design systems practice |
 | Brad Frost | bradfrost.com | 3 | Design systems / atomic design |
+| Maggie Appleton | maggieappleton.com | 4 | Learning, tools-for-thought, illustrated essays — motivation/learning lane |
+| Andy Matuschak | andymatuschak.org | 4 | Spaced repetition + learning research — practice-app relevant |
 
 ## Visual inspiration
 | Source | URL | Score | Notes |
@@ -58,6 +60,7 @@ Scores 1–5. New sources start at 3. Signals adjust scores: **star** +0.75 (cap
 | Vitaly Friedman | x.com/vitalyf | 3 | UX patterns, front-end |
 | Tobias van Schneider | vanschneider.com | 3 | Studio perspective |
 | Andy Allen | notboring.software | 3 | Software with personality |
+| Amy Hupe | amyhupe.co.uk | 3 | Design systems practice, content + inclusion |
 
 ## Retired / do not cite
 | Source | Why |
