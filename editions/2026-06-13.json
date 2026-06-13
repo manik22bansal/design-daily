@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-13",
+  "items": [
+    {
+      "id": "2026-06-13-1",
+      "title": "Output isn't design",
+      "url": "https://linear.app/now/output-isn-t-design",
+      "source": "Karri Saarinen — Linear",
+      "lane": "essay",
+      "summary": "Linear's founder argues the hard part of design was never generating the form, it's understanding the problem well enough to know what should exist at all. The sharpest rebuttal yet to the 'AI collapses design into output' pitch, and a useful spine for how we think about tooling at Cuemath."
+    },
+    {
+      "id": "2026-06-13-2",
+      "title": "Durable Patterns in AI Product Design",
+      "url": "https://www.lukew.com/ff/entry.asp?2145=",
+      "source": "Luke Wroblewski",
+      "lane": "voices",
+      "summary": "Four years of building AI-native products distilled into the UI patterns that keep surviving the platform churn: suggested follow-ups, citations, progressive disclosure of tool calls. Practitioner writing, not hype, from someone shipping the thing."
+    },
+    {
+      "id": "2026-06-13-3",
+      "title": "Autonomy, Relatedness, and Competence in UX Design",
+      "url": "https://www.nngroup.com/articles/autonomy-relatedness-competence/",
+      "source": "Tanner Kohler — Nielsen Norman Group",
+      "lane": "essay",
+      "summary": "Self-Determination Theory applied straight to interface design, with Duolingo and Minecraft as worked examples. This is the research bedrock under the belts/XP/levels work, worth re-grounding in before the next motivation-system decision."
+    },
+    {
+      "id": "2026-06-13-4",
+      "title": "Tools for Thought as Cultural Practices, not Computational Objects",
+      "url": "https://maggieappleton.com/tools-for-thought",
+      "source": "Maggie Appleton",
+      "lane": "essay",
+      "summary": "A reframe of what 'tools for thought' even means: writing, maps, the Socratic method all qualify, not just note-taking apps. Quietly relevant to anyone designing how kids actually build mathematical understanding rather than just drilling it."
+    },
+    {
+      "id": "2026-06-13-5",
+      "title": "Htag magazine",
+      "url": "https://fontsinuse.com/uses/77542/htag-magazine",
+      "source": "Fonts In Use",
+      "lane": "inspiration",
+      "summary": "A Belgian HR magazine that refuses to look like B2B: Right Grotesk display, Newsreader body, Silka for the system layer, all color-blocked and grid-offset into something with real editorial nerve. A clean case study in three-register type systems."
+    },
+    {
+      "id": "2026-06-13-6",
+      "title": "New Logo and Identity for Lithuanian Culture Institute by andstudio",
+      "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_lithuanian_culture_institute_by_andstudio.php",
+      "source": "Brand New",
+      "lane": "news",
+      "summary": "Armin Vit's crew reviews andstudio's identity for the Lithuanian Culture Institute under the headline 'Fair and Square' — a fresh look at how a national cultural body gets a wordmark with teeth."
+    }
+  ]
+}
