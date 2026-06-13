@@ -276,11 +276,21 @@ button.vote:hover:not(:disabled) .glyph { filter: none; }
 
 button.vote:disabled { cursor: default; }
 
-/* The recorded vote: glyph alone, on a dashed hairline */
+/* The recorded vote: a deliberate, full-strength "pooped" marker.
+   Filled oxblood tint + solid accent border so it reads as the reason the
+   item is dimmed — not a greyed-out disabled control. Stays full opacity
+   even while the surrounding article dims (see .item.dismissed below). */
 button.vote.cast.icon-only {
   padding: 0.4em 0.55em;
-  border-style: dashed;
+  border-style: solid;
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+  opacity: 1;
 }
+
+/* Pooped glyph reads at full saturation (the default pill mutes it) */
+button.vote.cast.icon-only .glyph { filter: none; }
 
 /* ---- Optional reason — a marginal note, not a form ----
    Italic serif on a hairline, like an annotation pencilled in the gutter. */
@@ -383,12 +393,21 @@ button.star.pop .icon {
 }
 
 /* ------------------------ Dismissed entries ------------------------ */
+/* Dim the article's content (meta, headline, image, summary) — but NOT the
+   action row. A parent opacity would clamp every child, dragging the pooped
+   button down with it; dimming the content elements instead lets the
+   highlighted poop pill stand out as the reason the item is dimmed. */
 
-.item { transition: opacity 0.35s ease; }
+.item-meta,
+.item-title,
+.item-image,
+.item-summary { transition: opacity 0.35s ease; }
 
-.item.dismissed { opacity: 0.4; }
+.item.dismissed .item-meta,
+.item.dismissed .item-title,
+.item.dismissed .item-summary { opacity: 0.4; }
 
-.item.dismissed .item-image { filter: grayscale(0.6); }
+.item.dismissed .item-image { opacity: 0.4; filter: grayscale(0.6); }
 
 /* ------------------------------ Footer ------------------------------ */
 
