@@ -21,7 +21,7 @@ Sections group sources by domain. They do NOT map 1:1 to the four edition lanes 
 | Brian Lovin | brianlovin.com | 3 | Product design notes |
 | Dan Mall | danmall.com | 3 | Design systems practice |
 | Brad Frost | bradfrost.com | 3 | Design systems / atomic design |
-| Maggie Appleton | maggieappleton.com | 4 | Learning, tools-for-thought, illustrated essays — motivation/learning lane |
+| Maggie Appleton | maggieappleton.com | 3.5 | Learning, tools-for-thought, illustrated essays — motivation/learning lane. ⚠ 2026-06-15: 'less' — too abstract, no practical takeaway on how understanding is built. Cite only when actionable. |
 | Andy Matuschak | andymatuschak.org | 4 | Spaced repetition + learning research — practice-app relevant |
 
 ## Visual inspiration

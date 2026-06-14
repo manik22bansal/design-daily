@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-15",
+  "items": [
+    {
+      "id": "2026-06-15-1",
+      "title": "How To Make Your Design System AI-Ready",
+      "url": "https://www.smashingmagazine.com/2026/06/how-make-design-system-ai-ready/",
+      "source": "Smashing Magazine",
+      "lane": "essay",
+      "summary": "Vitaly Friedman's practical guide to restructuring a design system so AI coding tools build from it correctly: written rules in plain Markdown spec files, a clean list of named design tokens, and automated checks that catch hard-coded values drifting from the system.",
+      "why": "You're mid-build on CueDesign with token files and a design-lint hook already in place. This is a concrete checklist for making that system legible to the AI tools your team codes with, so generated UI inherits your rules instead of guessing them."
+    },
+    {
+      "id": "2026-06-15-2",
+      "title": "The Core Skill of Design in the AI Era: Critique",
+      "url": "https://www.nngroup.com/articles/ai-era-critique/",
+      "source": "Nielsen Norman Group",
+      "lane": "voices",
+      "summary": "Adam Elman argues that because AI gives a different output every time, designers can no longer spec exact behaviour. The job shifts to defining what 'good' looks like as explicit judging criteria, then running an evaluate-and-refine loop against them.",
+      "why": "It reframes the design lead's role around critique and clear quality bars rather than pixel specs, which is directly useful as you steer a team producing screens with AI, and as a frame for what to teach your designers next."
+    },
+    {
+      "id": "2026-06-15-3",
+      "title": "The Hidden Why: Behavioral Economics for UX",
+      "url": "https://www.nngroup.com/articles/behavioral-economics-for-ux/",
+      "source": "Nielsen Norman Group",
+      "lane": "essay",
+      "summary": "A simple framework, the '3B' model of Behavior, Barriers, and Benefits, for diagnosing why users don't do the thing you want and designing targeted nudges to remove the friction.",
+      "why": "Cuemath's core problem is activation, kids not building the daily habit. This gives you a structured way to map the psychological barriers and motivators behind that drop-off, feeding straight into the belts and XP motivation work."
+    },
+    {
+      "id": "2026-06-15-4",
+      "title": "Koto revives an 80-year-old wordmark to rebrand Norton Museum of Art",
+      "url": "https://www.itsnicethat.com/articles/koto-norton-museum-of-art-graphic-design-project-030626",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "A look at Koto's rebrand of Florida's Norton Museum: they pulled a 1940s wordmark from the archive, rebuilt it around a 40-degree diagonal, paired it with Sharp Type's Centra No. 2, and built a colour palette that shifts with each exhibition.",
+      "why": "A masterclass in identity with strategic roots, archive-led rather than invented, plus a flexible system, exactly the editorial-typography and brand-system thinking you bring to Marque and CueDesign."
+    },
+    {
+      "id": "2026-06-15-5",
+      "title": "TBM 425: AI and Agency",
+      "url": "https://cutlefish.substack.com/p/tbm-425-ai-and-agency",
+      "source": "John Cutler — The Beautiful Mess",
+      "lane": "voices",
+      "summary": "Product thinker John Cutler argues that companies mandating AI adoption top-down are killing the very autonomy and trust real adoption needs. The blocker isn't employee resistance, it's leadership stripping people of the room to find their own way with the tools.",
+      "why": "As you push AI into your design team's daily workflow, this is a sharp warning on how to do it: create the conditions for designers to build their own relationship with the tools rather than mandating it, which is what decides whether it actually sticks."
+    }
+  ]
+}
