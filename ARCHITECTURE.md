@@ -89,7 +89,9 @@ The curator has no memory between runs; these files ARE its memory.
 - **`taste/votes/`** — inbox for reader feedback; `.gitkeep` keeps it present.
 
 ### 4. Scheduler — local task `design-daily-curator`
-A Claude scheduled task (cron `30 7 * * *`, local IST, ~9-min jitter). Stored at `~/.claude/scheduled-tasks/design-daily-curator/SKILL.md`. Runs as a fresh local Claude session **only while the Claude app is open**; if closed when due, it runs once on next launch (no multi-day backfill). It uses the machine's `gh`/git auth to push and web search to research.
+A Claude scheduled task (cron `0 22 * * *` — ~10pm local IST, +~9-min jitter). Stored at `~/.claude/scheduled-tasks/design-daily-curator/SKILL.md`. Runs as a fresh local Claude session **only while the Claude app is open**; if closed when due, it runs once on next launch (no multi-day backfill). It uses the machine's `gh`/git auth to push and web search to research.
+
+**Runs at night, dates for the morning.** Manik works late and his laptop is off until ~11am, so the morning slot was useless — the run is in the evening to have the edition ready before he wakes. The edition's date is decided from the local clock at runtime: an **evening run (hour ≥ 18) dates the edition for tomorrow**; a **daytime catch-up (hour < 18, evening run was missed) dates it for today**. This keeps the date aligned to the morning it serves and self-corrects on a missed night. Before writing, the curator skips if the target date's edition already exists.
 
 ### 5. Vote endpoint — Val.town `designDailyVote`
 A single HTTP function (code backed up at `.endpoint/designDailyVote.ts`). Receives `{editionDate, itemId, vote, source, lane, reason}`, validates (vote ∈ `less|star|unstar`, date/id shape), and writes a small JSON file into `taste/votes/` via the GitHub Contents API. CORS locked to the Pages origin. Auth via a fine-grained PAT stored as the Val.town env var `GITHUB_TOKEN` (Contents read/write on this repo only). UTF-8-safe base64 so emoji/smart-quotes in reasons survive.
@@ -127,7 +129,7 @@ Both are revocable: regenerate the PAT at github.com/settings, update the Val.to
 
 ## Known limitations
 
-- **Laptop-dependent.** The local scheduler only runs when the Claude app is open; it can't publish on a morning the Mac never wakes. Catch-up is a single run on next launch, not a per-day backfill. → see "Cloud runner" below.
+- **Laptop-dependent.** The local scheduler only runs when the Claude app is open. The ~10pm slot suits Manik's late-working hours, and the evening/daytime date rule self-corrects a missed night (catch-up dates today, not tomorrow). But if the Mac is off all evening AND not opened until late, that edition is produced late or, across a fully-offline day, skipped (single catch-up, no per-day backfill). → see "Cloud runner" below for the fully-independent fix.
 - **Per-device state.** Stars and votes live in `localStorage`, so the Starred view and vote-disabled state don't sync across devices. Votes still reach the curator (via the endpoint) from any device, but the personal star collection is local to each browser.
 - **Val.town free tier** requires the function's code to be public (it holds no secrets — the token is an env var).
 - **Public Pages URL** (obscure, unlinked, but technically public).
