@@ -1,0 +1,41 @@
+{
+  "date": "2026-06-16",
+  "items": [
+    {
+      "id": "2026-06-16-1",
+      "title": "Daryn Roongrawewan doesn't design logos, she crafts \"ornamental icons\"",
+      "url": "https://www.itsnicethat.com/articles/daryn-roongrawewan-graphic-design-discover-030626",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "A profile of Berlin designer Daryn Roongrawewan, who builds brand marks she calls \"ornamental icons\" — like a florist's \"L\" that rotates into drawings of flowers — drawing her letterforms from nature and historical sources (Slavic alphabets, Victorian type, 1920s children's books) rather than chasing trends.",
+      "why": "Manik runs an icon system and cares about editorial type; her rule that every mark should carry a meaningful connection to something recognizable is a sharp counter to generic iconography and a useful lens for CueDesign's icon language and kids' product warmth."
+    },
+    {
+      "id": "2026-06-16-2",
+      "title": "Mousse issue 94, Winter 2026",
+      "url": "https://fontsinuse.com/uses/77755/mousse-issue-94-winter-2026",
+      "source": "Fonts In Use",
+      "lane": "inspiration",
+      "summary": "A close look at the typography of contemporary-art magazine Mousse's Winter 2026 issue, pairing the pre-release typeface Costumes with François Rappo's JJannon serif across covers and spreads, with embossed and outlined type treatments in a green-and-black scheme.",
+      "why": "High-craft editorial typography in the wild — the confident display-plus-serif pairing and physical type treatment are exactly the kind of move Manik can borrow from for Cuemath's brand system and long-form editorial layouts."
+    },
+    {
+      "id": "2026-06-16-3",
+      "title": "Strategies to Teach Math Conceptual Understanding",
+      "url": "https://www.carnegielearning.com/blog/strategies-to-teach-math-conceptual-understanding",
+      "source": "Carnegie Learning",
+      "lane": "essay",
+      "summary": "A veteran math teacher lays out seven concrete classroom strategies for teaching the \"why\" behind math, not just the \"how\" — spiral practice, high-order tasks, visual models, hands-on manipulatives, real-world links, and getting students to explain their own reasoning.",
+      "why": "This is Cuemath's core problem stated as teaching practice — how conceptual math understanding is actually built — with usable tactics (productive struggle, self-explanation, visual entry points) that map straight onto practice-app exercise design and tutoring flows."
+    },
+    {
+      "id": "2026-06-16-4",
+      "title": "Inside Linear: Building with taste, craft, and focus",
+      "url": "https://www.lennysnewsletter.com/p/inside-linear-building-with-taste",
+      "source": "Lenny's Newsletter",
+      "lane": "voices",
+      "summary": "An interview with Linear co-founder and CEO Karri Saarinen on running a product company where craft, taste, and focus are the competitive edge — covering how they run design reviews, why they ship opinionated defaults, and three techniques he uses to stay focused. Free to read in full.",
+      "why": "Linear is the design-led benchmark Manik points CueDesign at; the playbook for treating taste and craft as strategy rather than polish-applied-after-the-fact is directly applicable to how he's building the design system and the combined product."
+    }
+  ]
+}
