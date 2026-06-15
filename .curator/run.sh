@@ -3,7 +3,7 @@
 # Runs Claude Code headless with permission checks skipped, so the curation
 # publishes unattended. Trusted automation scoped to this repo.
 
-REPO="/Users/manikbansal/Desktop/design-daily"
+REPO="/Users/manikbansal/design-daily"
 CURATOR="$REPO/.curator"
 LOG="$CURATOR/run.log"
 
