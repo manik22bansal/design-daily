@@ -1,5 +1,6 @@
 # Taste Changelog
 
+- 2026-06-16: Smashing Magazine 3 → 2 (two 'less' votes on 2026-06-15 AI-ready design system piece). Reader asked for the primary source: Friedman was summarizing Hardik Pandya's "Expose your design system to LLMs". Added Hardik Pandya (hvpandya.com) to Essays & craft at 3 (new). Added profile rule: prefer primary sources over commentary/aggregation.
 - 2026-06-13: Initial profile and source list created (seeded by Claude, approved by Manik).
 - 2026-06-13: Added Maggie Appleton + Andy Matuschak (Essays & craft, score 4) and Amy Hupe (Voices, score 3) per Manik — strengthens the learning/motivation and design-systems lanes.
 - 2026-06-13: Added Product thinking section (Lenny's, John Cutler, First Round Review, Shreyas Doshi) and Design × AI section (Luke Wroblewski, Shape of AI, Jakob Nielsen/UX Tigers) per Manik — design and product are tightly linked; standing interest in how designers evolve their workflow with AI.

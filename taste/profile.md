@@ -21,6 +21,7 @@ Design lead at Cuemath. Active work: K-12 edtech UX, gamification/motivation sys
 - Generic AI-hype takes with no design substance
 - WEAK paywalled / member-locked picks where the free part is nothing useful (e.g. a Brand New review where only the logo image is free) — surfacing just an image isn't enough. Genuinely excellent paid pieces ARE welcome, but must be tagged `(paid)` so there's no surprise click, and they have to clear a high "would have featured it even if free" bar.
 - Picks where it's not immediately obvious WHAT it is and WHY it's relevant to me (this is a presentation requirement, see below)
+- Aggregator/commentary pieces that re-tell a primary source — always hunt down and feature the original instead. (2026-06-16, after two 'less' signals on a Smashing summary of Hardik Pandya's design-systems-for-LLMs piece — the reader explicitly asked for the real source.)
 - Abstract learning/tools-for-thought essays with no practical, usable takeaway — especially in the learning lane. A piece in this space must connect to how understanding (esp. mathematical understanding) is actually built or give something Manik can put to use; philosophical musing alone fails. (2026-06-15, from a 'less' on a Maggie Appleton essay)
 
 ## Presentation

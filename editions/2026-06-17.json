@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-17",
+  "items": [
+    {
+      "id": "2026-06-17-1",
+      "title": "Expose your design system to LLMs",
+      "url": "https://hvpandya.com/llm-design-systems",
+      "source": "Hardik Pandya",
+      "lane": "essay",
+      "summary": "Hardik Pandya (Atlassian) lays out a concrete method to stop AI coding tools from inventing colours, spacings, and components: write plain-Markdown spec files for the system's rules, expose a named token layer the model can quote from, and add automated audits that fail builds when a generated screen drifts off-system.",
+      "why": "This is the primary source behind the Smashing piece you flagged earlier this week — the actual playbook, not someone's summary of it. Directly mappable onto CueDesign: spec files for your tokens and rules so generated screens inherit them rather than guess."
+    },
+    {
+      "id": "2026-06-17-2",
+      "title": "Reviewing code in the agent era",
+      "url": "https://linear.app/now/reviewing-code-in-the-agent-era",
+      "source": "Maciek Pekala — Linear",
+      "lane": "voices",
+      "summary": "Linear's design engineer on what changes when AI agents are writing half your team's pull requests: the reviewer stops chasing line-by-line correctness and instead judges whether the change fits the product's system and actually solves the problem.",
+      "why": "Same shift is coming for design review at Cuemath as your team uses AI to generate screens. The frame here — review the fit and the judgment, not the pixels — is the exact muscle to teach designers as agent output volume goes up."
+    },
+    {
+      "id": "2026-06-17-3",
+      "title": "TBM 426: The Trouble With Mirrors",
+      "url": "https://cutlefish.substack.com/p/tbm-426-the-trouble-with-mirrors",
+      "source": "John Cutler — The Beautiful Mess",
+      "lane": "voices",
+      "summary": "Cutler argues that org transparency efforts often misfire because people want to feel heard (mirroring) before they can absorb uncomfortable truths (mirrors). The fix isn't more dashboards — it's collaborative sense-making before clarity is imposed.",
+      "why": "Useful framing for how you roll out design-system audits, learning data, or process changes inside Cuemath: lead with shared exploration, not a verdict. Saves you from a transparency push that lands as judgment."
+    },
+    {
+      "id": "2026-06-17-4",
+      "title": "Phonopolis: an entire game crafted from cardboard and paper",
+      "url": "https://www.itsnicethat.com/features/amanita-design-phonopolis-illustration-graphic-design-project-090626",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "Amanita Design's new puzzle adventure was built almost entirely as physical cardboard-and-paper sets — handcrafted, sandpapered, photographed, then converted into the game's 3D world. The dystopia-by-craft aesthetic is unlike anything currently shipping.",
+      "why": "Amanita is the rare game studio whose visual world feels handmade in a way kids' learning products almost never attempt. A concrete reference for pushing MathGym's art direction toward texture and character instead of the default rounded-vector look."
+    },
+    {
+      "id": "2026-06-17-5",
+      "title": "The View From Cairo: minimalism, power, and Arab design critique",
+      "url": "https://www.itsnicethat.com/articles/the-view-from-cairo-minimalist-aesthetics-arab-design-critique-creative-industry-020626",
+      "source": "Moe Elhossieny — It's Nice That",
+      "lane": "essay",
+      "summary": "Cairo-based designer Moe Elhossieny argues that the global default of clean Western minimalism is being exported into Arab branding (case study: the Grand Egyptian Museum) and is crowding out local visual languages — partly because the region has too little public design criticism to push back.",
+      "why": "Sharp prompt for Cuemath's brand and product look in Indian and MENA markets: where are you reaching for the default international-startup minimalism vs. drawing on local visual culture that would actually feel like home to your kids and parents?"
+    }
+  ]
+}
