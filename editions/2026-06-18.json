@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-18",
+  "items": [
+    {
+      "id": "2026-06-18-1",
+      "title": "16 pieces of design wisdom",
+      "url": "https://hvpandya.com/design-wisdom",
+      "source": "Hardik Pandya",
+      "lane": "voices",
+      "summary": "A short, dense set of working principles from Hardik Pandya — formerly Head of Design at Atlassian, now at Pocket FM — covering creativity, persistence, collaboration, and the under-rated role of polish in getting ideas adopted.",
+      "why": "A practitioner's design-leadership notes from someone running a real org — useful as a sanity-check on your own playbook at Cuemath, especially the bits on courage over talent and polish carrying ideas farther than merit."
+    },
+    {
+      "id": "2026-06-18-2",
+      "title": "4 ways we're using our MCP server at Figma",
+      "url": "https://www.figma.com/blog/4-ways-were-using-our-mcp-server-at-figma/",
+      "source": "Figma Blog",
+      "lane": "essay",
+      "summary": "Four concrete examples — from a designer, a PM, and a marketer at Figma — of how they wire an AI agent into their actual day-to-day: updating live decks, generating FigJam boards from Slack/Notion data, moving designs between code and canvas, and splitting work with the Figma agent.",
+      "why": "The most concrete primary-source look yet at how design and product teams are reshaping daily workflow around an AI agent inside Figma — directly relevant as you think about how CueDesign and the Cuemath design team adopt AI tooling."
+    },
+    {
+      "id": "2026-06-18-3",
+      "title": "Mockups Were Never the Hard Part",
+      "url": "https://www.lukew.com/ff/entry.asp?2152",
+      "source": "Luke Wroblewski",
+      "lane": "essay",
+      "summary": "Luke Wroblewski argues that now anyone can spin up a mockup in seconds with AI, the actual hard work — shared mental models, system coherence, knowing what the product is for — moves to the front. Designers shift from mockup-makers to facilitators of cross-functional alignment.",
+      "why": "Sharp reframe of where design leverage goes once AI eats the easy part — useful framing as you decide what to invest design org time in at Cuemath, and how to talk about the role of design with PM and eng partners."
+    },
+    {
+      "id": "2026-06-18-4",
+      "title": "You never stop cultivating taste",
+      "url": "https://www.figma.com/blog/you-never-stop-cultivating-taste/",
+      "source": "Figma Blog",
+      "lane": "essay",
+      "summary": "Figma's Chief Design Officer Loredana Crisan, drawing on her background as a sound engineer and musician, argues taste is built through years of intentional choices and three habits: discernment, empathy for users, and creative energy. Her position: AI closes the gap between imagination and execution, but doesn't replace the point of view.",
+      "why": "A senior design leader putting words to something you actively cultivate at Cuemath — useful for how you talk about taste with your team and onboard juniors in an era when execution speed is no longer the differentiator."
+    },
+    {
+      "id": "2026-06-18-5",
+      "title": "Go Computer Now! by Ben Zotto",
+      "url": "https://fontsinuse.com/uses/77829/go-computer-now-by-ben-zotto",
+      "source": "Fonts In Use",
+      "lane": "inspiration",
+      "summary": "A 2026 history-of-computing book by Ben Zotto, designed by Sophie Wietlisbach. Body text in Optimo's Media77 nods to the mid-70s era; page numbers and dust jacket use Signetics CRT — a custom face Zotto built from the bitmaps of the Signetics 2513 character generator chip, with a 'jittered' variable version mimicking imperfectly calibrated CRT displays.",
+      "why": "Editorial typography doing real conceptual work — the type is the subject. A useful reference for how custom typeface choices (and small craft moves like the cover's jitter) can carry an idea across an entire book, the kind of detail you obsess over in editorial and brand work."
+    }
+  ]
+}
