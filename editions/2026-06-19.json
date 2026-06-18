@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-19",
+  "items": [
+    {
+      "id": "2026-06-19-1",
+      "title": "Scale Your Superpowers, Not Your Job Titles",
+      "url": "https://www.lukew.com/ff/entry.asp?2154",
+      "source": "Luke Wroblewski",
+      "lane": "voices",
+      "summary": "Luke Wroblewski's argument against using AI to do passable versions of other people's jobs: instead, take your specialised expertise — your design principles, the patterns you'd catch on review — and encode it as instructions an AI agent can apply on your behalf, so your judgment scales across more work.",
+      "why": "A practical frame for how a design lead's taste actually travels through an org in the AI era — directly useful as you think about how CueDesign standards and your own review eye get embedded into the tools Cuemath designers and PMs are using day to day."
+    },
+    {
+      "id": "2026-06-19-2",
+      "title": "Apps and programming: two accidental tyrannies",
+      "url": "https://andymatuschak.org/tat/",
+      "source": "Andy Matuschak",
+      "lane": "essay",
+      "summary": "Andy Matuschak argues that two unintended constraints — the walled app as the default shape of software, and programming as a gatekept craft — have quietly suppressed interface invention for decades, and that coding agents plus composable architectures could finally let designers and domain experts shape novel interfaces directly.",
+      "why": "Matuschak is one of the sharpest thinkers on learning tools and software's shape, and this essay puts language around something you actively wrestle with at Cuemath: what new kinds of math interfaces become possible once the cost of prototyping drops to near zero."
+    },
+    {
+      "id": "2026-06-19-3",
+      "title": "AI Won't Save the Kingdoms We Built",
+      "url": "https://cutlefish.substack.com/p/ai-wont-save-the-kingdoms-we-built",
+      "source": "John Cutler — The Beautiful Mess",
+      "lane": "essay",
+      "summary": "John Cutler's argument that AI won't fix the coordination problems baked into siloed, fiefdom-shaped orgs — agents talking to agents just relocate the tax until the underlying incentives, decision rights, and team boundaries are honestly redrawn.",
+      "why": "Product-thinking pick with an AI lens, from a writer you already trust — a useful counterweight when the conversation at work drifts to 'AI will speed us up' without asking whether the operating model is the actual bottleneck."
+    },
+    {
+      "id": "2026-06-19-4",
+      "title": "Make Believe",
+      "url": "https://robinrendle.com/notes/make-believe/",
+      "source": "Robin Rendle",
+      "lane": "essay",
+      "summary": "A short note from Robin Rendle on Mac Barnett's book Make Believe: On Telling Stories to Children — arguing that good children's literature deserves real artistic seriousness, treats kids as collaborators in meaning rather than receivers of moral lessons, and trusts them with ambiguity.",
+      "why": "A sharp reminder for kids'-product work at Cuemath: the strongest stuff for children doesn't pre-chew the meaning or hammer the lesson — it invites them in. Useful framing as you push back on overly didactic learning UX."
+    },
+    {
+      "id": "2026-06-19-5",
+      "title": "The Legend of Keïko / The Birth of Keïko",
+      "url": "https://fontsinuse.com/uses/77871/the-legend-of-keiko-the-birth-of-keiko",
+      "source": "Fonts In Use",
+      "lane": "inspiration",
+      "summary": "A reversible book for the Keïko Tower project by Loci Anima, designed by Studio Hudson Catty: one side a novel, the other side architectural documentation, the two narratives meeting in the middle, typeset in Kalice with a butterfly-metamorphosis metaphor running through the structure.",
+      "why": "Editorial typography fused with structural concept — the artifact itself carries the idea. A craft-level reference for the kind of editorial and brand moves you obsess over, where the format is doing as much storytelling as the type."
+    }
+  ]
+}

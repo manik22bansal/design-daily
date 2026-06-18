@@ -17,7 +17,7 @@ Sections group sources by domain. They do NOT map 1:1 to the four edition lanes 
 | Khoi Vinh — Subtraction | subtraction.com | 3 | Veteran perspective |
 | NN/g | nngroup.com | 3 | Research-backed UX; dry but rigorous |
 | Smashing Magazine | smashingmagazine.com | 2 | Mixed; only the standout pieces. ⚠ 2026-06-16: two 'less' signals — readers want the primary source, not Smashing's summary of it (incident: AI-ready design system piece re-told Hardik Pandya). Cite ONLY when Smashing IS the primary, not commentary on someone else's work. |
-| Hardik Pandya | hvpandya.com | 3 | new — Head of Design at Atlassian (now Pocket FM); writes on design × AI and design systems. Surfaced 2026-06-16 by reader: prefer primary source over Smashing's retellings. |
+| Hardik Pandya | hvpandya.com | 2.5 | Head of Design at Atlassian (now Pocket FM); writes on design × AI and design systems. Surfaced 2026-06-16 by reader. ⚠ 2026-06-18: 'less' signal on the broader design-wisdom post — primary-source pieces on design systems × LLMs land; generic design-wisdom posts don't. |
 | Figma Blog | figma.com/blog | 3 | Tool + design-systems thinking |
 | Brian Lovin | brianlovin.com | 3 | Product design notes |
 | Dan Mall | danmall.com | 3 | Design systems practice |
