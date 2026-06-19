@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-20",
+  "items": [
+    {
+      "id": "2026-06-20-1",
+      "title": "Agents with Taste",
+      "url": "https://emilkowal.ski/ui/agents-with-taste",
+      "source": "Emil Kowalski",
+      "lane": "essay",
+      "summary": "Emil Kowalski argues that coding agents produce better visual work when you write down the why behind your aesthetic choices as reusable skill files — animation timing, easing, type rules — instead of expecting the agent to guess. Includes concrete templates.",
+      "why": "A practitioner-grade Design \u00d7 AI workflow piece from one of the sharpest interaction craftspeople around — directly useful for codifying CueDesign motion and type judgement into something Claude/Cursor can act on, instead of re-explaining taste every prompt."
+    },
+    {
+      "id": "2026-06-20-2",
+      "title": "TBM 424: Why We Help (And How To Stay Helpful)",
+      "url": "https://cutlefish.substack.com/p/tbm-424-why-we-help-and-how-to-stay",
+      "source": "John Cutler",
+      "lane": "voices",
+      "summary": "Cutler maps four impulses behind why people in product orgs jump in to help — pushing a method, absorbing tension, advancing a mission, building others' agency — and why each one quietly becomes tangled with identity and power, making sincere help land as pressure.",
+      "why": "Useful mirror for a design lead: the way you offer help to PMs, engineers, and junior designers shapes whether your influence compounds or burns you out. Names patterns you can feel but rarely articulate, with self-care framed as a discipline, not a mood."
+    },
+    {
+      "id": "2026-06-20-3",
+      "title": "Studio Nari's wordmark gives Threads a voice of its own",
+      "url": "https://www.itsnicethat.com/articles/studio-nari-threads-graphic-design-160626",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "Walkthrough of Studio Nari's new custom wordmark for Meta's Threads — angular, chisel-tip letterforms built to give the app an editorial identity distinct from Instagram Sans, alongside an @-derived glyph that echoes conversational rhythm without being literal.",
+      "why": "A clean case study in wordmark craft pulling a sub-brand out from under a parent system — directly relevant for CueDesign work where sub-products need their own voice without breaking the master brand. Good reference for what restraint plus gesture looks like at platform scale."
+    },
+    {
+      "id": "2026-06-20-4",
+      "title": "mowe \u2014 Festival for Art and Urban Culture, Berlin",
+      "url": "https://fontsinuse.com/uses/77917/mowe-festival-for-art-and-urban-culture-berli",
+      "source": "Fonts In Use",
+      "lane": "inspiration",
+      "summary": "Studio Itch's identity for Berlin's mowe festival: bilingual posters built on HAL Gap and Aktiv Grotesk, with alternating glyphs, stacked typography, and a pink/green palette that holds together across maps, lineups, and event materials.",
+      "why": "Editorial-typography reference for a poster system that has to flex across formats without breaking — useful inspiration for Cuemath's belt levels, event posters, and any place where one type system has to hold a lot of content variation."
+    },
+    {
+      "id": "2026-06-20-5",
+      "title": "Intentmaking, Sensemaking, and AI Boundary Objects",
+      "url": "https://www.uxtigers.com/post/intentmaking-sensemaking",
+      "source": "Jakob Nielsen \u2014 UX Tigers",
+      "lane": "essay",
+      "summary": "Grounded in a study of expert mathematicians using AlphaEvolve, Nielsen argues advanced AI tools should be designed as instruments \u2014 with dials, branching experiments, low-cost test stages and diagnostic readouts \u2014 rather than chat assistants, because users discover their real goals while exploring.",
+      "why": "Concrete patterns for AI UX beyond the chatbox, with the mathematician case study being directly suggestive for how Cuemath might let kids and tutors explore problems with AI rather than just ask a question. Practical principles, not philosophy."
+    }
+  ]
+}
