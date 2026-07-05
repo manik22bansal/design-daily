@@ -1,0 +1,59 @@
+{
+  "date": "2026-07-06",
+  "items": [
+    {
+      "id": "2026-07-06-1",
+      "title": "TBM 428: Yes, Robot. Yes, Boss?",
+      "url": "https://cutlefish.substack.com/p/tbm-428-yes-robot-yes-boss",
+      "source": "The Beautiful Mess",
+      "lane": "voices",
+      "summary": "John Cutler argues that AI in the workplace amplifies whichever direction a team is already heading — genuine collaboration and clarity, or manipulation and avoidance.",
+      "why": "The 'AI amplifies your direction' frame is directly useful for how you introduce AI tools into design and product workflows at Cuemath — the same tool can compound craft or compound noise, depending on how it lands."
+    },
+    {
+      "id": "2026-07-06-2",
+      "title": "Object-Centric Image Editing in Reve",
+      "url": "https://www.lukew.com/ff/entry.asp?2156",
+      "source": "LukeW",
+      "lane": "essay",
+      "summary": "Luke Wroblewski walks through Reve's new image tool where you edit a structured layout of objects instead of typing prompts, so you can grab and change one element at a time.",
+      "why": "This is the shape of the next generation of design tools — object-level control instead of prompt-lottery — and worth tracking as the CueDesign team thinks about which AI workflows to bring in-house."
+    },
+    {
+      "id": "2026-07-06-3",
+      "title": "2026 AI and UX Predictions: A Mid-Year Reality Check",
+      "url": "https://www.uxtigers.com/post/2026-predictions-halfway",
+      "source": "UX Tigers",
+      "lane": "voices",
+      "summary": "Jakob Nielsen grades his January AI/UX predictions six months in, calling out where models have raced ahead of usability and which shifts he missed entirely.",
+      "why": "A cheap, high-signal way to recalibrate your own read on where AI-plus-design is actually heading versus the hype — useful before your next planning cycle."
+    },
+    {
+      "id": "2026-07-06-4",
+      "title": "Building a brand means building a world – Blanca Doba's identity for Bare Earth",
+      "url": "https://www.itsnicethat.com/articles/blanca-doba-bare-earth-graphic-design-project-010726",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "A designer's identity project for a fictional beauty brand, extending a wordmark into a full whimsical world of calligraphic type, soft palettes, lace borders and archival illustration.",
+      "why": "Exactly the world-building move Cuemath's brand needs when pushing beyond a logo into a system of textures, decorations, and character — good reference for editorial-type-led identity systems with warmth."
+    },
+    {
+      "id": "2026-07-06-5",
+      "title": "Twofold Therapy",
+      "url": "https://fontsinuse.com/uses/78102/twofold-therapy",
+      "source": "Fonts In Use",
+      "lane": "inspiration",
+      "summary": "Identity and website for a New York psychoanalytic practice that pairs GT America (a crisp modern sans) with GT Super Text (a warm 1970s-style serif) for interface clarity and human tone.",
+      "why": "A clean case study in serif-plus-sans pairing that carries clinical authority and warmth at once — the same tension you're negotiating in kids' learning surfaces where trust and playfulness both have to show up."
+    },
+    {
+      "id": "2026-07-06-6",
+      "title": "Cord Studio on using symmetry and cinema to create one of 2026's most viral campaigns",
+      "url": "https://www.itsnicethat.com/features/cord-studio-creative-industry-advertising-spotlight-290626",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "The Delhi fashion label breaks down its 'Album '91' campaign — symmetrical, cinematic frames staged around 1990s Indian summer-vacation nostalgia — and how a hyper-local memory travelled globally.",
+      "why": "Rare, high-craft case of an Indian brand going worldwide by leaning into cultural specificity, not away from it — useful ammunition next time you're arguing for a distinctly Indian visual direction rather than a generic global one."
+    }
+  ]
+}
