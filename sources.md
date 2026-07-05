@@ -8,7 +8,7 @@ Sections group sources by domain. They do NOT map 1:1 to the four edition lanes 
 | Source | URL | Score | Notes |
 |---|---|---|---|
 | Rauno Freiberg | rauno.me | 5 | Craft essays of the highest order |
-| Emil Kowalski | emilkowal.ski | 4 | Animation/interaction craft |
+| Emil Kowalski | emilkowal.ski | 4.75 | Animation/interaction craft. ⭐ 2026-07-04: star on "Agents with Taste" (2026-06-20-1). |
 | Frank Chimero | frankchimero.com | 4 | Design thinking, infrequent but always worth it |
 | Julie Zhuo — The Looking Glass | lg.substack.com | 4 | Design leadership |
 | Robin Rendle | robinrendle.com | 4 | Typography, the web, essays |
@@ -69,7 +69,7 @@ Sections group sources by domain. They do NOT map 1:1 to the four edition lanes 
 | Source | URL | Score | Notes |
 |---|---|---|---|
 | Lenny's Newsletter | lenny.substack.com | 4 | The benchmark product newsletter — practitioner interviews, frameworks |
-| John Cutler — The Beautiful Mess | cutlefish.substack.com | 4 | Product operating models, systems thinking |
+| John Cutler — The Beautiful Mess | cutlefish.substack.com | 4.25 | Product operating models, systems thinking. 2026-07-04: net +0.25 (star/unstar/star on TBM 426 voices piece 2026-06-17-3, then a 'less' on essay 2026-06-19-3). |
 | First Round Review | review.firstround.com | 4 | Deep essays on building products and teams |
 | Shreyas Doshi | x.com/shreyas | 3 | Product strategy + craft, sharp threads |
 
@@ -78,7 +78,7 @@ Sections group sources by domain. They do NOT map 1:1 to the four edition lanes 
 |---|---|---|---|
 | Luke Wroblewski | lukew.com | 4 | Practitioner writing on AI + product/design, primary source |
 | Shape of AI | shapeof.ai | 4 | UX patterns for AI products (Emily Campbell) |
-| Jakob Nielsen — UX Tigers | uxtigers.com | 3 | AI + UX, research-grounded, opinionated |
+| Jakob Nielsen — UX Tigers | uxtigers.com | 3.75 | AI + UX, research-grounded, opinionated. ⭐ 2026-07-04: star on "Intentmaking, Sensemaking" (2026-06-20-5). |
 
 ## Retired / do not cite
 | Source | Why |

@@ -1,0 +1,51 @@
+{
+  "date": "2026-07-04",
+  "items": [
+    {
+      "id": "2026-07-04-1",
+      "title": "The AI Steering Layer",
+      "url": "https://www.lukew.com/ff/entry.asp?2155",
+      "source": "LukeW",
+      "lane": "essay",
+      "summary": "Luke Wroblewski makes the case for a 'steering layer' — a shared, written set of brand, design, and code guidelines that sits between your AI tools and your actual product — so AI output stays on-brand and consistent instead of drifting every time someone prompts it.",
+      "why": "This is the design-systems-meets-AI problem CueDesign will hit head-on: it names how to package Cuemath's design rules into context an AI can reliably follow, so agents produce on-system work rather than plausible-looking drift — the practical companion to the 'Agents with Taste' piece from a recent edition."
+    },
+    {
+      "id": "2026-07-04-2",
+      "title": "Rapha's brand identity is rebooted with six bespoke typefaces inspired by vintage cycling ephemera",
+      "url": "https://www.itsnicethat.com/articles/six-frost-rapha-branding-project-250626",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "A case study on cycling brand Rapha's rebrand, where studio Six and foundry Frost built a family of six custom typefaces (sans, serif, mono and more) drawn from vintage race materials and technical manuals, engineered to hold up across ads, apparel, screens, and motion.",
+      "why": "A masterclass in one type system built to carry an entire brand across wildly different contexts — exactly the challenge in CueDesign's editorial type and belt/level materials, where a single voice has to survive posters, app UI, and print without falling apart."
+    },
+    {
+      "id": "2026-07-04-3",
+      "title": "How top PMs increase their leverage with AI",
+      "url": "https://www.lennysnewsletter.com/p/how-top-pms-increase-their-leverage",
+      "source": "Lenny's Newsletter",
+      "lane": "essay",
+      "summary": "A framework breaking down three 'leverage ladders' for using AI at work — doing your own tasks faster, shipping product faster (from quick prototypes up to real production code), and building repeatable team workflows; the first two ladders are free to read, the third sits behind Lenny's paid wall.",
+      "why": "A concrete map of how AI actually climbs through a product org's day-to-day — useful for thinking about where your designers and PMs should be moving next; honest heads-up that only the final 'systems' section needs a paid subscription.",
+      "paid": true
+    },
+    {
+      "id": "2026-07-04-4",
+      "title": "\"Do anything except what's right in front of you\": Matt Dorfman on designing book covers",
+      "url": "https://www.itsnicethat.com/articles/matt-dorfman-graphic-design-project-2906256",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "A profile of Matt Dorfman, art director of The New York Times Book Review, on how he designs book covers: reading every manuscript, deliberately 'churning out a generous amount of trash' to find real ideas, and using collage to pair themes that don't naturally belong together.",
+      "why": "A grounded look at a working designer's process for reaching non-obvious ideas — his rule 'do anything except what's right in front of you' is a sharp antidote to the first-idea, template-y solutions that quietly creep into any mature design team."
+    },
+    {
+      "id": "2026-07-04-5",
+      "title": "Why Product Sense is the Only Product Skill That Will Matter in the AI Age",
+      "url": "https://shreyasdoshi.substack.com/p/why-product-sense-is-the-only-product",
+      "source": "Shreyas Doshi",
+      "lane": "essay",
+      "summary": "Shreyas Doshi argues that as AI tools get cheap and everyone has them, the one thing that still separates people is 'product sense' — the judgment, taste, empathy, and ability to imagine how something will actually land that you apply on top of whatever the AI hands you.",
+      "why": "Direct backing for how you're likely coaching your team: when AI can generate endless options, a designer's taste and judgment become the real moat — a crisp articulation of why craft matters more at Cuemath, not less."
+    }
+  ]
+}
