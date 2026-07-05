@@ -32,9 +32,10 @@ Before publishing, check `editions/index.json`: if an edition for your target da
      - `summary` — **what it is**, in plain, jargon-free English a smart non-designer could follow. One sentence describing the actual piece or content. If a design term is unavoidable, gloss it.
      - `why` — **why it's shortlisted for Manik**, concrete and specific to his work and interests (design lead at Cuemath: K-12 edtech, gamification/motivation systems like belts & XP, design systems, editorial type, kids' product, product thinking, design × AI workflow). One sentence, not generic praise. **If you can't articulate a concrete, specific why, the item fails the bar — cut it.**
 5. **Publish.** Write `editions/YYYY-MM-DD.json` for the target date (see "Timing & which date to use" above — evening run = tomorrow, daytime catch-up = today), prepend that date to `editions/index.json`, commit (`Edition YYYY-MM-DD`), push.
-6. **Notify.** POST to the Slack webhook (env `SLACK_WEBHOOK_URL`):
-   `curl -s -X POST "$SLACK_WEBHOOK_URL" -H 'Content-Type: application/json' -d '{"text":"*Design Daily — <top item title>*\n<one-line hook>\nhttps://manik22bansal.github.io/design-daily/"}'`
-   If the webhook fails or the env var is missing, log it and finish — never block publishing on notification.
+6. **Notify.** Read the Slack webhook URL from the file `.secrets/slack-webhook` (gitignored; this is what the launchd runner uses — there is no `SLACK_WEBHOOK_URL` env var in the unattended environment), then POST:
+   `curl -s -X POST "$(cat .secrets/slack-webhook)" -H 'Content-Type: application/json' -d '{"text":"*Design Daily — <top item title>*\n<one-line hook>\nhttps://manik22bansal.github.io/design-daily/"}'`
+   If the file is missing or the POST fails, log it and finish — never block publishing on notification.
+   (Separately, the runner `.curator/run.sh` posts to this same webhook if the whole run fails — auth error, API error, or no output — so a silent breakage surfaces the same day.)
 
 ## Edition schema
 
