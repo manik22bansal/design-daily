@@ -69,7 +69,7 @@ Sections group sources by domain. They do NOT map 1:1 to the four edition lanes 
 | Source | URL | Score | Notes |
 |---|---|---|---|
 | Lenny's Newsletter | lenny.substack.com | 4 | The benchmark product newsletter — practitioner interviews, frameworks |
-| John Cutler — The Beautiful Mess | cutlefish.substack.com | 4.25 | Product operating models, systems thinking. 2026-07-04: net +0.25 (star/unstar/star on TBM 426 voices piece 2026-06-17-3, then a 'less' on essay 2026-06-19-3). |
+| John Cutler — The Beautiful Mess | cutlefish.substack.com | 3.75 | Product operating models, systems thinking. 2026-07-04: net +0.25 (star/unstar/star on TBM 426 voices piece 2026-06-17-3, then a 'less' on essay 2026-06-19-3). ⚠ 2026-07-07: 'less' on TBM 428 (2026-07-06-1) — second less-signal on Cutler in a fortnight; feature only when the piece is unusually concrete/actionable, not framing-only. |
 | First Round Review | review.firstround.com | 4 | Deep essays on building products and teams |
 | Shreyas Doshi | x.com/shreyas | 3 | Product strategy + craft, sharp threads |
 

@@ -1,0 +1,50 @@
+{
+  "date": "2026-07-08",
+  "items": [
+    {
+      "id": "2026-07-08-1",
+      "title": "You Don't Need Animations",
+      "url": "https://emilkowal.ski/ui/you-dont-need-animations",
+      "source": "Emil Kowalski",
+      "lane": "essay",
+      "summary": "Emil Kowalski argues that most interface animations should be cut: they only earn their keep when they explain something, give feedback, or land a rare delight moment, and anything a user triggers many times a day is usually better instant.",
+      "why": "A crisp craft note from the animation practitioner Manik already rates highest — directly useful as a rule of thumb inside CueDesign when reviewing motion on high-frequency actions in the learner app, where every 300ms of ceremony compounds against pace."
+    },
+    {
+      "id": "2026-07-08-2",
+      "title": "Now Linear writes the code, too",
+      "url": "https://linear.app/now/coding-sessions-for-linear-agent",
+      "source": "Karri Saarinen — Linear",
+      "lane": "news",
+      "summary": "Linear ships Coding Sessions, automated triage and a native diff view so its agent can go from an issue to a pull request inside Linear itself — pitched as making AI a shared team capability rather than a solo productivity hack.",
+      "why": "The clearest picture yet of what an agent-native product tool looks like from the most design-led shop in the category — a live reference for how the design and PM loop at Cuemath could be re-shaped around shared agent context, not private prompt sessions."
+    },
+    {
+      "id": "2026-07-08-3",
+      "title": "UX Roundup: UX Benchmark | Impact of AI Mentions | Character Design Workflow",
+      "url": "https://www.uxtigers.com/post/ux-roundup-20260706",
+      "source": "Jakob Nielsen — UX Tigers",
+      "lane": "voices",
+      "summary": "Nielsen's weekly digest leads with UXBench findings — AI models that ace technical benchmarks still fail on usability, with verbosity alone driving over a third of bad experiences and only 12% recovery when users express frustration — plus a two-stage cheap-then-expensive workflow for generating character video.",
+      "why": "Concrete numbers to bring into the argument that 'the model is smart' is not the same as 'the product is usable' — useful ammunition for keeping UX rigor in the design × AI conversation at Cuemath, and the two-stage generation workflow is a directly copyable pattern for kids' character work."
+    },
+    {
+      "id": "2026-07-08-4",
+      "title": "How Freitag keeps its cool: inside the brand's less-than-conventional campaigns",
+      "url": "https://www.itsnicethat.com/features/freitag-spotlight-060726",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "Creative director Thomas Wakeford walks through how Freitag builds campaigns from the bag outward — casting real customers and employees instead of models, letting shoots stay unpredictable, and refusing demographic targeting.",
+      "why": "A working playbook for a brand that stays distinctive for decades without trend-chasing — useful reference as Cuemath pushes its brand system beyond a logo into campaign work, where casting real learners and staying craft-first over polish-first would land."
+    },
+    {
+      "id": "2026-07-08-5",
+      "title": "Altera Italia by Alessia Rollo",
+      "url": "https://fontsinuse.com/uses/78358/altera-italia-by-alessia-rollo",
+      "source": "Fonts In Use",
+      "lane": "inspiration",
+      "summary": "Artist book set in Rapida (by Italian type designer Michelangelo Nigra), designed by Grupppo — exposed-spine binding that lies flat, upside-down type, dotless lowercase i's and coarse paper stock treated as part of the argument, not decoration.",
+      "why": "A high-craft reminder that editorial typography carries meaning through decisions most readers never consciously notice — the exact sensibility to keep sharpening for Cuemath's own editorial and workbook surfaces where structure and texture do half the teaching."
+    }
+  ]
+}
