@@ -1,0 +1,59 @@
+{
+  "date": "2026-07-10",
+  "items": [
+    {
+      "id": "2026-07-10-1",
+      "title": "Progressive Disclosure: From Training Wheels to Week-Long AI Agents",
+      "url": "https://www.uxtigers.com/post/progressive-disclosure",
+      "source": "UX Tigers (Jakob Nielsen)",
+      "lane": "essay",
+      "summary": "Nielsen argues that progressive disclosure — showing beginners the essentials first and hiding advanced options behind an expander — is a 40-year-old UX pattern that becomes more important, not less, for AI agents that run for hours or days.",
+      "why": "Direct pattern for Cuemath's K-12 learners (training wheels first, complexity earned later) and a sharp lens for any AI tutoring layer where an agent should reveal capability over sessions instead of all at once."
+    },
+    {
+      "id": "2026-07-10-2",
+      "title": "Stop Reporting UX Activity and Report Business Outcomes",
+      "url": "https://www.nngroup.com/articles/reporting-ux-business-outcomes/",
+      "source": "Nielsen Norman Group",
+      "lane": "essay",
+      "summary": "NN/g argues UX teams keep losing budget fights because they report activity (studies run, screens shipped) instead of connecting their work to the five things leaders actually evaluate: revenue, cost, risk, speed, retention.",
+      "why": "Practical vocabulary for a design lead making the case for design investment inside a business — the upstream/downstream metric mapping is directly usable in Cuemath conversations with product and leadership."
+    },
+    {
+      "id": "2026-07-10-3",
+      "title": "Got Skills? Make the Figma Agent a Better Collaborator",
+      "url": "https://www.figma.com/blog/got-skills-make-the-figma-agent-a-better-collaborator/",
+      "source": "Figma Blog",
+      "lane": "news",
+      "summary": "Figma introduces \"skills\" for its design agent — plain-English reusable instructions (e.g. UX writing rules, a CEO's critique style, a catch-up-summary workflow) that a team can save, share, and trigger with a slash command.",
+      "why": "This is the design × AI workflow beat in practice: how a design lead codifies house style and rituals so an agent produces Cuemath-shaped work instead of stock UI — worth watching as a template for CueDesign."
+    },
+    {
+      "id": "2026-07-10-4",
+      "title": "How tech workers are feeling in 2026: a workforce splitting in two",
+      "url": "https://www.lennysnewsletter.com/p/how-tech-workers-are-feeling-in-2026",
+      "source": "Lenny's Newsletter",
+      "lane": "voices",
+      "summary": "Second annual survey of ~6,000 tech workers finds the sharpest divide isn't role or seniority but whether a person feels amplified or destabilized by AI; burnout jumped 11 points to 55.7% and designers/researchers report the highest anxiety.",
+      "why": "Concrete data — not vibes — on the emotional split Manik is already managing on his own bench, and useful ammunition for how to support designers who are shaky about AI vs. lean into those who are running with it."
+    },
+    {
+      "id": "2026-07-10-5",
+      "title": "The 'glitchy, jittery' visuals of this Pitchfork designer are made with serendipity and his new favourite motion software",
+      "url": "https://www.itsnicethat.com/articles/chris-panicker-pitchfork-selects-graphic-design-project-070726",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "Pitchfork's senior designer Chris Panicker walks through his weekly motion process for the Selects playlist — built in Cavalry, leaning on happy accidents and a jittery, distorted visual language.",
+      "why": "A real look at shipping expressive motion on a weekly editorial deadline — a useful reference for how a small team could systematise the belt-up, XP, and celebration moments in Cuemath's kid-facing product without them feeling generic."
+    },
+    {
+      "id": "2026-07-10-6",
+      "title": "Théâtre Théo Argence, Saison 2026",
+      "url": "https://fontsinuse.com/uses/78393/theatre-theo-argence-saison-2026",
+      "source": "Fonts In Use",
+      "lane": "inspiration",
+      "summary": "A French theatre's 90th-season identity built around a colourful streamer motif and a confident type system — Maroni Condensed for promo, Capraia for the booklet, Inter on the web.",
+      "why": "A restrained editorial-type system stretched across print booklet, poster, and web — exactly the kind of quiet range Cuemath's own type voice needs when it has to hold together from report cards to app screens."
+    }
+  ]
+}
