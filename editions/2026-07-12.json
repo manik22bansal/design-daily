@@ -1,0 +1,59 @@
+{
+  "date": "2026-07-12",
+  "items": [
+    {
+      "id": "2026-07-12-1",
+      "title": "Design-System Maturity: A 6-Dimension Framework",
+      "url": "https://www.nngroup.com/articles/design-system-maturity/",
+      "source": "NN/g",
+      "lane": "essay",
+      "summary": "NN/g proposes evaluating a design system across six independent dimensions — organizational alignment, team effectiveness, infrastructure, governance, support, and adoption — instead of a single linear maturity ladder.",
+      "why": "A direct diagnostic for CueDesign: it lets Manik score each dimension separately and spot where the system is genuinely lagging (say, governance or adoption) rather than defaulting to 'we need more components.'"
+    },
+    {
+      "id": "2026-07-12-2",
+      "title": "How Decagon uses AI for design system saturation",
+      "url": "https://www.figma.com/blog/how-decagon-uses-ai-for-design-system-saturation/",
+      "source": "Figma Blog",
+      "lane": "essay",
+      "summary": "Decagon's designers and engineers describe how they built and scaled their 'Deco' system in Figma, using Figma MCP and Make to keep components in Figma and code aligned as the product grew fast.",
+      "why": "Concrete design × AI workflow piece — exactly the kind of 'how a real team wires MCP into their day-to-day' account Manik can borrow patterns from when planning Cuemath's AI-assisted design-system work."
+    },
+    {
+      "id": "2026-07-12-3",
+      "title": "Figma's Loredana Crisan on taste, last-minute decisions, and the art of prioritisation",
+      "url": "https://www.itsnicethat.com/features/in-house-figma-loredana-crisan-creative-industry-080726",
+      "source": "It's Nice That",
+      "lane": "voices",
+      "summary": "Interview with Figma's chief design officer on how the team balances AI features with human craft, how Config gets planned late on purpose, and what it takes to design for non-deterministic AI systems.",
+      "why": "First-hand read on how a design leader is running a large team through the AI shift — useful pattern-matching for Manik as he shapes how Cuemath's design org adapts its rituals and hiring for the same wave."
+    },
+    {
+      "id": "2026-07-12-4",
+      "title": "The Fundamental Cognitive Bias of Product Builders",
+      "url": "https://shreyasdoshi.substack.com/p/the-fundamental-cognitive-bias-of",
+      "source": "Shreyas Doshi",
+      "lane": "essay",
+      "summary": "Shreyas argues most product builders share a compound bias: they explain their own losses by 'competitor distribution' and their wins by 'product quality,' which hides real product-market-fit gaps.",
+      "why": "Sharp product-thinking mirror for Manik — a quick check on the stories Cuemath tells itself about MathGym's growth vs. rivals, and where 'if only marketing were better' might be masking a product problem."
+    },
+    {
+      "id": "2026-07-12-5",
+      "title": "Koto launches CCType, a foundry built for modern brand systems",
+      "url": "https://www.itsnicethat.com/articles/koto-cctype-typography-project-080726",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "The London studio Koto has spun up its own type foundry, CCType, with a debut display serif (CC Timeline) designed to flex across the many places a modern brand actually shows up.",
+      "why": "Koto works at the level Cuemath's brand system aspires to; watching a top identity studio move into type gives Manik a reference point for how custom type earns its keep inside an identity system."
+    },
+    {
+      "id": "2026-07-12-6",
+      "title": "Ronnie Scott's new identity does a typographic dance",
+      "url": "https://www.itsnicethat.com/articles/dan-cottrell-studio-ronnie-scotts-branding-graphic-design-project-080726",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "Designer Dan Cottrell rebrands London's famous jazz club with a wordmark and type system that behaves more like a live performance than a fixed logo — shifting, improvising, refusing to sit still.",
+      "why": "A cleanly executed example of a 'performative' identity system rather than a locked mark — a useful reference for editorial-type moments in Cuemath where the brand needs to feel alive, not stamped on."
+    }
+  ]
+}
