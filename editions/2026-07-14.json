@@ -1,0 +1,50 @@
+{
+  "date": "2026-07-14",
+  "items": [
+    {
+      "id": "2026-07-14-1",
+      "title": "The 5 Qualities of Site-Specific AI Chatbots",
+      "url": "https://www.nngroup.com/articles/dimensions-of-ai-chatbots/",
+      "source": "Nielsen Norman Group",
+      "lane": "essay",
+      "summary": "NN/g proposes five design qualities every site-specific AI chatbot needs — handoff willingness, flexibility, proactivity, emotional responsiveness, and transparency — as an early-stage checklist for teams building trustworthy on-product assistants.",
+      "why": "The Cuemath tutor experience leans on AI-assisted help, and these five knobs — especially handoff and transparency — are the concrete UX levers you'd argue about when spec'ing a K-12 math chatbot that a kid and a parent both have to trust."
+    },
+    {
+      "id": "2026-07-14-2",
+      "title": "Building accessibility into a canvas-based product",
+      "url": "https://www.figma.com/blog/building-accessibility-into-a-canvas-based-product/",
+      "source": "Figma Blog",
+      "lane": "essay",
+      "summary": "Figma engineers David Winslow and Elynn Lee explain how they made a WebGL canvas usable with screen readers and keyboards by maintaining a hidden 'Mirror DOM' — an invisible HTML tree that shadows the canvas so assistive tech has something semantic to walk.",
+      "why": "A primary-source account of how a design tool actually pays the accessibility bill on a non-DOM surface — directly relevant when CueDesign or the practice app builds custom canvas-y interactions (drawing, geometry, whiteboard) that would otherwise lock kids and screen-reader users out."
+    },
+    {
+      "id": "2026-07-14-3",
+      "title": "AI Skills for Design Engineers",
+      "url": "https://emilkowal.ski/skill",
+      "source": "Emil Kowalski",
+      "lane": "voices",
+      "summary": "Emil Kowalski has packaged his animation and interaction philosophy — easing, duration, when NOT to animate, button press feel, popover origins — as installable 'skills' that coding agents like Claude Code and Cursor can load to nudge their UI output toward taste.",
+      "why": "This is exactly the design × AI workflow lean you care about: not hype, but a respected practitioner turning tacit interaction craft into machine-readable instructions — a template for how a design lead could encode CueDesign's motion/interaction rules into the AI tools engineers already use."
+    },
+    {
+      "id": "2026-07-14-4",
+      "title": "How to keep design teams steady through constant change",
+      "url": "https://www.figma.com/blog/jen-dunnam-lead-design-teams/",
+      "source": "Figma Blog",
+      "lane": "voices",
+      "summary": "Interview with Jen Dunnam (ex-Patreon, ex-Shopify, now VP of Futures at Hinge) on leading design teams through the AI churn — defining what 'speed' actually means for your org, hiring for rigorous thinking over tool fluency, and protecting the space to push back on shiny demos.",
+      "why": "Concrete design-leadership tactics from someone who has run large product design orgs — useful framing when you're deciding how the Cuemath design team spends its AI-experimentation budget without letting every impressive demo set the roadmap."
+    },
+    {
+      "id": "2026-07-14-5",
+      "title": "NYC World Cup Campaign",
+      "url": "https://fontsinuse.com/uses/78610/nyc-world-cup-campaign",
+      "source": "Fonts In Use",
+      "lane": "inspiration",
+      "summary": "Designer Arsh Raziuddin's typographic campaign for the 2026 FIFA World Cup in New York — Dunbar Tall headlines and a customised Excelsior Script pull the five boroughs together with the visual energy of vintage sports memorabilia, stamps and passport marks.",
+      "why": "A clinic in editorial-tier typography solving a mass-market brief with real warmth — the kind of confident type-driven system worth studying when Cuemath's brand or campaign work needs identity that feels handmade and human rather than SaaS-flat."
+    }
+  ]
+}
