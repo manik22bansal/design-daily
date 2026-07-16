@@ -1,0 +1,50 @@
+{
+  "date": "2026-07-17",
+  "items": [
+    {
+      "id": "2026-07-17-1",
+      "title": "How to Spot a World-Class Designer",
+      "url": "https://lg.substack.com/p/how-to-spot-a-world-class-designer",
+      "source": "Julie Zhuo — The Looking Glass",
+      "lane": "voices",
+      "summary": "Julie Zhuo distills a long conversation with Soleio into seven contrasts that separate a great designer from a merely good one — communicating intent over showing artefacts, optimising for the user rather than the portfolio, and treating design decisions as arguments to be won.",
+      "why": "Concrete calibration for what you look for when you hire, promote, or coach at Cuemath — each contrast is a hiring question or a design-review prompt you can put to use next week, not abstract theory."
+    },
+    {
+      "id": "2026-07-17-2",
+      "title": "Agentic Design Systems: The Complete Guide",
+      "url": "https://www.intodesignsystems.com/agentic-design-systems",
+      "source": "Into Design Systems",
+      "lane": "essay",
+      "summary": "A written synthesis of five practitioner talks (Brad Frost, Jan Six, Diana Wolosin, and others) on treating a design system less like a Figma library and more like an API that AI agents can read, reason over, and build with — including a self-healing loop that pipes Figma API, CI, and usage signals into automatic drift-fix PRs.",
+      "why": "CueDesign's next question is exactly this — how much of the system needs to be machine-readable, and how do agents actually consume tokens and components? The guide is a shortcut to what leading teams have already tried and where the seams are."
+    },
+    {
+      "id": "2026-07-17-3",
+      "title": "7 Questions We Had Going Into Config Leadership Collective",
+      "url": "https://www.figma.com/blog/7-questions-from-lc/",
+      "source": "Figma Blog",
+      "lane": "essay",
+      "summary": "Emma Webster reports back from a 1,300-leader gathering at Config, with sharp quotes from design and product heads at OpenAI, Airbnb, and Sephora on what changes in the AI era — pod-based team structures, expertise redefined as judgement rather than execution, and how leaders are actually rolling out AI tooling to their teams.",
+      "why": "Peer benchmark for the design-lead questions you're already sitting with: how to restructure the team around AI-augmented work, and how to hold the craft line while everyone ships faster."
+    },
+    {
+      "id": "2026-07-17-4",
+      "title": "Tam Festival — visual identity for Florence's first independent publishing fair",
+      "url": "https://www.itsnicethat.com/articles/edoardo-cantarella-livia-de-magistris-tam-graphic-design-illustration-project-130726",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "Edoardo Cantarella and Livia De Magistris build a festival identity around a custom alphabet inspired by Etruscan letterforms and a hand-drawn book-mascot called Zix — a full visual system driven by illustrated typography rather than a wordmark plus palette.",
+      "why": "A working reference for a system anchored on a character plus a custom alphabet, which is the exact shape Cuemath's belts-and-XP world could take when you want a mascot to carry the identity instead of a logo."
+    },
+    {
+      "id": "2026-07-17-5",
+      "title": "Still magazine — a student issue built entirely around 'sampling'",
+      "url": "https://fontsinuse.com/uses/78741/still-magazine",
+      "source": "Fonts In Use",
+      "lane": "inspiration",
+      "summary": "A Central University (Moscow) student magazine that treats typography itself as the sampled material — Antonym paired with CoFo Gothic, laid out with size gradients, staircase glyphs, reversed and circular type. The issue's concept and its layout devices are the same thing.",
+      "why": "Direct precedent for editorial work where the design idea IS the typography — useful territory for Cuemath's long-form and print pieces where the type has to carry the concept, not decorate it."
+    }
+  ]
+}
