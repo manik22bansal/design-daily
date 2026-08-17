@@ -614,3 +614,188 @@ footer {
   /* The fade would zero out instantly; show the ack plainly instead */
   .reason-ack { animation: none; opacity: 1; }
 }
+
+/* ----------------------- Read / notes / sync ----------------------- */
+
+/* Re-render after a background sync shouldn't replay the entrance animation */
+.item.no-anim { animation: none; }
+
+/* Unread marker — a small oxblood dot leading the meta row */
+.unread-dot {
+  flex: none;
+  align-self: center;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* Read items recede gently (lighter than a pooped item, and notes stay crisp) */
+.item.read .item-meta,
+.item.read .item-title,
+.item.read .item-summary,
+.item.read .item-why { opacity: 0.6; }
+.item.read .item-image { opacity: 0.7; }
+
+/* Note + read pills — same quiet pill language as the poop button */
+.item-actions .act {
+  font-family: var(--sans);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  background: none;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  color: var(--ink-soft);
+  padding: 0.4em 0.9em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  cursor: pointer;
+  transition: border-color 0.18s ease, color 0.18s ease, background 0.18s ease;
+}
+
+.item-actions .act .icon { display: block; flex: none; }
+
+.item-actions .act:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+/* A saved note is a full-strength marker, like the recorded poop */
+.act.note-btn.has-note {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+/* Saved note — a card, distinct from the italic "why" gutter note */
+.item-note {
+  margin-top: 0.9rem;
+  max-width: 34rem;
+  padding: 0.7rem 0.85rem;
+  background: var(--accent-soft);
+  border-radius: 4px;
+}
+
+.item-note-label {
+  display: block;
+  font-family: var(--sans);
+  font-size: 0.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--accent);
+  margin-bottom: 0.3rem;
+}
+
+.item-note-body {
+  font-family: var(--serif);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: var(--ink);
+  white-space: pre-wrap;
+}
+
+/* Note editor — inline, quiet */
+.note-editor {
+  margin-top: 0.9rem;
+  max-width: 34rem;
+  animation: settle 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.note-input {
+  width: 100%;
+  min-height: 4.5rem;
+  resize: vertical;
+  background: none;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  font-family: var(--serif);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: var(--ink);
+  caret-color: var(--accent);
+  padding: 0.6rem 0.7rem;
+}
+
+.note-input:focus, .note-input:focus-visible { outline: none; border-color: var(--accent); }
+
+.note-editor-actions { display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem; }
+
+.note-editor-actions button {
+  font-family: var(--sans);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  background: none;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  color: var(--ink-soft);
+  padding: 0.4em 0.95em;
+  cursor: pointer;
+  transition: border-color 0.18s ease, color 0.18s ease, background 0.18s ease;
+}
+
+.note-editor-actions button:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
+.note-save { border-color: var(--accent); color: var(--accent); }
+.note-delete { margin-left: auto; }
+
+/* Sync control — a small footer line, muted until needed */
+#sync-control {
+  margin-top: 1.5rem;
+  font-family: var(--sans);
+  font-size: 0.65rem;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+
+.sync-open, .sync-forget {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font: inherit;
+  letter-spacing: inherit;
+  color: var(--ink-soft);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.sync-open:hover, .sync-forget:hover { color: var(--accent); }
+
+.sync-status { text-transform: uppercase; letter-spacing: 0.14em; }
+
+.sync-form { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin-top: 0.6rem; }
+
+.sync-input {
+  font-family: var(--serif);
+  font-size: 0.9375rem;
+  padding: 0.35em 0.6em;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: none;
+  color: var(--ink);
+  caret-color: var(--accent);
+}
+
+.sync-input:focus, .sync-input:focus-visible { outline: none; border-color: var(--accent); }
+
+.sync-go {
+  font-family: var(--sans);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  background: none;
+  border-radius: 999px;
+  padding: 0.4em 0.95em;
+  cursor: pointer;
+}
+
+.sync-go:hover { background: var(--accent-soft); }
+
+.sync-msg { color: var(--accent); font-family: var(--serif); font-style: italic; font-size: 0.85rem; letter-spacing: 0; }
