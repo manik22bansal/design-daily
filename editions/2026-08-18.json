@@ -1,0 +1,59 @@
+{
+  "date": "2026-08-18",
+  "items": [
+    {
+      "id": "2026-08-18-1",
+      "title": "Friction as a Feature",
+      "url": "https://emilkowal.ski/ui/friction-as-a-feature",
+      "source": "Emil Kowalski",
+      "lane": "essay",
+      "summary": "Emil Kowalski argues that the effort required to build software used to act as a natural quality filter — shipping something hard enough to deter half-baked ideas. AI has demolished that filter, flooding the product world with 'vibe-coded' apps that work but feel thoughtless, without deliberation or texture.",
+      "why": "The clearest craft argument for why design judgment matters more in the AI era, not less — when anyone can ship a working product in an afternoon, a design lead's job becomes the team's remaining friction, the thing that asks whether something is actually good before it ships."
+    },
+    {
+      "id": "2026-08-18-2",
+      "title": "A Swarm of Blood Robots",
+      "url": "https://craigmod.com/essays/robot_blood/",
+      "source": "Craig Mod",
+      "lane": "voices",
+      "summary": "Craig Mod walks through a year of actual AI workflows — building a Goodreads-style reading tracker for his membership community using Claude, automating genealogy research across Ancestry.com, wiring home routines — and concludes that LLMs are most powerful when they talk to databases so you don't have to, leaving the creative work to humans.",
+      "why": "A rare practitioner account with real examples and genuine ambivalence — neither hype nor fear — useful calibration for deciding which parts of a design and product workflow to hand to AI at Cuemath, and which parts to protect."
+    },
+    {
+      "id": "2026-08-18-3",
+      "title": "Berlin Museum's makeover borrows typefaces from the U-Bahn and currywurst stands",
+      "url": "https://www.itsnicethat.com/articles/stan-hema-berlin-museum-graphic-design-project-060826",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "Design studio Stan Hema rebranded Berlin's city museum by sourcing its entire typographic vocabulary from the city itself — letterforms from U-Bahn stations, iconic buildings, and a local currywurst stand — combining them into a dynamic, shifting wordmark rather than a fixed logo.",
+      "why": "A sharp case study in building an identity from the actual substance of what you are, not from conventions — worth thinking through when Cuemath's brand asks what a distinctly Indian, math-rooted visual language could look like pulled from real sources rather than SaaS defaults."
+    },
+    {
+      "id": "2026-08-18-4",
+      "title": "Accept & Proceed's new system for Vans is a lesson in how to inject clarity into an iconic brand",
+      "url": "https://www.itsnicethat.com/articles/accept-and-proceed-vans-graphic-design-290726",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "London studio Accept & Proceed rebuilt Vans' fragmented brand identity around a two-layer framework — what stays fixed across every touchpoint, and what can flex for creative expression — turning the brand from inconsistent to principled without losing its rebellious character.",
+      "why": "The fixed-vs-flex decision is the central tension in any design system, CueDesign included — a well-documented case study of how a major brand resolved it at scale across apparel, digital, and campaign materials."
+    },
+    {
+      "id": "2026-08-18-5",
+      "title": "How to move fast toward the right thing",
+      "url": "https://www.figma.com/blog/how-to-move-fast-toward-the-right-thing/",
+      "source": "Figma Blog",
+      "lane": "essay",
+      "summary": "Figma's Jake Albaugh warns against 'cognitive surrender' — accepting AI's first reasonable output without applying judgment — and argues that AI accelerates execution, not clarity. The fix: decide what's worth building before executing, and invest in design systems and documented context that give agents precise guardrails instead of generic rails.",
+      "why": "Names the trap Cuemath's design team is most at risk of in the AI era — shipping polished work that solves the wrong thing — and frames the case for CueDesign documentation as the context layer that keeps AI-assisted output on-system rather than plausibly adrift."
+    },
+    {
+      "id": "2026-08-18-6",
+      "title": "How we built Linear Agent",
+      "url": "https://linear.app/now/how-we-built-linear-agent",
+      "source": "Linear Blog",
+      "lane": "news",
+      "summary": "Linear's Matthijs Wolting details the design decisions behind Linear Agent: encoding safety into tool architecture so invalid actions are architecturally hard (the way good UI makes the wrong path unintuitive), loading capabilities as modular skills based on context, and building custom orchestration infrastructure that off-the-shelf agent libraries couldn't handle.",
+      "why": "The most design-literate product team in the category explaining their agent product philosophy in concrete terms — including an explicit analogy to UI design — worth reading before Cuemath designs any AI-assisted student or teacher workflow."
+    }
+  ]
+}
