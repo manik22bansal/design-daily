@@ -11,6 +11,14 @@ LOG="$CURATOR/run.log"
 export PATH="/Users/manikbansal/.nvm/versions/node/v24.13.1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export HOME="/Users/manikbansal"
 
+# Long-lived automation token (gitignored, from `claude setup-token`). Unlike the
+# interactive login, this survives day-to-day sign-ins and the subscription moving
+# between hub accounts, which is what repeatedly revoked this job's credentials.
+# Same token as the design-inspo sweep. tr strips any stray whitespace/newline.
+if [ -f "$CURATOR/.oauth-token" ]; then
+  export CLAUDE_CODE_OAUTH_TOKEN="$(tr -d '[:space:]' < "$CURATOR/.oauth-token")"
+fi
+
 CLAUDE="/Users/manikbansal/.nvm/versions/node/v24.13.1/bin/claude"
 WEBHOOK_FILE="$REPO/.secrets/slack-webhook"
 
@@ -38,7 +46,7 @@ notify_failure() {
   # Failure-only detection. A normal publish, or a legitimate "edition already
   # exists / rest day" skip, exits 0 with no error strings and stays quiet.
   if printf '%s' "$OUT" | grep -qiE "Failed to authenticate|authentication_error|Invalid authentication credentials"; then
-    notify_failure "authentication error - the claude CLI likely needs a re-login (open a terminal, run: claude, then /login)"
+    notify_failure "authentication error - the automation token may be revoked; regenerate with 'claude setup-token' and overwrite .curator/.oauth-token"
   elif [ "$STATUS" -ne 0 ]; then
     notify_failure "exit code $STATUS"
   elif printf '%s' "$OUT" | grep -qiE "API Error|rate.?limit"; then
