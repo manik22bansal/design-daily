@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-20",
+  "items": [
+    {
+      "id": "2026-08-20-1",
+      "title": "Novelty",
+      "url": "https://rauno.me/craft/novelty",
+      "source": "Rauno Freiberg",
+      "lane": "essay",
+      "summary": "An essay on why visual novelty in UI loses its punch the more it appears — and why the sharpest designers treat surprise as a scarce resource, reserved for the moments that earn it.",
+      "why": "Maps directly onto Cuemath's gamification design: knowing when a belt-level celebration or XP animation actually lands versus when it becomes noise is exactly the 90%/10% question Rauno is answering."
+    },
+    {
+      "id": "2026-08-20-2",
+      "title": "Cognitive Load Is a Budget, Not an Enemy: Design for the Brain's 4 Chunks",
+      "url": "https://www.uxtigers.com/post/cognitive-load",
+      "source": "Jakob Nielsen — UX Tigers",
+      "lane": "essay",
+      "summary": "A research-backed guide that reframes cognitive load — the mental effort an interface demands from users — as a four-slot working memory budget to spend deliberately, with 26 concrete design guidelines across perception, understanding, decision-making, and action.",
+      "why": "In math education, the subject itself carries high intrinsic load; every Cuemath screen that adds extraneous interface friction steals from the budget kids need to understand the math. These guidelines translate directly to the practice app."
+    },
+    {
+      "id": "2026-08-20-3",
+      "title": "Charlotte Rohde's new typeface has heart-dotted i's and a plan to overwrite problematic men",
+      "url": "https://www.itsnicethat.com/articles/charlotte-rohde-oficia-mono-typography-graphic-design-project-190826",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "Berlin designer Charlotte Rohde created Oficía Mono, a monospace typeface with heart-dotted i's that doubles as the protagonist of her sci-fi feminist novel — built as a deliberate reworking of Gill Sans and its problematic creator.",
+      "why": "A typeface built around a complete conceptual premise rather than just craft decisions — a useful model for how Cuemath's editorial type choices could carry a point of view about who the brand is and who it speaks to."
+    },
+    {
+      "id": "2026-08-20-4",
+      "title": "Enacting Constructive Conflicts with AI Agents to Enhance Reconsideration among Novice Interaction Designers",
+      "url": "https://arxiv.org/abs/2608.04166",
+      "source": "Carnegie Mellon / arXiv",
+      "lane": "news",
+      "summary": "A Carnegie Mellon study found that an AI agent that argues against a designer's choices — rather than offering praise — prompted participants to reconsider and substantially improve their work, generating more iterations than self-reflection or written guidance alone.",
+      "why": "Points at how AI could be used in Cuemath's design process not just as a generative tool but as a structured critic — building in the adversarial pushback that usually only comes from a senior review or a difficult stakeholder."
+    },
+    {
+      "id": "2026-08-20-5",
+      "title": "The Antithesis Principle",
+      "url": "https://shreyasdoshi.substack.com/p/the-antithesis-principle",
+      "source": "Shreyas Doshi",
+      "lane": "voices",
+      "summary": "Shreyas Doshi's framework for turning a behavioral observation inside out: smart people apply an insight to influence others; wise people apply the opposite inward, to eliminate the same tendency from their own thinking.",
+      "why": "Sharp frame for someone who designs external motivation systems — building products that exploit how users' brains seek validation while personally cultivating the intrinsic drive that makes design work good."
+    }
+  ]
+}
