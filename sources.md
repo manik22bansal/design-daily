@@ -46,6 +46,7 @@ Sections group sources by domain. They do NOT map 1:1 to the four edition lanes 
 | Dense Discovery | densediscovery.com | 4 | Weekly; consistently thoughtful |
 | Design Spells | designspells.com | 4 | Delightful software details |
 | It's Nice That | itsnicethat.com | 3 | Broad creative industry |
+| Creative Boom | creativeboom.com | 3 | UK creative industry news; independent editorial coverage of major design/brand decisions. new 2026-08-22. |
 | Fast Company Design | fastcompany.com/co-design | 3 | Mainstream design business coverage |
 | The Verge | theverge.com | 3 | Product/design-adjacent tech news |
 | Dezeen | dezeen.com | 3 | Architecture/industrial; taste-broadening |

@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-23",
+  "items": [
+    {
+      "id": "2026-08-23-1",
+      "title": "Beyond the Machine",
+      "url": "https://frankchimero.com/blog/2025/beyond-the-machine/",
+      "source": "Frank Chimero",
+      "lane": "essay",
+      "summary": "A talk-turned-essay in which designer Frank Chimero proposes three postures a creative can take toward generative AI — under it (dependency without skill), beside it (instrument-like cultivation, à la Brian Eno's generative music), or inside it (system-building, like Holly Herndon training her own models). Using Spirited Away as an allegory for unchecked consumption, he argues for deliberate practice and 'small refusals' rather than capitulation.",
+      "why": "The under/beside/inside framework gives language to a choice Manik's team is implicitly making right now — whether AI is a crutch, an instrument to play with taste, or a system to architect. Frank Chimero is among the few design writers who engages AI ethics without slipping into hype or doom, and this piece holds up as the clearest articulation of creative integrity in the AI era."
+    },
+    {
+      "id": "2026-08-23-2",
+      "title": "How to build a design system strategy you'll actually deliver",
+      "url": "https://amyhupe.co.uk/articles/design-system-strategies/",
+      "source": "Amy Hupe",
+      "lane": "essay",
+      "summary": "A concrete framework for design system strategy: start from the specific organisational problem you're solving (not generic 'consistency'), map all user groups and their distinct needs, choose exactly three priorities for the next six months, and assign at least three concrete actions per priority. The central argument is that credibility comes from meeting commitments, not announcing ambitions.",
+      "why": "Amy Hupe is among the most respected voices in design systems practice; this is the clearest counterargument to vague roadmaps and over-ambitious launches — directly applicable when scoping and communicating CueDesign's next phase inside Cuemath."
+    },
+    {
+      "id": "2026-08-23-3",
+      "title": "Instagram reveals its first brand refresh in 10 years, with a new wordmark and three typefaces",
+      "url": "https://www.creativeboom.com/news/instagram-reveals-its-first-brand-refresh-in-10-years-with-a-new-wordmark-and-three-typefaces/",
+      "source": "Creative Boom",
+      "lane": "news",
+      "summary": "Instagram's first identity refresh since 2016: a tightened script wordmark with squared-up letterforms and fewer flourishes, plus three new typefaces — an updated Instagram Sans, a custom handwriting face called Instagram Pen, and Instagram Mono. The gradient stays but is applied more selectively, and a new 'viewfinder' framing device derived from the camera icon enters the system.",
+      "why": "Real brand-system decision-making at global scale — the choice to refine rather than discard the script wordmark, the rationale behind a handwriting typeface, the 'elevate creator content over the brand' philosophy — concrete reference points for how Cuemath thinks about evolving its own brand system without erasing what already works."
+    },
+    {
+      "id": "2026-08-23-4",
+      "title": "Firsthand: How I Built a Brand with Heart at Lovable",
+      "url": "https://review.firstround.com/firsthand-lovable/",
+      "source": "First Round Review",
+      "lane": "voices",
+      "summary": "Nad Chishtie, first designer at Lovable — the AI-assisted code generation startup that hit $100M ARR in eight months — recounts building the brand from cold: a 30-minute logo prototype to prove the direction, the eventual rebrand to a gradient-heart mark, and the thesis that software should make you feel something, not just function.",
+      "why": "A first-person account of brand building under AI-product velocity — the 'speed accelerates learning' argument and 'design reflects genuine care' philosophy are directly relevant to how Manik navigates Cuemath products shipping faster with AI while still wanting them to feel considered."
+    },
+    {
+      "id": "2026-08-23-5",
+      "title": "Runblock is the runner's sun cream designed to look like it's melted in the heat",
+      "url": "https://www.itsnicethat.com/articles/george-fletcher-tess-lockhart-runblock-graphic-design-project-100826",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "Graphic designers Tess Lockhart and George Fletcher built an identity for a running-specific sunscreen around the physical sensation of heat and exertion — distorting the wordmark's letterforms so they swell and merge as if melting, not as a digital filter but built directly into the structure of each glyph.",
+      "why": "A clean demonstration of concept-driven identity where the design idea and the product truth are the same thing — the approach of encoding the concept into the letterform structure rather than bolting an effect on top is a useful principle for any Cuemath brand or campaign work that wants to feel distinctive rather than dressed-up."
+    }
+  ]
+}
