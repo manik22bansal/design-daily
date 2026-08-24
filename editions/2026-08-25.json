@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-25",
+  "items": [
+    {
+      "id": "2026-08-25-1",
+      "title": "Cards: How a 3×5 Rectangle Conquered Screen Design",
+      "url": "https://www.uxtigers.com/post/card-pattern",
+      "source": "Jakob Nielsen — UX Tigers",
+      "lane": "essay",
+      "summary": "Nielsen traces why the card UI pattern — a bounded rectangle that uses Gestalt grouping to let users size up an item in about 1.8 seconds — took over screen design, then makes the case that it's become a thoughtless default applied everywhere it doesn't belong. The piece ends with a consequential twist: since AI now generates most cards at scale, the old approach of human review can't hold — guidelines must shift to automated schemas and validation rules.",
+      "why": "Cards are the default container in K-12 practice apps — problem sets, achievement badges, content modules. Nielsen's framework for when cards genuinely earn their place versus when they destroy hierarchy is exactly the kind of research-backed grounding that pays off in design system decisions for CueDesign."
+    },
+    {
+      "id": "2026-08-25-2",
+      "title": "How teams build",
+      "url": "https://linear.app/data",
+      "source": "Linear Blog",
+      "lane": "news",
+      "summary": "Linear's first data report on AI adoption across 33,000 product teams, covering January–June 2026: AI now authors nearly half of all new issues, pull-request volume is up 111%, and non-engineers are increasingly shipping code — designers writing PRs jumped from 1% to 8%. The counterintuitive finding: total time spent on development went up, not down.",
+      "why": "Designers shipping code at 8× their rate of two years ago isn't a hypothetical trend — it's measured. For a design lead like Manik, this is live evidence that the boundary between design and engineering is shifting, and it demands a deliberate response about what his team owns and how it's structured."
+    },
+    {
+      "id": "2026-08-25-3",
+      "title": "Measuring time savings from Figma Make",
+      "url": "https://www.figma.com/blog/measuring-time-savings-from-figma-make/",
+      "source": "Figma Blog",
+      "lane": "essay",
+      "summary": "Figma's data science team ran a 100-person randomised controlled trial to measure how much Figma Make actually saves: a 20% reduction in task time overall, but product managers saw 23% faster completion and nearly matched trained designers on simpler work — without any design background.",
+      "why": "The PM-nearly-matching-designer finding is a direct challenge to design team scope. It gives Manik concrete data for the conversation about what work stays in design versus what gets delegated — and what the design team's real value-add needs to be as AI tools close the skill gap."
+    },
+    {
+      "id": "2026-08-25-4",
+      "title": "A Further Sea",
+      "url": "https://madeline-blair.com",
+      "source": "Fonts In Use",
+      "lane": "inspiration",
+      "summary": "An interactive digital archive about Madeline Blair, a stowaway on the USS Arizona in 1924 whose photographs were removed from official Navy records. Its 'Tides' section uses live oceanographic data — wind speed, tide height, currents — to control which text and images are visible on screen, so the archive literally changes with the sea.",
+      "why": "This is real-world state (environmental data) driving what the interface reveals — a direct design analogue to what gamified learning systems should do: use a student's actual streak, progress, or session data to shift what they see, rather than displaying the same static UI with a different number in it."
+    },
+    {
+      "id": "2026-08-25-5",
+      "title": "TBM 437: Tokens, Hours, Points, and Other Curious Proxies",
+      "url": "https://cutlefish.substack.com/p/tbm-437-tokens-hours-points-and-other",
+      "source": "John Cutler — The Beautiful Mess",
+      "lane": "essay",
+      "summary": "Cutler argues that measuring AI productivity by token spend is the same mistake companies made with hours and story points: a proxy that's easy to count but severs the link to actual business value. His fix: stop asking 'what's the ROI?' and start asking 'what theory of the system are we betting on?' — then build explicit causal models that connect costs to value.",
+      "why": "The proxy critique cuts both ways for Manik. XP, belts, and points in the Cuemath practice app are also proxies for learning motivation, with the same trap: you can optimise the metric and miss the behaviour it was supposed to represent. The reframe applies directly to how you evaluate whether gamification is actually working."
+    }
+  ]
+}
