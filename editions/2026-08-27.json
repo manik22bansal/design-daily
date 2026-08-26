@@ -1,0 +1,41 @@
+{
+  "date": "2026-08-27",
+  "items": [
+    {
+      "id": "2026-08-27-1",
+      "title": "AI & Creativity Report 2026: The Cost of the Shortcut",
+      "url": "https://www.dandad.org/insights/learning/ai-report-2026",
+      "source": "D&AD",
+      "lane": "news",
+      "summary": "D&AD surveyed 197 creative leaders across 30 countries and analysed more than 10,000 award entries to identify six industry reckonings: AI pushes work toward the average without human judgment to lift it; efficiency gains are being handed to clients rather than reinvested in thinking; entry-level jobs that used to build future leaders are disappearing; and most organisations still have no written AI governance framework. Full report downloads free via email form on the page.",
+      "why": "All six reckonings land for a design lead managing a team. The junior pipeline question (if rote work disappears, how do seniors ever form?) and the 'faster, not further' trap (AI speed must buy deeper thinking, not just faster delivery) are live decisions for CueDesign's operating model — not future problems."
+    },
+    {
+      "id": "2026-08-27-2",
+      "title": "How DNCO turned Vermont from a place people admire into one they actually want to visit",
+      "url": "https://www.creativeboom.com/news/how-dnco-turned-vermont-from-a-place-people-admire-into-one-they-actually-want-to-visit/",
+      "source": "Creative Boom",
+      "lane": "inspiration",
+      "summary": "Studio DNCO built Vermont's first dedicated tourism brand around a precise paradox: 79% of Americans find Vermont appealing, but only 15% plan to visit. Their diagnosis — visitors weren't describing an escape, they were describing personal growth — led to the 'State of Inspiration' positioning and a hand-lettered wordmark that embeds local landscape details into the letterforms themselves (a winding road in the 'e', mountain forms elsewhere).",
+      "why": "The 'admired but not chosen' gap is the exact positioning trap a learning app faces — Cuemath can be genuinely valued by parents and kids without ever being opened. The move from 'a place to switch off' to 'a place where you level up' is not a branding trick; it is a product strategy reframe that starts at the first screen and runs through every motivation mechanic."
+    },
+    {
+      "id": "2026-08-27-3",
+      "title": "Ask LukeW: A New Retrieval System",
+      "url": "https://www.lukew.com/ff/entry.asp?2157",
+      "source": "Luke Wroblewski",
+      "lane": "essay",
+      "summary": "Luke Wroblewski rebuilt the retrieval system behind his 50,000-question Q&A tool by first classifying question intent into six types — temporal, retrieval, quantitative, visual, casual — then tailoring both how results are fetched and how answers are displayed to each type. Temporal questions get timeline context. Visual queries surface images and PDF pages. Quantitative questions return actual counts, not prose summaries. A lightweight classifier makes the routing decision before search runs.",
+      "why": "Any AI tutoring or help feature Cuemath builds will face the same diversity of student intent — 'how do I solve this?' demands a completely different interface response than 'show me last week's problems' or 'what's my streak?'. Classification-first design, building the intent layer before the answer layer, is a concrete framework to carry into any Cuemath AI product spec."
+    },
+    {
+      "id": "2026-08-27-4",
+      "title": "Design has been too settled for too long",
+      "url": "https://www.andybudd.com/archives/2026/07/design-has-been-too-settled-for-too-long",
+      "source": "Andy Budd",
+      "lane": "voices",
+      "summary": "Clearleft founder Andy Budd argues that design operated on a stable, predictable model for a decade — centred on Figma, ending in a handoff to engineering — and AI has shattered that stability. Designer AI tool usage jumped from 54% to 91% weekly in one year; half of designers now ship AI-generated code to production. The central warning: the real risk is not replacement, it is 'mediocrity faster and more convincing' — polished-looking output produced without the judgment to know whether it is actually good.",
+      "why": "This is the frame to put in front of anyone making speed-vs-quality tradeoffs on Cuemath's design team. When any designer can produce plausible-looking screens in an afternoon, craft judgment is the only defensible differentiator — and 'mediocrity faster and more convincing' is a precise name for what the team is being asked to prevent."
+    }
+  ]
+}
