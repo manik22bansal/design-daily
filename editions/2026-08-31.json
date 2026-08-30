@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-31",
+  "items": [
+    {
+      "id": "2026-08-31-1",
+      "title": "The Custodial Era of UX: Cleaning Up After AI",
+      "url": "https://www.nngroup.com/articles/ai-ux-debt/",
+      "source": "Nielsen Norman Group",
+      "lane": "essay",
+      "summary": "AI lets teams generate features and prototypes faster than UX can evaluate them, creating accumulated 'UX debt' — experiences that technically work but confuse or frustrate users. NN/g proposes three strategies to break the cycle: build shared design judgment across the team, accelerate evaluation with templates and heuristic checklists, and embed design-system standards into the AI prompts used for generation so common problems never appear in the first place.",
+      "why": "Directly names the dynamic Manik is likely managing at CueDesign: engineering shipping faster with AI while design evaluation hasn't scaled to match. The third strategy — baking UX requirements into generation prompts using design-system docs — is immediately actionable for a team with mature tokens and guidelines."
+    },
+    {
+      "id": "2026-08-31-2",
+      "title": "AI in Design 2026: Craft",
+      "url": "https://stateofaidesign.com/chapters/craft",
+      "source": "Designer Fund / Foundation Capital",
+      "lane": "news",
+      "summary": "The craft chapter of a 900-designer global survey: 50% have shipped AI-generated code to production (including brand designers, not just design engineers), 43% of companies now expect working prototypes rather than static mockups as a standard deliverable, and designers using AI are 25% more likely to report job satisfaction. Includes practitioner accounts from Framer, Linear, Notion, Shopify, and Stripe.",
+      "why": "The 'should designers code' debate has moved — this is what it looks like on the other side. For a design lead at a product company, knowing where the profession's bar has actually moved (not where it's theoretically heading) changes how to think about hiring expectations and what to ask of CueDesign's team."
+    },
+    {
+      "id": "2026-08-31-3",
+      "title": "Little Bits of Intelligence",
+      "url": "https://www.lukew.com/ff/entry.asp?2158",
+      "source": "LukeW",
+      "lane": "essay",
+      "summary": "Luke Wroblewski argues that cheap, fast AI models make it practical to embed intelligence throughout software interfaces — replacing rigid filter systems with semantic search, converting uploaded images and documents into structured database entries — so software can finally adapt to how people actually communicate rather than forcing people to learn command syntax.",
+      "why": "The gap between 'student fills in a form correctly' and 'system understands what the student means' is a live problem in any K-12 product. This reframes natural input not as an AI feature to bolt on, but as a design philosophy to build toward — relevant for how Cuemath's practice app handles student input and answer entry."
+    },
+    {
+      "id": "2026-08-31-4",
+      "title": "When Brompton needed a refresh, Studio Blackburn headed to the factory floor",
+      "url": "https://www.creativeboom.com/inspiration/when-bike-brand-brompton-needed-a-refresh-studio-blackburn-didnt-mess-aroundthey-headed-straight-to-the-factory-floor-/",
+      "source": "Creative Boom",
+      "lane": "inspiration",
+      "summary": "Studio Blackburn's rebrand for Brompton leaves the existing logo untouched and builds a new visual language from the factory where bikes are handmade. The centrepiece is 'Brompton Slab', a custom headline typeface developed with type designer Sam White; the team cut oversized metal letters at the Greenford factory, photographed them in situ, and made that manufacturing imagery the brand's primary visual asset. The unifying line 'Life Unfolded' works both as product metaphor and lifestyle positioning.",
+      "why": "Using the production environment as design material — and letting that process become the brand's image bank — is a methodology worth stealing. Cuemath has equally genuine process stories (how teachers teach, how kids learn) that rarely make it into the brand; the typeface-meets-origin approach is a strong reference for how CueDesign could make that methodology visible."
+    },
+    {
+      "id": "2026-08-31-5",
+      "title": "Tension-Based Prioritization (A Non-Framework)",
+      "url": "https://cutlefish.substack.com/p/tbm-436-tension-based-prioritization",
+      "source": "The Beautiful Mess",
+      "lane": "essay",
+      "summary": "John Cutler argues the hard part of prioritization isn't ranking work — it's creating conditions for teams to act on what they already know. He maps 12 recurring organizational tensions (abstract threats everyone avoids, work stuck in perpetual 'almost done', capability gaps, false urgency) and provides a fill-in-the-blank exercise to surface which tensions are actively stalling a team right now.",
+      "why": "The 12-tension list names dynamics that are easy to feel in design-product collaboration but hard to put on a table — which is often the real blocker. The fill-in-the-blank format is immediately usable in a planning session or retrospective, not just framing to think about."
+    }
+  ]
+}
