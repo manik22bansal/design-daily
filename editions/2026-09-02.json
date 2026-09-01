@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-02",
+  "items": [
+    {
+      "id": "2026-09-02-1",
+      "title": "Cybernetics and Ghosts",
+      "url": "https://robinrendle.com/notes/cybernetics-and-ghosts/",
+      "source": "Robin Rendle",
+      "lane": "essay",
+      "summary": "A short, sharp reading of Italo Calvino's 1967 lecture on whether machines could replace writers — Calvino argued that once algorithms expose all of writing's rules, authors are finally free to break them deliberately and find something genuinely original.",
+      "why": "Reframes the AI-versus-creativity debate through a 60-year-old lens that holds up better than most 2026 takes — useful clarity for a design lead thinking about what in their team's practice is actually irreplaceable when AI can generate competent output on demand."
+    },
+    {
+      "id": "2026-09-02-2",
+      "title": "How tech's most craft-obsessed team uses AI: Inside design at Linear",
+      "url": "https://designerfund.substack.com/p/ai-design-linear",
+      "source": "Designer Fund",
+      "lane": "essay",
+      "summary": "A case study on how Linear's design team deliberately caps AI use at 20–30% of new work, built a custom tool trained on their design philosophy to argue against their own proposals, and treats the decision of what not to automate as the core design judgment.",
+      "why": "The countercultural takeaway — 'when you can do anything, what you choose not to do matters most' — is directly relevant to how Manik thinks about AI adoption inside CueDesign: the question isn't which tools to add but what to protect from them."
+    },
+    {
+      "id": "2026-09-02-3",
+      "title": "The branding challenge behind Mayor Zohran's new municipal grocery stores",
+      "url": "https://www.itsnicethat.com/articles/elizabeth-goodspeed-zohran-mamdani-new-york-grocery-store-civic-branding-graphic-design-030826",
+      "source": "It's Nice That",
+      "lane": "essay",
+      "summary": "Elizabeth Goodspeed unpacks the open brief to brand NYC Groceries — five city-owned stores across all five boroughs — asking what civic branding should actually do when public trust is the goal rather than commercial aspiration or competitive positioning.",
+      "why": "The civic-versus-commercial branding problem ('all the clout, none of the baggage') maps onto how Cuemath earns credibility with parents and students: brand that signals safety and learning, not sales — a constraint Goodspeed articulates more sharply than most brand strategy writing."
+    },
+    {
+      "id": "2026-09-02-4",
+      "title": "New Contemporaries 2026",
+      "url": "https://fontsinuse.com/uses/75894/new-contemporaries-2026",
+      "source": "Fonts In Use",
+      "lane": "inspiration",
+      "summary": "Ashley Kinnard Studio's exhibition book for South London Gallery pairs two typefaces — expressive Artistik and stable Zénith (205TF) — as an A-to-Z structure, with letters replacing page numbers and 26 artists each contributing one entry to a shared visual vocabulary.",
+      "why": "A clean example of typographic system design that carries the full conceptual weight of a publication — the structural thinking (one rule, applied consistently, does all the heavy lifting) translates directly to design systems work."
+    }
+  ]
+}
