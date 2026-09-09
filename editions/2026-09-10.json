@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-10",
+  "items": [
+    {
+      "id": "2026-09-10-1",
+      "title": "Always Asking People to Ask",
+      "url": "https://www.lukew.com/ff/entry.asp?2160",
+      "source": "LukeW",
+      "lane": "essay",
+      "summary": "Luke Wroblewski argues that chat AI UIs make a mistake by defaulting to an empty prompt box — users often don't know what to ask, so starting with a pre-filled suggestion or sample answer gets better results than waiting for the user to go first.",
+      "why": "The blank-slate problem is exactly what Cuemath's AI tutoring UI faces the moment a student opens a session; this is direct, actionable design guidance on how to make that first moment less intimidating and more productive."
+    },
+    {
+      "id": "2026-09-10-2",
+      "title": "\"AI-Powered\" Isn't a Position",
+      "url": "https://review.firstround.com/positioning-playbook-for-ai-products/",
+      "source": "First Round Review",
+      "lane": "essay",
+      "summary": "A positioning playbook for AI products arguing that 'AI-powered' is a feature description, not a strategy — with a framework for building a genuinely differentiated brand when every competitor is making the same claim.",
+      "why": "Directly useful as Cuemath figures out how to distinguish its AI tutoring from a crowded edtech field; the playbook's competitive positioning framework applies across both product and brand decisions Manik is navigating."
+    },
+    {
+      "id": "2026-09-10-3",
+      "title": "De Bijloke",
+      "url": "https://fontsinuse.com/uses/79383/de-bijloke",
+      "source": "Fonts In Use",
+      "lane": "inspiration",
+      "summary": "Type documentation for De Bijloke, a Ghent music venue with 13th-century roots, where Pentagram's Marina Willer built an identity around a custom typeface designed to hold together a richly varied cultural programme.",
+      "why": "Institutional identity at the highest craft level — a single flexible type system serving a diverse, centuries-old venue is a useful reference for how CueDesign might hold together Cuemath's own multi-surface product ecosystem."
+    },
+    {
+      "id": "2026-09-10-4",
+      "title": "Manchester City Women becomes the first WSL team to have its own distinct identity",
+      "url": "https://www.itsnicethat.com/articles/nomad-manchester-city-women-graphic-design-project-080926",
+      "source": "It's Nice That",
+      "lane": "news",
+      "summary": "Nomad Studio designed a standalone visual identity for Manchester City Women FC — a monogram built from 'light' — giving the women's team its own distinct presence separate from the parent club.",
+      "why": "A clean case study in sub-brand differentiation within a parent brand system, with a clear design rationale — the strategy is directly relevant to how Cuemath thinks about its practice app, tutoring product, and brand coexisting as distinct surfaces."
+    },
+    {
+      "id": "2026-09-10-5",
+      "title": "How Form solved the classic two-logo lockup problem for British Cycling and Lloyds",
+      "url": "https://www.creativeboom.com/inspiration/how-form-solved-the-classic-two-logo-lockup-problem-for-british-cycling/",
+      "source": "Creative Boom",
+      "lane": "inspiration",
+      "summary": "Studio Form designed British Cycling's identity by baking both brand marks — club and title sponsor — into a single typographic system from the start, so there was never a clashing-logos problem to negotiate after the fact.",
+      "why": "The 'solve the constraint in the system' approach is directly applicable to design systems work — building co-brand or sponsor flexibility into the foundation rather than retrofitting it, which is a recurring challenge in any multi-stakeholder product."
+    }
+  ]
+}
