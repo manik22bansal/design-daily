@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-12",
+  "items": [
+    {
+      "id": "2026-09-12-1",
+      "title": "Apps and programming: two accidental tyrannies",
+      "url": "https://andymatuschak.org/tat/",
+      "source": "Andy Matuschak",
+      "lane": "essay",
+      "summary": "A talk transcript from MIT's HCI Seminar where Matuschak argues that app silos and programming's role as a specialised skill have together strangled interface invention — and shows, with live demos, how composable software architectures and coding agents can begin to undo both.",
+      "why": "The core claim is that coding agents now let designers prototype complex, novel interactions without waiting on engineers — Matuschak shows this working in practice. Directly applicable to how CueDesign could move faster on experimental UX for Cuemath's learning flows."
+    },
+    {
+      "id": "2026-09-12-2",
+      "title": "A calmer interface for a product in motion",
+      "url": "https://linear.app/now/behind-the-latest-design-refresh",
+      "source": "Linear Blog",
+      "lane": "news",
+      "summary": "How two Linear engineers — new to the codebase — shipped a full UI refresh using Claude Code and Cursor as execution partners, including building a custom colour-picker dev tool on the fly to iterate on design tokens without freezing feature work.",
+      "why": "The concrete case study for using coding agents as design-execution partners: a two-person team, unfamiliar with the codebase, shipped a coherent system-wide refresh in months. A model worth studying for small design-system teams like CueDesign."
+    },
+    {
+      "id": "2026-09-12-3",
+      "title": "The Typography of whitehouse.gov, 2000–2026",
+      "url": "https://fontsinuse.com/uses/78453/the-typography-of-whitehouse-gov-2000-2026",
+      "source": "Fonts In Use",
+      "lane": "essay",
+      "summary": "A deep typographic analysis tracing how six US presidential administrations chose website typefaces — from Bush's embedded system fonts to Obama's Hoefler commissions to Trump's pivot to free Google Fonts — reading each decision as a political and cultural allegory.",
+      "why": "A masterclass in how font choice encodes institutional values at a glance — the same logic applies when Cuemath picks type that must signal both academic credibility to parents and warmth and play to kids simultaneously."
+    },
+    {
+      "id": "2026-09-12-4",
+      "title": "Pangram Pangram's Neue Gstaad is a mountainous homage to Swiss excellence",
+      "url": "https://www.itsnicethat.com/articles/pangram-pangram-neue-gstaad-graphic-design-project-090926",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "Pangram Pangram's new release — 112 styles across seven subfamilies, designed by Ian Party — draws on Swiss mountain culture to build a typeface system built for extreme range, from compressed editorial to large-scale environmental use.",
+      "why": "A strong reference for how a type system can be designed to flex across every scale without losing character — relevant to how a design system like CueDesign specifies type that must work from 11px app UI to campaign-scale display."
+    },
+    {
+      "id": "2026-09-12-5",
+      "title": "Stamps, labels, and codes: Vrints-Kolsteren rebrands a pizza restaurant on the move",
+      "url": "https://www.itsnicethat.com/articles/vrints-kolsteren-napoli-on-the-road-graphic-design-project-010926",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "Antwerp studio Vrints-Kolsteren rebranded London pizzeria Napoli on the Road as 'NotR,' swapping Italian restaurant clichés for a transport-and-shipping visual language — monospaced type, stamps, labels — built entirely around the brand's story of constant motion and evolution.",
+      "why": "A clean example of brief-led identity design: the system works because the designers started with a narrative (movement, transformation) rather than a category aesthetic — a useful model for how Cuemath's brand could anchor to its learning story rather than generic edtech conventions."
+    }
+  ]
+}
