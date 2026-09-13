@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-14",
+  "items": [
+    {
+      "id": "2026-09-14-1",
+      "title": "How to Stop Complaining About Your Software",
+      "url": "https://lg.substack.com/p/i-never-want-to-use-third-party-software",
+      "source": "The Looking Glass",
+      "lane": "essay",
+      "summary": "Julie Zhuo argues that AI is enabling an era of hyperpersonalized software — where people build tools fitted to their exact workflow rather than tolerating generic apps — and illustrates it by building a Duolingo-style math and reading app for her own kids, populated with their friends' names and hobbies.",
+      "why": "Her homemade kids' learning app is essentially a proof of concept for what Cuemath's practice app could become: problems and stories built around each student's own world, making the content feel made for them rather than at them."
+    },
+    {
+      "id": "2026-09-14-2",
+      "title": "Large Scale Agent Coordination",
+      "url": "https://www.lukew.com/ff/entry.asp?2161",
+      "source": "LukeW",
+      "lane": "essay",
+      "summary": "Luke Wroblewski examines how multi-agent AI systems coordinate complex work at scale — through isolated workspaces, specialized agent roles, and intelligent handoffs — using the developer platform Intent as a concrete case study for running thousands of agents across distributed devices.",
+      "why": "When Cuemath evaluates adding AI tutoring or practice features, this is the practitioner framework for understanding what 'multiple AI agents working together' actually looks like in a product — Wroblewski writes from shipping, not from theory."
+    },
+    {
+      "id": "2026-09-14-3",
+      "title": "Why Product Sense is the only product skill that will matter in the AI age",
+      "url": "https://shreyasdoshi.substack.com/p/why-product-sense-is-the-only-product",
+      "source": "Shreyas Doshi",
+      "lane": "voices",
+      "summary": "Shreyas Doshi argues that as AI tools become universally available and roughly equivalent in power, they stop being a competitive edge — the only sustainable differentiator becomes Product Sense: the human judgment (empathy, taste, simulation, strategic thinking) you bring on top of what the AI gives you.",
+      "why": "This is the clearest articulation of why design and product judgment matter more, not less, as Cuemath ships AI-assisted features — the case that Manik's role isn't being automated, it's becoming the whole point."
+    },
+    {
+      "id": "2026-09-14-4",
+      "title": "Raw and unrefined: Studio Tyrrell's identity for Manta Chocolate leans into the tension between purity and pleasure",
+      "url": "https://www.itsnicethat.com/articles/studio-tyrrel-manta-chocolate-graphic-design-project-070926",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "Studio Tyrrell built an identity for a plant-based chocolate brand that makes strict ingredient transparency feel sensory and indulgent rather than clinical — ingredients are displayed boldly up front, and a deliberately handmade logotype breaks the system's rigor to introduce warmth and tension.",
+      "why": "The design challenge here — making something ascetic and disciplined also feel rich and desirable — maps directly onto the Cuemath problem: how do you make serious math practice feel inviting rather than medicinal."
+    },
+    {
+      "id": "2026-09-14-5",
+      "title": "Le Phénix Scène Nationale Valenciennes, 2026–27 season",
+      "url": "https://fontsinuse.com/uses/79529/le-phenix-scene-nationale-valenciennes-2026-2",
+      "source": "Fonts In Use",
+      "lane": "inspiration",
+      "summary": "Studio Paul Andali's seasonal identity for a French national theater, built around BBB Poppins TN — a gender-inclusive typeface variant from the Bye Bye Binary foundry — applied across posters, programs, signage, and digital assets with animated type and chromatic distortion.",
+      "why": "Choosing BBB Poppins TN as the identity backbone isn't a typeface pick, it's a values decision made visible — this is what a design system embedding organizational values in every touchpoint looks like in practice, a question live for CueDesign as it matures."
+    }
+  ]
+}
