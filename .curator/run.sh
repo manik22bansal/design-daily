@@ -45,7 +45,7 @@ notify_failure() {
   printf '%s\n' "$OUT"
   # Failure-only detection. A normal publish, or a legitimate "edition already
   # exists / rest day" skip, exits 0 with no error strings and stays quiet.
-  if printf '%s' "$OUT" | grep -qiE "Failed to authenticate|authentication_error|Invalid authentication credentials"; then
+  if printf '%s' "$OUT" | grep -qiE "Failed to authenticate|authentication_error|Invalid authentication credentials|does not have access to Claude|token has been revoked"; then
     notify_failure "authentication error - the automation token may be revoked; regenerate with 'claude setup-token' and overwrite .curator/.oauth-token"
   elif [ "$STATUS" -ne 0 ]; then
     notify_failure "exit code $STATUS"
