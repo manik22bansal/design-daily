@@ -74,6 +74,11 @@ Sections group sources by domain. They do NOT map 1:1 to the four edition lanes 
 | First Round Review | review.firstround.com | 4 | Deep essays on building products and teams |
 | Shreyas Doshi | x.com/shreyas | 3 | Product strategy + craft, sharp threads |
 
+## Gamification & motivation design
+| Source | URL | Score | Notes |
+|---|---|---|---|
+| Yu-kai Chou | yukaichou.com | 3 | Creator of the Octalysis gamification framework; writes on motivation design, AI × engagement. new 2026-09-16. |
+
 ## Design × AI
 | Source | URL | Score | Notes |
 |---|---|---|---|

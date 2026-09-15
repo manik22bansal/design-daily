@@ -1,0 +1,59 @@
+{
+  "date": "2026-09-16",
+  "items": [
+    {
+      "id": "2026-09-16-1",
+      "title": "Friction as a Feature",
+      "url": "https://emilkowal.ski/ui/friction-as-a-feature",
+      "source": "Emil Kowalski",
+      "lane": "essay",
+      "summary": "Kowalski argues that the cost and effort of building — what we call friction — was silently doing a second job: forcing designers and engineers to think before shipping. AI's removal of that cost has lowered the quality threshold across the industry, and the output it produces tends to feel competent but hollow rather than genuinely designed.",
+      "why": "This is the clearest argument for why design judgment matters more, not less, as Cuemath's team ships faster with AI tools — not a slow-down argument, but a precise diagnosis of what gets lost when anyone can build anything in an afternoon."
+    },
+    {
+      "id": "2026-09-16-2",
+      "title": "Information Foraging Theory: Why Users Hunt, Snack, Leave, and Farm Content",
+      "url": "https://www.uxtigers.com/post/information-foraging",
+      "source": "Jakob Nielsen — UX Tigers",
+      "lane": "essay",
+      "summary": "Nielsen explains how users seek information the way animals hunt for food — optimising value per unit of effort — and maps this across three internet eras (early web, Google, generative AI). Covers how the 'scent of information' determines whether a user stays or bails, and how AI-generated content is changing that foraging environment.",
+      "why": "The scent-of-information model describes exactly how a student decides whether to stay in a Cuemath learning flow or abandon it — the same dropout signal the practice app needs to design against at every transition and hint step."
+    },
+    {
+      "id": "2026-09-16-3",
+      "title": "Summer of Seum 2026",
+      "url": "https://fontsinuse.com/uses/79601/summer-of-seum-2026",
+      "source": "Fonts In Use",
+      "lane": "inspiration",
+      "summary": "Visual identity for an experimental Paris music festival, built around a grinning sun mascot and two typefaces — vintage Arnold Böcklin arranged in a perspectival ellipse around the mascot, and all-caps NaN Archy for artist listings — applied across posters, social, and illuminated stage installations.",
+      "why": "The mascot-plus-type-system is a direct reference for how MathGym or Cuemath's practice app could build a character-led gamified identity that scales from 16px UI to large-format graphics without losing coherence."
+    },
+    {
+      "id": "2026-09-16-4",
+      "title": "Pentagram's twin logos for Doha Design District are a masterclass in crafting sub-brands",
+      "url": "https://www.creativeboom.com/inspiration/pentagrams-twin-logos-for-doha-design-district-are-a-masterclass-in-crafting-a-sub-brand/",
+      "source": "Creative Boom",
+      "lane": "inspiration",
+      "summary": "Pentagram's Samar Maakaroun designed two sub-brand identities — Mada (a maker's space) and Sada (an events space) — by drawing mirrored letterforms from the parent brand's architectural DNA rather than applying surface-level styling, so the relationship between the three brands reads intuitively without a label.",
+      "why": "The 'shared DNA, not shared skin' approach to sub-branding is the right mental model for how Cuemath's main brand, practice app, and tutoring product can feel coherent without looking identical — a live design systems question for CueDesign."
+    },
+    {
+      "id": "2026-09-16-5",
+      "title": "Canva launches ProSuite — bringing Affinity, Cavalry, Flourish, and Leonardo together with 100+ new features",
+      "url": "https://www.creativeboom.com/news/canva-launches-prosuite-bringing-affinity-cavalry-flourish-and-leonardo-together-with-more-than-new-100-features/",
+      "source": "Creative Boom",
+      "lane": "news",
+      "summary": "Canva unified four acquired professional tools — Affinity (design and photo editing), Cavalry (motion), Flourish (data viz), and Leonardo (AI image generation) — into a single ProSuite, adding 100+ new features while committing to keep core Affinity and Cavalry capabilities permanently free.",
+      "why": "Core Affinity tools — previously a paid standalone suite — are now permanently free within Canva, directly affecting which professional tools Cuemath's design team should be evaluating against its current Figma and Adobe stack."
+    },
+    {
+      "id": "2026-09-16-6",
+      "title": "AI Motivation Design: The Complete 2026 Framework",
+      "url": "https://yukaichou.com/gamification-analysis/ai-motivation-design/",
+      "source": "Yu-kai Chou",
+      "lane": "voices",
+      "summary": "The creator of the Octalysis gamification framework maps how AI changes motivation architecture — stochastic outputs make unpredictability the default motivational floor, always-on access collapses scarcity unless rebuilt deliberately, and personalisation silently activates ownership — then provides a 12-question audit for evaluating whether an AI product's motivation design is healthy or exploitative.",
+      "why": "Cuemath's XP, belts, and streak mechanics sit exactly at this intersection; the 12-question audit is directly applicable to a MathGym review session, naming the traps (streak-guilt dependency, hollow variability) motivation systems fall into and giving a structured way to tell if the current design builds genuine engagement or manufactured anxiety."
+    }
+  ]
+}
