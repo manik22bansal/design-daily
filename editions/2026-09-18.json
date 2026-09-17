@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-18",
+  "items": [
+    {
+      "id": "2026-09-18-1",
+      "title": "Marina Willer crafts letters with light and projection for BFI London Film Festival's new identity",
+      "url": "https://www.itsnicethat.com/articles/marina-willer-pentagram-bfi-london-film-festival-graphic-design-160926",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "Pentagram partner Marina Willer built the BFI London Film Festival's new identity by filming colored light projected against a black screen, capturing letterforms that shift and move. An unusual light blue — no other major film festival uses it — and deep purple anchor the palette.",
+      "why": "Shows how starting from a physical, analogue process generates brand language that digital-first tools simply don't produce — a concrete case for what makes an identity hard to replicate, relevant to Manik's thinking on identity systems with strategic teeth."
+    },
+    {
+      "id": "2026-09-18-2",
+      "title": "How Coinbase Used Code Connect to Guide Agents and Shrink Token Costs",
+      "url": "https://www.figma.com/blog/how-coinbase-used-code-connect-to-shrink-token-costs/",
+      "source": "Figma Blog",
+      "lane": "news",
+      "summary": "Coinbase's design systems team updated their Figma Code Connect mappings so AI coding agents reference the actual component library rather than guess — cutting token costs by 22% and implementation time by the same margin.",
+      "why": "Makes a quantified case Manik can use at Cuemath: CueDesign documentation quality now directly determines how accurately and cheaply AI agents generate code, turning design system investment into an engineering efficiency argument."
+    },
+    {
+      "id": "2026-09-18-3",
+      "title": "Ensemble",
+      "url": "https://fontsinuse.com/uses/79703/ensemble",
+      "source": "Fonts In Use",
+      "lane": "inspiration",
+      "summary": "Studio Polytechnic designed the identity for Ensemble — an actor training workshop — using Helvetica Textbook, a rarely chosen variant selected specifically for its \"pedagogical feel\", with letters arranged in a circular formation that mirrors individual growth within a group.",
+      "why": "Choosing a typeface for its \"pedagogical feel\" in a learning context is territory Manik works in daily — a precise example of how type selection in education carries meaning well beyond aesthetics."
+    },
+    {
+      "id": "2026-09-18-4",
+      "title": "How I'm feeling about AI in August 2026",
+      "url": "https://brianlovin.com/writing/how-im-feeling-about-ai-in-august-2026-O7e1TFS",
+      "source": "Brian Lovin",
+      "lane": "voices",
+      "summary": "GitHub product designer Brian Lovin audits AI tools after daily use: helpful for brainstorming and backend coding, but writing output is \"incomprehensibly dumb\" and voice modes feel hollow. No hype, no dismissal — a practitioner's running tally.",
+      "why": "The specific split — AI earns its keep in coding, fails at writing — is exactly the calibration Manik needs as he decides where to lean on AI versus where to hold the craft line in his own process."
+    },
+    {
+      "id": "2026-09-18-5",
+      "title": "Sylvan Hillebrand gives a 125-year-old oil paint company a contemporary refresh",
+      "url": "https://www.itsnicethat.com/articles/sylvan-hillebrand-rembrandt-graphic-design-project-140926",
+      "source": "It's Nice That",
+      "lane": "news",
+      "summary": "Dutch designer Sylvan Hillebrand sharpened Rembrandt's 125-year-old brand identity — updated typefaces, an expanded palette, and a Dutch Golden Age-inspired quality stamp — while managing a gradual rollout across hundreds of products worldwide.",
+      "why": "\"Sharpen without reinventing\" is the same strategic posture Manik navigates with CueDesign: how to evolve a system while keeping continuity for the users and engineering teams already building on it."
+    }
+  ]
+}
