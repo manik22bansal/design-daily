@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-20",
+  "items": [
+    {
+      "id": "2026-09-20-1",
+      "title": "A Ntsal identity uses the nonlinear timeline of films to inspire its expressive and compressive motion",
+      "url": "https://www.itsnicethat.com/articles/ntsal-panorama-of-the-european-film-graphic-design-project-150926",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "Cairo-based studio Ntsal designed the visual identity for the 18th Panorama of the European Film festival — a flexible graphic system whose forms expand and compress to mirror how film narratives play with time, anchored by a custom typeface (NT Panorama Naskh) rooted in Arabic newspaper lettering and vintage poster typography.",
+      "why": "The pairing of a time-based conceptual system with a custom type design — plus an interactive festival checklist that lets attendees chart their own journey through screenings — is a case study in building adaptive systems that respond to user agency, which is exactly what good learning-path design at Cuemath needs to do."
+    },
+    {
+      "id": "2026-09-20-2",
+      "title": "You Cannot Mandate an AI Transformation",
+      "url": "https://lg.substack.com/p/you-cannot-mandate-an-ai-transformation",
+      "source": "The Looking Glass",
+      "lane": "essay",
+      "summary": "Julie Zhuo argues that pushing AI adoption through top-down mandates reliably fails — durable transformation comes from starting with the tedious tasks people hate, building organizational trust through measurable evaluation criteria, and then redesigning team structures around what AI makes newly possible.",
+      "why": "Manik is in exactly the role this is written for: a design lead trying to build genuine AI fluency on a product team rather than just deploying tools. The specific framework — start with 'relief' (boring work), build evals before expanding AI's authority, then restructure — is concrete enough to act on this week at Cuemath.",
+      "paid": true
+    },
+    {
+      "id": "2026-09-20-3",
+      "title": "How Gamma Pulled Off Their AI Pivot",
+      "url": "https://review.firstround.com/how-gamma-pulled-off-their-ai-pivot-jon-noronha-co-founder-and-cpo-of-gamma/",
+      "source": "First Round Review",
+      "lane": "essay",
+      "summary": "Gamma's co-founder Jon Noronha details how a struggling presentation tool discovered massive product-market fit by using AI to solve the blank-page problem — including specific decisions on onboarding, why they bet on horizontal over vertical, and why craft now means 'care without possessiveness.'",
+      "why": "The 'diagnose with data, solve with design' framing is directly applicable to Cuemath's product work, and Noronha's clarity on why horizontal products beat vertical ones during technology shifts is the kind of strategic reasoning worth internalizing as Cuemath navigates AI in its own practice app."
+    },
+    {
+      "id": "2026-09-20-4",
+      "title": "TYPE FRIENDS – Class of 2026",
+      "url": "https://fontsinuse.com/uses/79431/type-friends-class-of-2026",
+      "source": "Fonts In Use",
+      "lane": "inspiration",
+      "summary": "The third issue of the TYPE FRIENDS book series documents graduation work from the Type and Media Master program's class of 2026 at the Royal Academy of Art in The Hague — eleven students, twelve pages each, showcasing contemporary type design approaches from one of the field's most respected programs.",
+      "why": "KABK's Type & Media program is consistently where the typefaces that show up in Manik's editorial and design system interests three to five years later originate — this is where to spot what's coming and calibrate CueDesign's type sensibility against the direction the field is heading."
+    },
+    {
+      "id": "2026-09-20-5",
+      "title": "How Being Weird Can Save Branding in 2026",
+      "url": "https://www.creativeboom.com/insight/how-being-weird-can-save-branding-in-2026/",
+      "source": "Creative Boom",
+      "lane": "essay",
+      "summary": "Mother Design director Bentzion Goldman argues that the real enemy of good branding today isn't bad design — it's forgettably safe design. Using Loewy's MAYA principle (Most Advanced Yet Acceptable), he makes the case for pushing identity craft to the edge of comfort, with case studies on three brands that pulled it off.",
+      "why": "For Manik thinking about Cuemath's brand direction, Goldman's application of MAYA — push as far as possible while staying within what your audience can accept — is a precise framework for where to take creative risks and where to stay legible, especially relevant as Cuemath differentiates in a crowded edtech market."
+    }
+  ]
+}
