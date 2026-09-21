@@ -1,0 +1,59 @@
+{
+  "date": "2026-09-22",
+  "items": [
+    {
+      "id": "2026-09-22-1",
+      "title": "The 3 Roles of Context for AI Agents",
+      "url": "https://www.nngroup.com/articles/3-agent-context-roles/",
+      "source": "Nielsen Norman Group",
+      "lane": "essay",
+      "summary": "NN/G researchers break down how power users of AI agents organize information into three types — global (brand rules and governance), local (task-specific files), and ambient (raw data streams like emails) — arguing that curating a context library matters more than crafting prompts.",
+      "why": "The global/local/ambient framework is a practical mental model for any design lead starting to work with AI agents; directly applicable to setting up Cuemath's design and product workflows where brand rules, project context, and live data all need to reach the agent."
+    },
+    {
+      "id": "2026-09-22-2",
+      "title": "Odds' identity for Alaena strikes a soft balance between science and nature",
+      "url": "https://www.itsnicethat.com/articles/odds-studio-alaena-branding-graphic-design-project-210926",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "Paris studio Odds built the visual identity for Alaena, a dermatologist-founded skincare brand, using laboratory-inspired letterforms, generous tracking, a restrained blue palette, and chrome packaging to make clinical precision feel warm rather than cold.",
+      "why": "A craft-level case study in designing for dual emotional registers — rigor and warmth — which is exactly the tension Cuemath's design system navigates: math as precise and structured, but the experience as encouraging and kid-friendly."
+    },
+    {
+      "id": "2026-09-22-3",
+      "title": "Test Complex Interactions Earlier with AI Prototyping",
+      "url": "https://www.nngroup.com/articles/test-earlier-with-ai/",
+      "source": "Nielsen Norman Group",
+      "lane": "essay",
+      "summary": "A five-step guide showing how AI prototyping tools can build high-fidelity, interactive prototypes of complex interfaces — filters, dashboards, conversational systems — fast enough to test with real users before any engineering work begins.",
+      "why": "Cuemath's interactive math exercises and gamified flows are exactly the multi-state, hard-to-prototype interfaces this piece targets; the workflow could cut the gap between design intent and user validation significantly for the practice app."
+    },
+    {
+      "id": "2026-09-22-4",
+      "title": "Swash #5",
+      "url": "https://fontsinuse.com/uses/80045/swash-5",
+      "source": "Fonts In Use",
+      "lane": "inspiration",
+      "summary": "A folded, offset-printed brochure for a French creative training organization, typeset in three complementary typefaces with metallic inks and spot colors — a compact demonstration of how print constraints force disciplined typographic hierarchy.",
+      "why": "The pairing logic here — geometric sans anchoring display scale, offset by complementary serif details — is a useful reference for Cuemath's editorial content, where display and body type need to work across very different reading contexts."
+    },
+    {
+      "id": "2026-09-22-5",
+      "title": "AI for No Good Reason",
+      "url": "https://lg.substack.com/p/a-bird-wall-a-talking-rotary-phone",
+      "source": "The Looking Glass (Julie Zhuo)",
+      "lane": "voices",
+      "summary": "Julie Zhuo makes the case for using AI on personal projects with zero productivity justification — exploring hobbies, building what-if scenarios, making one-of-a-kind gifts — arguing that creative agency is itself a sufficient reason to use the technology.",
+      "why": "The reframe matters for a Cuemath design lead thinking about AI in kids' learning: if AI's real power is expanding what you can make for yourself (not just how fast you work), the parallel is kids using AI to express mathematical ideas, not just drill them."
+    },
+    {
+      "id": "2026-09-22-6",
+      "title": "Source Material: Zach Lieberman Likes to Break Things",
+      "url": "https://www.figma.com/blog/source-material-zach-lieberman/",
+      "source": "Figma Blog",
+      "lane": "essay",
+      "summary": "Creative coder and School for Poetic Computation co-founder Zach Lieberman on iteration, breaking things on purpose, his warning about AI tools that 'stop at the output,' and why 'repeating yourself' is underrated creative advice.",
+      "why": "His critique of AI output without process — that it skips the friction where real learning happens — is directly relevant to how Cuemath should think about AI in a math learning context, where struggle and iteration are the point, not bugs to optimize away."
+    }
+  ]
+}
