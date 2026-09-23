@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-24",
+  "items": [
+    {
+      "id": "2026-09-24-1",
+      "title": "Software Bonkers",
+      "url": "https://craigmod.com/essays/software_bonkers/",
+      "source": "Craig Mod",
+      "lane": "essay",
+      "summary": "Craig Mod built two pieces of software he'd wanted for years — a social platform for his membership community and a five-day tax accounting tool — using AI coding assistance, arguing that the tools have crossed a threshold where a determined non-programmer can now ship working software tailored precisely to their own needs and data.",
+      "why": "Mod's hands-on account of what the AI-coding threshold actually feels like maps directly to how Manik is approaching his own builds; the argument for bespoke, data-owning software over subscription tools has practical implications for how Cuemath frames internal design tooling decisions."
+    },
+    {
+      "id": "2026-09-24-2",
+      "title": "Templo's visual identity for DeafCity Hub is a fusion of creative coding, British sign language and gestural motion capture",
+      "url": "https://www.itsnicethat.com/articles/templo-deafcity-hub-identity-graphic-design-project-220926",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "London studio Templo built the brand identity for DeafCity Hub, a Deaf cultural space, using motion-capture of real British Sign Language gestures to generate animated letterforms — the modular typeface has ten characters, one per finger, so the mark literally moves the way the community communicates.",
+      "why": "A rare example of animation built into a brand system at its foundation rather than as a decorative afterthought — the principle of deriving motion from meaningful actions directly informs how Cuemath's gamification animations could work: XP gain, belt progression, and reward moments that move in ways that feel earned, not generic."
+    },
+    {
+      "id": "2026-09-24-3",
+      "title": "Ask LukeW: Less Walls of Text",
+      "url": "https://www.lukew.com/ff/entry.asp?2162",
+      "source": "Luke Wroblewski",
+      "lane": "essay",
+      "summary": "Luke Wroblewski describes how he solved the text-wall problem in his AI design Q&A app: he used an AI model to combine auto-generated image titles with hand-written accessibility descriptions from his archive, producing search-friendly labels that let the app retrieve and embed relevant visuals in answers — one AI layer improving another's output.",
+      "why": "The insight that AI metadata quality gates the entire retrieval experience is immediately applicable to any content-heavy product — directly relevant to how Cuemath could structure its practice-content library if AI starts generating or surfacing math problems and explanations."
+    },
+    {
+      "id": "2026-09-24-4",
+      "title": "From YWCA to Hotel Willo: how Rethink solved one of branding's trickiest problems",
+      "url": "https://www.creativeboom.com/work/from-ywca-to-hotel-willo-how-rethink-solved-a-branding-problem/",
+      "source": "Creative Boom",
+      "lane": "news",
+      "summary": "Toronto agency Rethink rebranded a Vancouver hotel from YWCA Hotel — a name that made people assume it was a shelter — to Hotel Willo, using a willow-tree silhouette as a minimal looping symbol, vibrant colors, and a playful but practical voice to signal boutique hospitality without a heavy concept.",
+      "why": "The brief was pure brand disambiguation: help audiences understand what a product is before they can care about it — the exact challenge MathGym faces whenever it needs to signal 'math practice app' rather than 'homework help' or 'tutoring'; Rethink's restraint over concept-heavy solutions is the right model."
+    },
+    {
+      "id": "2026-09-24-5",
+      "title": "Show me the work",
+      "url": "https://robinrendle.com/notes/show-me-the-work/",
+      "source": "Robin Rendle",
+      "lane": "voices",
+      "summary": "A short, pointed essay arguing that job titles in tech are used to signal hierarchy rather than ambition, and that only actual output is credible — uses AOC and Wolverine as references for what professional authority that doesn't need a label looks like.",
+      "why": "Sharp shorthand for how design credibility is built in a product org: in an environment where the design function competes for influence, Rendle's case for output-over-title is a useful anchor when building a team or making cases to stakeholders at Cuemath."
+    }
+  ]
+}
