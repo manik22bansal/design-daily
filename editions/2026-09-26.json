@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-26",
+  "items": [
+    {
+      "id": "2026-09-26-1",
+      "title": "Skip the Tools, Make the Outcomes",
+      "url": "https://www.lukew.com/ff/entry.asp?2163",
+      "source": "LukeW",
+      "lane": "essay",
+      "summary": "Wroblewski argues that AI lets teams skip building tools entirely and deliver outcomes directly — using a news aggregator that just gives you the news you asked for (instead of a browsable site) as the model.",
+      "why": "A clean framework for rethinking what Cuemath's AI features should be: not tools that help kids practice math, but systems that deliver the understanding they came for."
+    },
+    {
+      "id": "2026-09-26-2",
+      "title": "Parsing 'Can' from 'Should': How Netflix's Product Team Got Thousands of Creatives to Trust an AI Overhaul",
+      "url": "https://review.firstround.com/netflix-ai-strategy/",
+      "source": "First Round Review",
+      "lane": "essay",
+      "summary": "Netflix GM of Product Mckenzie Lock explains how they built internal buy-in for AI-assisted dubbing, artwork selection, and content tagging by leading with 'today vs. tomorrow' stakeholder scenarios rather than capability demos.",
+      "why": "The trust-building framework — showing people their workflow today vs. improved tomorrow — maps directly to how Cuemath introduces AI features to tutors, teachers, and parents who didn't ask for it."
+    },
+    {
+      "id": "2026-09-26-3",
+      "title": "What will make personal AI go big?",
+      "url": "https://lg.substack.com/p/what-will-make-personal-ai-go-big",
+      "source": "The Looking Glass",
+      "lane": "essay",
+      "summary": "Julie Zhuo analyzes Meta's Muse consumer AI agent and distills four design principles — approachable, trustworthy, valuable, engaging — that she argues separate consumer AI that reaches mainstream adoption from what stays niche.",
+      "why": "A design-led framework for consumer AI adoption directly applicable to Cuemath: how do you design AI features that parents and kids trust and actually use? Paywalled — worth it for the four-part framework.",
+      "paid": true
+    },
+    {
+      "id": "2026-09-26-4",
+      "title": "Logos and glyphs grow out of agar and grapevines in Emi Takahashi's graphic explorations of living forms",
+      "url": "https://www.itsnicethat.com/articles/emi-takahashi-graphic-design-discover-230926",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "Montreal-based designer Emi Takahashi collaborates with organic materials — slime mould, agar, duckweed — to grow logos, glyphs, and typefaces, translating hidden patterns in natural systems into graphic form.",
+      "why": "A sharp reminder that a design system can be generative without being geometric — the constraint here is biological rather than grid-based. Useful lateral input when thinking about how Cuemath's visual language could have more inherent logic."
+    },
+    {
+      "id": "2026-09-26-5",
+      "title": "Why designer Merijn Straathof turned a landmark techno album into a playable web-based instrument",
+      "url": "https://www.creativeboom.com/work/why-merijn-straathof-turned-a-landmark-techno-album-into-a-playable-web-based-instrument/",
+      "source": "Creative Boom",
+      "lane": "news",
+      "summary": "Dutch designer Merijn Straathof rebuilt Richie Hawtin's DE9 album as an interactive website where all 120 original loops are free to play, chain, and remix — transforming a fixed recording into a participatory instrument.",
+      "why": "A precise case study in turning passive consumption into active engagement: the content doesn't change, but the interface makes the listener a player. That's the core design challenge for Cuemath's math practice — same logic, different domain."
+    }
+  ]
+}
