@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-28",
+  "items": [
+    {
+      "id": "2026-09-28-1",
+      "title": "What It Takes to Build Great Products Now",
+      "url": "https://www.figma.com/blog/what-it-takes-to-build-great-products-now/",
+      "source": "Figma Blog",
+      "lane": "essay",
+      "summary": "Figma's VP of Product Paige Costello argues that reaching a prototype is no longer the hard part — winning requires three things AI alone won't give you: momentum through the final 20% of launch, the discipline to explore multiple directions before committing to one, and a design system that encodes your brand's actual choices so AI doesn't default to generic output.",
+      "why": "The three-pillar framework — speed, direction, differentiation — maps directly to how Cuemath's product team should use AI: not just moving faster, but exploring more branches before betting on one, and making sure Cuemath's product reasoning and visual language are built into the system before AI generates anything."
+    },
+    {
+      "id": "2026-09-28-2",
+      "title": "Ragged Edge rebrands AI notepad Granola with a co-founder's handwriting and a deliberately imperfect logo",
+      "url": "https://www.creativeboom.com/news/ragged-edge-rebrands-ai-notepad-granola-with-a-co-founders-handwriting-and-a-deliberately-imperfect-logo/",
+      "source": "Creative Boom",
+      "lane": "news",
+      "summary": "Design studio Ragged Edge rebranded Granola — an AI-powered note-taking app — with a freeform 'G' logo, a custom typeface drawn from the co-founder's actual handwriting, and a warm earthy green, making a deliberate choice to give an AI product an irreducibly human face. The rebrand trended on launch day, drove record downloads, and helped Granola raise $125 million.",
+      "why": "The strategic bet on handmade imperfection as brand differentiation is exactly the positioning question Cuemath faces: in a category filling with AI-first tools, the product that feels most human — in its type, motion, and illustration — builds a stronger loyalty story than feature parity ever will."
+    },
+    {
+      "id": "2026-09-28-3",
+      "title": "Framing LDF",
+      "url": "https://londondesignfestival.com/stories/framing-ldf-by-pentagram/",
+      "source": "London Design Festival",
+      "lane": "inspiration",
+      "summary": "Domenic Lippa at Pentagram has designed the London Design Festival identity since 2007, and this year's edition builds on the same discipline: a neutral typographic thread paired with a shifting frame device that showcases partner work without competing with it — identity as container, not statement.",
+      "why": "Pentagram's 19-year discipline of designing a system that refuses to overshadow what it holds is the argument worth internalizing for CueDesign: the right design system holds its tongue when the content needs to speak, and doesn't inflate its own presence because stakeholders asked for more brand."
+    },
+    {
+      "id": "2026-09-28-4",
+      "title": "Manchester City Women becomes the first WSL team to have its own distinct identity",
+      "url": "https://www.itsnicethat.com/articles/nomad-manchester-city-women-graphic-design-project-080926",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "Nomad Studio built Manchester City Women their own brand identity — a three-letter monogram with a 'light trail' element, an extended palette, and distinct brand guidelines — after research revealed the women's team attracts a meaningfully different audience to the men's: younger, female-skewing, family-oriented, and more engaged with community stories than heritage.",
+      "why": "The brief is identical to what Cuemath faces with MathGym versus the main brand: same parent, different audience, different emotional register — and Nomad's research-first case for why those audiences deserve distinct identity work is the model for how to make that internal argument at Cuemath."
+    },
+    {
+      "id": "2026-09-28-5",
+      "title": "The Year the Machine Started Feeling Familiar",
+      "url": "https://vanschneider.com/blog/edition-276/",
+      "source": "The Desk",
+      "lane": "voices",
+      "summary": "Tobias van Schneider, after a year of daily AI use, identifies a specific risk: designers automating work they actually enjoy, trading creative satisfaction for efficiency, and ending up with output that feels competent but personally hollow — 'teleporting to the top of the mountain instead of climbing it.'",
+      "why": "A calibration point for a design lead integrating AI into a product team — van Schneider's distinction between using AI to relieve tedium versus outsourcing the work you love is precisely the line to hold when deciding what AI does at Cuemath and where it erodes the quality of thinking that design produces."
+    }
+  ]
+}
