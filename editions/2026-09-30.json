@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-30",
+  "items": [
+    {
+      "id": "2026-09-30-1",
+      "title": "Redesigning Workflows for AI",
+      "url": "https://www.uxtigers.com/post/workflow-redesign",
+      "source": "Jakob Nielsen — UX Tigers",
+      "lane": "essay",
+      "summary": "A controlled field experiment with 515 startups found that companies achieving the biggest gains from AI didn't use it to speed up individual tasks — they redesigned entire end-to-end workflows, eliminating handoffs and shifting humans to exception-handling roles.",
+      "why": "The headline finding — 90% higher revenue and 40% less capital for teams that reorganized whole workflows vs. task-level AI adoption — is the clearest data point available for any team, including Cuemath's, deciding how deep to actually go with AI."
+    },
+    {
+      "id": "2026-09-30-2",
+      "title": "Unsung",
+      "url": "https://fontsinuse.com/uses/79899/unsung",
+      "source": "Fonts In Use",
+      "lane": "inspiration",
+      "summary": "A documentation of Marcin Wichary's redesign of his software-craft micro-blog, which now runs on three typefaces from David Jonathan Ross — Warbler, Bild, and a modified Neonoir — set against a factory-green and white palette.",
+      "why": "Wichary is one of the sharpest writers on software craft (ex-Figma); this entry shows how a complete DJR type system actually gets deployed in practice, making it concrete reference for Manik's editorial typography work."
+    },
+    {
+      "id": "2026-09-30-3",
+      "title": "I helped shape McLaren's brand. Here's what worries me about the refresh",
+      "url": "https://www.creativeboom.com/insight/acts-and-deeds-the-mclaren-rebrand/",
+      "source": "Creative Boom",
+      "lane": "voices",
+      "summary": "Tom Foulkes, McLaren's former Global Head of Brand, argues that the company's new identity optimizes for luxury appeal at the cost of the enthusiast authenticity that built McLaren's brand equity.",
+      "why": "The tension Foulkes names — premium repositioning that risks losing the community that made you — is a live question at Cuemath too, where brand choices constantly weigh aspirational perception against accessibility for learners and parents."
+    },
+    {
+      "id": "2026-09-30-4",
+      "title": "Horah Inc lets its love for Pokémon and typography soar in identities for spiced rum, trading cards and book design",
+      "url": "https://www.itsnicethat.com/articles/horah-inc-graphic-design-discover-290926",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "A profile of Horah Inc, a four-person multidisciplinary studio whose work — from spiced rum packaging to Pokémon-inspired athlete trading cards for On Running and a 30th-anniversary book — is unified by layered vintage typography, bold shape, and pop-culture references.",
+      "why": "The On Running trading card project pulls directly from collectible game aesthetics and applies them to real product and sports branding — a specific reference point for Manik's thinking about belt and XP systems at Cuemath."
+    },
+    {
+      "id": "2026-09-30-5",
+      "title": "Pretzel Pong minigame in Deel during Oktoberfest",
+      "url": "https://www.designspells.com/spells/pretzel-pong-minigame-in-deel-during-oktoberfest",
+      "source": "Design Spells",
+      "lane": "inspiration",
+      "summary": "Design Spells entry #337: Deel, an HR and payroll platform, embedded a playable Pretzel Pong arcade game into its product interface as a seasonal Oktoberfest interaction.",
+      "why": "A real, shipped example of occasion-based gamification in a serious B2B product — useful reference for Manik's work on when and how to layer playful mechanics into Cuemath's math practice app without them feeling forced."
+    }
+  ]
+}
