@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-08",
+  "items": [
+    {
+      "id": "2026-11-08-1",
+      "title": "Design Feedback for AI Agents",
+      "url": "https://www.lukew.com/ff/2170/design-feedback-for-ai-agents",
+      "source": "LukeW",
+      "lane": "essay",
+      "summary": "Luke Wroblewski describes the pattern he now works in: AI agents build features straight from a design system and get roughly 90% of the way there, and designers close the remaining gap by marking up screenshots, leaving Figma comments or recording quick voice-and-video notes that the agent then acts on.",
+      "why": "It names the wall Cuemath's design system will hit once agents build from it (no system covers every edge case in a real product) and gives a concrete answer: keep designers in a fast, lightweight feedback loop, and keep them, not the model, deciding what gets folded back into the system."
+    },
+    {
+      "id": "2026-11-08-2",
+      "title": "Children's toys don't need to be an eyesore with Odd Works' tasteful identity for Toyto",
+      "url": "https://www.itsnicethat.com/articles/odd-works-toyto-graphic-design-project-021126",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "Studio Odd Works designed the brand for Toyto, a Berlin maker of open-ended wooden toys, by borrowing from grown-up design (Swiss modernism, Dieter Rams-era Braun) instead of loud kids' branding, and putting all the playfulness into a typeface whose letters tilt like a wobbly block tower plus commissioned illustrations.",
+      "why": "It's a worked example of the balance Cuemath's brand has to strike, credible to parents and fun for kids: the studio confines play to two controlled devices (type and illustration) and keeps everything else calm and premium, a split worth testing against CueDesign."
+    },
+    {
+      "id": "2026-11-08-3",
+      "title": "Mental Models, Conventions, and Expectations in UX Design: The Expectation Economy",
+      "url": "https://www.uxtigers.com/post/user-expectations",
+      "source": "Jakob Nielsen — UX Tigers",
+      "lane": "essay",
+      "summary": "A long guide from Jakob Nielsen on why people judge every screen against habits formed in other apps, how much novelty a design can afford before it confuses them, and what changes when the product is an AI that answers differently each time you ask.",
+      "why": "Two parts map straight onto Cuemath: his 'novelty budget' for deciding where a gamified kids' app can be inventive and where it should behave like the apps children already know, and his AI rules (put example prompts in empty input boxes, keep the AI's tone and persona stable when the model is upgraded) for any AI tutor surface."
+    },
+    {
+      "id": "2026-11-08-4",
+      "title": "Our organizations are being DDoSed from the inside",
+      "url": "https://karrisaarinen.com/posts/our-organizations-are-being-ddosed-from-the-inside/",
+      "source": "Karri Saarinen",
+      "lane": "essay",
+      "summary": "Linear's CEO argues that AI now lets teams build things faster than leaders can judge whether they should exist, so finished work piles up and gets approved because it's done rather than because it's right; he describes Linear's response, including sharper statements of what's in and out of scope and an internal release lock before changes reach the shared product.",
+      "why": "As a design lead, Manik is one of the people meant to hold product direction; this gives him clear language for the problem (working output is not the same as value) and two concrete guardrails to propose as Cuemath's teams ship more with AI."
+    },
+    {
+      "id": "2026-11-08-5",
+      "title": "Exactly how Apple Music used sound to build its new brand identity",
+      "url": "https://www.itsnicethat.com/features/apple-music-rebrand-graphic-design-spotlight-281026",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "Elizabeth Goodspeed goes behind Apple Music's new identity, for which agency Media Arts Lab and production studio Optical Arts built custom machines that turned musical notes into ripples through oil, assembling the visuals from more than 100 physically filmed frames rather than simulating them.",
+      "why": "Two lessons travel beyond the craft: the team had to run the process backwards (pick the look first, then find the notes that produced it), and they released the making-of footage as a main brand asset because 'people care that we care', a useful argument for showing process in Cuemath's own brand work."
+    }
+  ]
+}
