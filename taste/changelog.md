@@ -11,3 +11,4 @@
 - 2026-07-04: Cadence change (per Manik) — Design Daily moved from daily to an ALTERNATE-DAY digest. CLAUDE.md updated with an alternate-day gate (skip a fire if an edition exists for target-date − 1 day); scheduled task 'design-daily-curator' created to fire daily ~8pm IST, with the gate enforcing every-other-day publishing.
 - 2026-07-07: TBM score 4.25 → 3.75 (less signal on TBM 428, no reason given — treated as generic less)
 - 2026-11-07: Resumed after a gap since 2026-09-30 (no editions between 10-01 and 11-07; cause not investigated this run). No vote files to ingest; no score changes. Published edition 2026-11-08 (5 items, no news pick: nothing from the last 48h cleared the bar).
+- 2026-11-09: No vote files to ingest; no score changes. Published edition 2026-11-10 (4 items, no news pick: nothing in the last 48h cleared the bar; no paid pieces, so no watchlist entry). Added Khan Academy Blog to sources.md (Gamification & motivation design) at 3, new.

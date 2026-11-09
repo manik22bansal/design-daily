@@ -78,6 +78,7 @@ Sections group sources by domain. They do NOT map 1:1 to the four edition lanes 
 | Source | URL | Score | Notes |
 |---|---|---|---|
 | Yu-kai Chou | yukaichou.com | 3 | Creator of the Octalysis gamification framework; writes on motivation design, AI × engagement. new 2026-09-16. |
+| Khan Academy Blog | blog.khanacademy.org | 3 | Primary source from the closest K-12 math-practice peer: motivation design (Missions, Gems, class goals), Khanmigo AI-tutor behaviour. Skip the curriculum/course announcements. new 2026-11-09. |
 
 ## Design × AI
 | Source | URL | Score | Notes |

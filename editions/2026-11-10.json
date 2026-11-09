@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-10",
+  "items": [
+    {
+      "id": "2026-11-10-1",
+      "title": "Student Motivation Is One of Education's Hardest Problems. Here's How We're Tackling It.",
+      "url": "https://blog.khanacademy.org/student-motivation-hard-problem/",
+      "source": "Khan Academy Blog",
+      "lane": "essay",
+      "summary": "Khan Academy lays out the five moments when students give up on practice (not knowing where to start, effort that feels invisible, working alone, getting stuck, and mistakes that feel like failure) and the feature it built for each: Missions for what to do next, Gems that make effort add up, a shared class goal, and a Khanmigo AI tutor that holds back the answer until the student has tried.",
+      "why": "This is the closest peer to Cuemath's own problem, K-12 math practice kids have to keep coming back to, and the 'five moments' list works as a ready-made audit for belts and XP (does each reward actually carry a kid through that moment, or just decorate it?), while the tutor rule of hints before a first attempt and side-by-side explanation only after a wrong one is a concrete spec Cuemath's AI could test."
+    },
+    {
+      "id": "2026-11-10-2",
+      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/",
+      "source": "Nielsen Norman Group",
+      "lane": "essay",
+      "summary": "NN/g surveyed 521 designers, researchers and product managers about AI at work: nearly all have access and say it shortens almost every task, yet 69% of those who left a comment were negative (mostly about mandates and unreliable output), and most never use AI for interviewing or testing with real users.",
+      "why": "It gives Manik real numbers for leading Cuemath's design team through AI adoption, including that designers rate their job security well below PMs (2.99 vs 3.81 out of 5), plus a usable rule from the authors: judge AI by whether the time it saves goes back into better work, not by how much more gets produced."
+    },
+    {
+      "id": "2026-11-10-3",
+      "title": "What will we use our minds for?",
+      "url": "https://lg.substack.com/p/what-will-we-use-our-minds-for",
+      "source": "The Looking Glass (Julie Zhuo)",
+      "lane": "voices",
+      "summary": "Julie Zhuo argues that as AI takes over mental work, thinking hard will become something people choose to do, the way gyms replaced physical labour, and pictures 'mental gyms' with coaches, measured progress and friends to train with; she also passes on Alpha School's co-founder describing the paradox of AI that teaches kids in one hour and shortcuts their thinking the next.",
+      "why": "It reads like a positioning brief for MathGym: her 17 × 24 example (if you want to get good at fast calculation, resist the calculator) is the case for deliberate math practice in an AI world, and her gym picture of coaches, visible improvement and training with friends is a checklist for how the practice app should feel."
+    },
+    {
+      "id": "2026-11-10-4",
+      "title": "Never eaten a whole fish? This beautifully designed magazine will show you how to",
+      "url": "https://www.itsnicethat.com/articles/beam-eating-the-whole-fish-graphic-design-project-031126",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "Studio Beam and designer Kayla Feng made a 200-page magazine-cookbook that teaches people to cook whole local fish, mixing step-by-step guides and anatomical diagrams with hand-cut collage, a checkerboard pattern borrowed from seafood-shack tablecloths, and type that stays playful without getting hard to read.",
+      "why": "It's a manual for an intimidating skill that still feels like a treat to open, the same job Cuemath's learning materials do for math, and Feng's stated aim of balancing playfulness and legibility without losing personality is the exact line CueDesign has to hold in kids' materials."
+    }
+  ]
+}
