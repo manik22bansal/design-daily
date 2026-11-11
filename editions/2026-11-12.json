@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-12",
+  "items": [
+    {
+      "id": "2026-11-12-1",
+      "title": "State of the tech job market: late 2026",
+      "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+      "source": "Lenny's Newsletter",
+      "lane": "news",
+      "paid": true,
+      "summary": "Lenny Rachitsky's read of the latest tech hiring data (from job tracker TrueUp and Live Data Technologies), published November 10: which roles are growing, which are shrinking, and which AI skills now show up in job ads.",
+      "why": "The design section is blunt and free to read: only about 1,900 open product-design roles worldwide (the lowest since tracking began, down 28% in a year), 3.8 open PM roles for every design role (up from 1.9 in early 2023), and 'Claude' and Cursor now ahead of CSS in designer job ads, which is hard evidence for how Manik shapes, hires for and argues for Cuemath's design team. Paid tag because the final takeaway on the wider market is subscriber-only; everything about designers sits above the paywall."
+    },
+    {
+      "id": "2026-11-12-2",
+      "title": "Streak Design: The Rules That Build Habits, Not Burnout",
+      "url": "https://yukaichou.com/gamification-analysis/streak-design-gamification-motivation-burnout/",
+      "source": "Yu-kai Chou",
+      "lane": "essay",
+      "summary": "The creator of the Octalysis gamification framework explains how a daily streak slides from pride into fear of losing it as it grows, and gives specific fixes: grace days, streak repairs that are earned through effort rather than bought, capped streaks, and a three-phase plan that eases the pressure once the habit has formed, with Duolingo and SuperBetter as case studies.",
+      "why": "It pairs with Khan Academy's 'five moments' piece from the last edition: his rule of 'temporary pressure for temporary behaviour' and his case against Duolingo selling streak freezes give Manik a clear test for how belts, XP and daily goals should treat a kid who misses a day, so practice builds a habit without turning into anxiety or a paid rescue. Expect some plugs for his paid course; the framework stands without them."
+    },
+    {
+      "id": "2026-11-12-3",
+      "title": "How to put your design system to work with the Figma agent",
+      "url": "https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/",
+      "source": "Figma Blog",
+      "lane": "essay",
+      "summary": "A Figma product manager's step-by-step guide to getting Figma's built-in AI agent to design with your own component library: connecting the library, attaching written guidelines that capture team rules (for example, which button style is reserved for a checkout action), publishing finished example screens for it to learn from, and saving repeat jobs like accessibility audits as reusable 'skills'.",
+      "why": "It's a concrete to-do list for CueDesign: the agent is only as good as the system's component names, variants and written usage rules, so this spells out exactly which documentation work turns the system into something AI designs with instead of drifting away from."
+    },
+    {
+      "id": "2026-11-12-4",
+      "title": "Adobe Powers a New Era of Creativity, Bringing Agents and Tools to Creatives Wherever and However They Create",
+      "url": "https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity",
+      "source": "Adobe Newsroom",
+      "lane": "news",
+      "summary": "Adobe's own announcement from its MAX conference on November 10: outside AI assistants will be able to edit real Photoshop, Illustrator, Premiere and After Effects files on your computer with every layer left editable (private beta early 2027), alongside Firefly Builder, a new tool that turns a written prompt into a clickable, on-brand prototype.",
+      "why": "This is the biggest design-tool shift of the week: illustration and campaign files can soon be handed to whichever AI assistant the team already uses without flattening the work, and Firefly Builder puts Adobe straight into the prompt-to-prototype space Figma is chasing, which matters for any tooling call Manik makes for the Cuemath design team in the next year."
+    },
+    {
+      "id": "2026-11-12-5",
+      "title": "Swiss Post Sans",
+      "url": "https://www.swisstypefaces.com/read/swiss-post-sans/",
+      "source": "Swiss Typefaces",
+      "lane": "inspiration",
+      "summary": "The type foundry's own case study of the custom typeface it spent more than three years drawing for Swiss Post, now on everything from mailboxes and trucks to the website and app: warmer and rounder than the old font (the dots on i and j went from square to round), in five weights across Switzerland's four languages.",
+      "why": "The brief is the lesson for a design-system lead: the new font had to take up exactly the same space as the old one so it could be swapped in without re-laying out a single screen, and it keeps equal-width numerals by default so prices and timetables line up, the same two constraints Manik would face changing Cuemath's brand type in a product full of aligned numbers."
+    }
+  ]
+}
