@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-14",
+  "items": [
+    {
+      "id": "2026-11-14-1",
+      "title": "AI in Education #15: Five Things I Learnt from Bibi Groot about the good, the bad and the ugly of testing an AI tutor",
+      "url": "https://eedi.substack.com/p/ai-in-education-15-five-things-i-096",
+      "source": "Craig Barton — Eedi",
+      "lane": "essay",
+      "summary": "Craig Barton of Eedi, a UK maths-practice platform, explains what its second AI-tutor trial with Google DeepMind found: 1,179 students aged 12 to 15 in ten schools used Eedi in maths lessons for ten weeks, and each wrong answer was followed up by an AI tutor, a human tutor, or the usual hints and videos.",
+      "why": "It's the closest real-world test of what Cuemath is building. After a wrong answer, tutored students got the next similar question right 57% of the time versus 43% with hints, but the standardised test at the end showed no difference between groups because tutored students covered far fewer units (a median of 99 with the AI tutor versus 132 without). Many boys also saw being pulled into a tutor chat after every mistake, misclicks included, as a punishment, which bears directly on when Cuemath's AI should step in and when it should let a kid move on."
+    },
+    {
+      "id": "2026-11-14-2",
+      "title": "Design is a search problem",
+      "url": "https://mattstromawn.com/writing/design-is-a-search-problem/",
+      "source": "Matt Ström-Awn",
+      "lane": "essay",
+      "summary": "An essay with interactive diagrams that compares ways of designing to the methods computers use to search for an answer. Asking for 'a few options' each round is like keeping the best handful (the 'beam') and throwing the rest away. A strong designer works more like a maps app finding a route: they keep a running sense (the 'heuristic') of how close each path is to the goal, and back up when a path drifts.",
+      "why": "His line 'AI has given us a wider beam, but it hasn't yet given us a better heuristic' gives Manik a crisp way to explain to the Cuemath team and to leadership why 50 AI-generated variants isn't progress on its own. The scarce skill is judging which direction is closer to right, and that is where critique and design reviews should spend their time."
+    },
+    {
+      "id": "2026-11-14-3",
+      "title": "In-System Design: From code to Figma and back. Prototyping in your real design system",
+      "url": "https://christinevallaure.substack.com/p/in-system-design-from-code-prototype",
+      "source": "Christine Vallaure (moonlearning)",
+      "lane": "essay",
+      "summary": "The final part of a hands-on, three-part series. A designer has Claude read a coded prototype, rebuild it in Figma from the real component library, then carry her edits on the canvas back into code. She uses connectors (MCPs, plug-ins that let an AI tool read and edit another app) for Figma and for Storybook, the team's catalogue of coded components.",
+      "why": "It's the most concrete recipe yet for keeping CueDesign's Figma library and coded components in step when AI is involved. Anything the AI can't find in the library gets 'GAP' in its layer name instead of being quietly redrawn, one small file lists every component so the AI stops crawling the whole library, and code and Figma share the same layout words. She's also honest about the limit: 'A messy library gives you messy prototypes, only faster.'"
+    },
+    {
+      "id": "2026-11-14-4",
+      "title": "Battle Royale: Five AI Teacher Tools Try to Make the Same Worksheet",
+      "url": "https://danmeyer.substack.com/p/battle-royale-five-ai-teacher-tools",
+      "source": "Dan Meyer — Mathworlds",
+      "lane": "essay",
+      "summary": "Former maths teacher Dan Meyer asks five AI tools (MagicSchool, Brisk, Diffit, Claude and ChatGPT) to make the same fifth-grade worksheet on subtracting mixed numbers, hides which tool made which, and asks readers which one they'd actually hand out. He uses it to explore why most teachers still barely use AI.",
+      "why": "Readers rejected worksheets over layout details that Cuemath's design team owns: no room to show working, slanted fractions instead of flat ones, fractions switching direction mid-page. His conclusion that teachers 'would prefer materials that are a predictable B- to a probabilistic A+' is a sharp product test for any AI-made practice Cuemath puts in front of kids or tutors. He works on Amplify's maths curriculum, which he uses as the benchmark, so weigh that comparison accordingly."
+    },
+    {
+      "id": "2026-11-14-5",
+      "title": "Gen Z apps inform approachable wayfinding for V&A East Storehouse",
+      "url": "https://www.dezeen.com/2026/11/13/va-east-storehouse-wayfinding-graphics/",
+      "source": "Dezeen",
+      "lane": "inspiration",
+      "summary": "London studio Fieldwork Facility designed the signs for the V&A's new open storehouse in east London as if the building were an app. There's an 'onboarding' wall at the entrance, one colour for each of three kinds of space, Scrabble-like letter tiles staff can rearrange, a monospaced version of the V&A's typeface, and coin-voting stations where visitors answer polls.",
+      "why": "It runs Manik's usual problem in reverse: it takes app patterns young people already know and uses them to make an intimidating place feel like it's 'for me'. The tiles and editable label templates let staff update signs without the designers, a physical version of what a good design system should let non-designers do."
+    },
+    {
+      "id": "2026-11-14-6",
+      "title": "Vendôme Nouveau, chapter one: the Life of Vendôme",
+      "url": "https://productiontype.com/article/chapter-one-the-life-of-vendome",
+      "source": "Production Type",
+      "lane": "inspiration",
+      "summary": "Type foundry Production Type opens a four-part series on its revival of Vendôme, a 1950 serif typeface made by Roger Excoffon and François Ganeau at Fonderie Olive in Marseille. Its leaning stems and sharp serifs spread across book jackets, record sleeves and film posters in postwar France, and sign painters redrew it by hand for shop awnings because the metal type stopped at 60 points.",
+      "why": "It's editorial type history told with real craft, and it sets up a lesson that lands squarely on design-system work. Chapter two, out the same day, shows how decades of rushed copying and scanning 'round off and average out' the letterforms until many Vendômes existed and no two matched. A component library drifts the same way when people rebuild from copies instead of the source."
+    }
+  ]
+}
