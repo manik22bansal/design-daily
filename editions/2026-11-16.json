@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-16",
+  "items": [
+    {
+      "id": "2026-11-16-1",
+      "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
+      "url": "https://www.nngroup.com/articles/research-in-the-loop/",
+      "source": "Nielsen Norman Group",
+      "lane": "essay",
+      "summary": "NN/g's answer to AI tools shipping features faster than researchers can study them: write the research plan into the feature spec itself (what success looks like, what to track, and which data patterns should trigger follow-up interviews), so every release arrives with its own measurement built in.",
+      "why": "A copyable template for a team shipping faster with AI: the next time a belt, XP or practice-flow change goes out, a one-page 'Research' section in the spec tells you whether it actually moved motivation, instead of guessing after the fact."
+    },
+    {
+      "id": "2026-11-16-2",
+      "title": "Can AI finally create intelligently varied practice?",
+      "url": "https://eedi.substack.com/p/can-ai-finally-create-intelligently",
+      "source": "Craig Barton — Eedi",
+      "lane": "essay",
+      "summary": "Maths teacher Craig Barton shows how he got Claude to write 'minimally different' question sets, where only one thing changes from one question to the next so students notice what matters, by feeding it examples, non-examples and common misconceptions rather than just a topic; the resulting worksheets are free on his site.",
+      "why": "It's the same question-sequencing problem MathGym's practice sets face, and his method (brief the AI on critical features and misconceptions, then review) is a workflow Cuemath's content and design teams could try this week."
+    },
+    {
+      "id": "2026-11-16-3",
+      "title": "Koto points Giffgaff towards its next chapter with a signpost-led rebrand",
+      "url": "https://www.creativeboom.com/news/koto-points-giffgaff-towards-its-next-chapter-with-an-arrow-led-rebrand/",
+      "source": "Creative Boom",
+      "lane": "inspiration",
+      "summary": "Studio Koto's rebrand for UK mobile network Giffgaff turns the last 'f' of the logo into an arrow, then reuses that arrow across the website and app to point people at prices and offers, alongside a new condensed typeface and an acid-green accent.",
+      "why": "A brand mark that does real interface work (pointing users to the next step), delivered on Giffgaff's existing design tokens so it shipped rather than 'sitting in a deck': a model for getting Cuemath's brand and CueDesign to pull in the same direction."
+    },
+    {
+      "id": "2026-11-16-4",
+      "title": "Mona Chalabi's illustrated book about wealth inequality will make you talk to your friends about money",
+      "url": "https://www.itsnicethat.com/features/mona-chalabi-ten-lives-illustration-spotlight-091126",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "An interview with data illustrator Mona Chalabi about Ten Lives, her book following ten Americans across income levels, which turns hard statistics into hand-drawn charts that open with something instantly graspable and then layer on complexity.",
+      "why": "She names the tension a K-12 math brand lives with: her style reads as 'childlike' yet adults must trust the rigour, the same warmth-for-kids, credibility-for-parents balance Cuemath strikes, and her easy-first-then-deeper sequencing is a usable pattern for drawing numbers."
+    }
+  ]
+}
