@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-18",
+  "items": [
+    {
+      "id": "2026-11-18-1",
+      "title": "MLB: Steering an American legend toward the future without abandoning its past",
+      "url": "https://www.motherdesign.com/work/mlb",
+      "source": "Mother Design",
+      "lane": "inspiration",
+      "summary": "Mother Design's own case study of its two-and-a-half-year rebrand of Major League Baseball, built on five custom typefaces from different type designers (a Franklin Gothic revival, a condensed Clarendon slab, a classic script, an octagonal 'ballpark signage' face and a hand-lettered one), each reviving lettering from the sport's history.",
+      "why": "Its two-axis chart (how close a product sits to the game, how much fans expect) decides how plain or expressive each sub-brand's design gets, plain for the ticketing app and loud for social: a principled way for CueDesign to let MathGym be playful while tutoring and parent screens stay calm, inside one system."
+    },
+    {
+      "id": "2026-11-18-2",
+      "title": "EdTech Can Work. Decision Makers Have to Check the Evidence First.",
+      "url": "https://blog.khanacademy.org/edtech-can-work-decision-makers-have-to-check-the-evidence-first/",
+      "source": "Khan Academy Blog (Sal Khan)",
+      "lane": "essay",
+      "summary": "Sal Khan walks through the independent, randomised trials behind well-known learning products (Khan Academy, ASSISTments, India's Mindspark, Carnegie Learning) and explains how to read them, using yardsticks like 'standard deviations' of learning gain, where intensive one-on-one tutoring typically scores 0.2 to 0.4.",
+      "why": "It's the lens schools and informed parents will use to judge Cuemath, and two numbers are product-strategy inputs: the strongest results came from roughly 30 to 60 minutes of use per student per week, and Mindspark, an Indian after-school math program, gained 0.37 in math in under five months, a concrete target for how much practice MathGym's motivation loop should drive."
+    },
+    {
+      "id": "2026-11-18-3",
+      "title": "Studio Kiln builds a shape-shifting character for weight loss app Reset",
+      "url": "https://www.creativeboom.com/news/studio-kiln-builds-a-shape-shifting-character-for-weight-loss-app-reset/",
+      "source": "Creative Boom",
+      "lane": "news",
+      "summary": "Studio Kiln designed Ester, the mascot for weight-loss app Reset: a faceless figure made of soft 3D blocks that shows how it 'feels' only by tumbling apart and reassembling (no smiles or frowns), with a different colour version for each of the app's five user types.",
+      "why": "A worked alternative to the cartoon smile-or-frown mascot most kids' apps use for right and wrong answers: emotion carried purely by motion, so learners project their own feelings instead of being judged by a face, plus one character recoloured per user type, a pattern that could flex across Cuemath's belts or levels."
+    },
+    {
+      "id": "2026-11-18-4",
+      "title": "Design Creativity Bench: Measuring creativity in LLM-Generated UI",
+      "url": "https://arxiv.org/abs/2610.11539",
+      "source": "arXiv (Kombai)",
+      "lane": "essay",
+      "summary": "A study from AI design-tool maker Kombai that gave leading AI models and human designers the same interface briefs: every model met over 90% of the brief's requirements, but different models' designs looked more like each other than like a human's, and when asked for the same kind of screen for two different products, the AI changed its design far less than people did.",
+      "why": "Hard numbers for how Cuemath's team should use AI screen generators: trust them to hit the brief, but expect same-y output (creative range 0.58 for AI versus 0.90 for humans), so distinctiveness has to come from your own direction and references; worth knowing the authors sell a tool that claims to fix this."
+    },
+    {
+      "id": "2026-11-18-5",
+      "title": "Nobody learns good taste by being told",
+      "url": "https://vanschneider.com/blog/nobody-learns-good-taste-by-being-told-from-the-desk-of-van-schneider-edition-280/",
+      "source": "Tobias van Schneider (The Desk)",
+      "lane": "essay",
+      "summary": "Designer Tobias van Schneider argues taste can be taught, but not by declaring things good or bad: show people better references side by side, let them spot the difference themselves, explain the reasoning behind your calls, and hand them real decisions to defend.",
+      "why": "A ready routine for a design lead growing a team's eye: swap 'this isn't working' crits for side-by-side comparisons, which matters more now that AI makes competent-but-generic screens cheap (see the study above) and judgement is the scarce skill."
+    }
+  ]
+}
