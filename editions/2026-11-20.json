@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-20",
+  "items": [
+    {
+      "id": "2026-11-20-1",
+      "title": "Design by Playground",
+      "url": "https://www.lukew.com/ff/2172/design-by-playground",
+      "source": "LukeW",
+      "lane": "essay",
+      "summary": "Luke Wroblewski argues that designers can now get AI coding tools to build them small, throwaway design tools ('playgrounds') in minutes: a live screen with sliders and switches that change one thing at a time, filled with real content, so you see animations, loading and error states, fonts and scrolling as they'll actually behave, which a static mockup can't show. He links a working playground he built for his own product.",
+      "why": "His example is deciding how much of an AI agent's working to show on screen, the same call Cuemath faces on how much of an AI tutor's reasoning a child should see, and the method fits other MathGym tuning problems too, like the timing of a belt-up or XP animation, where a slider beats a dozen Figma frames."
+    },
+    {
+      "id": "2026-11-20-2",
+      "title": "The end of feature discovery as we know it.",
+      "url": "https://www.elenaverna.com/p/the-end-of-feature-discovery-as-we",
+      "source": "Elena Verna",
+      "lane": "essay",
+      "summary": "Growth leader Elena Verna argues that decades of onboarding tours, tooltips and 'new feature' emails never really got people using new features, and that AI changes the game: users say what they want and the product's AI picks the right feature for them, so the new problem is earning enough trust for people to let it, and helping them realise what's possible when the screen is just an empty chat box.",
+      "why": "Product thinking aimed straight at Cuemath's next interface: if an AI tutor starts routing kids to practice modes, belts and challenges by intent, the old discovery work moves into trust design (showing what the AI did and letting it be undone), and her 'empty box' warning is the exact risk for a chat-first tutor where children and parents don't know what to ask for."
+    },
+    {
+      "id": "2026-11-20-3",
+      "title": "Same Wrong Answer, Different Reasons: Why Student Thinking Matters.",
+      "url": "https://blog.khanacademy.org/explain-your-thinking-wrong-answers/",
+      "source": "Khan Academy Blog",
+      "lane": "essay",
+      "summary": "Khan Academy explains a feature planned for its 2027–28 school assessments: after certain questions, an AI guide has a short conversation asking the student to explain their answer, without giving hints, and teachers get a summary separating unfinished work from real misunderstanding. In early tests, about 20% of algebra students and 36% of geometry students showed understanding that their first written explanation hadn't.",
+      "why": "The closest math-practice peer showing a design rule and a number Cuemath can use: a brief, hint-free 'tell me how you got that' changes the read on a wrong answer for one student in five or more, so MathGym and tutor reports that judge only the final answer are misdiagnosing kids (third Khan pick in ten days, kept because it's a different problem: diagnosis, not motivation)."
+    },
+    {
+      "id": "2026-11-20-4",
+      "title": "A 1970s architectural sketch and Otl Aicher inspire North Design's new art centre brand mark",
+      "url": "https://www.itsnicethat.com/articles/north-design-sainsbury-museum-and-art-centre-graphic-design-171126",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "North Design's new identity for the Sainsbury Museum and Art Centre in Norwich: a logo of three nested rectangles traced from Norman Foster's earliest sketch of the building, colours taken from its steel, aluminium, glass and concrete, and a custom typeface with two settings, a 'functional' one with regular spacing for signs and admin and an 'expressive' one for posters and digital.",
+      "why": "One typeface with two documented modes is the cleanest answer to CueDesign's calm-versus-playful split (quiet tutoring and parent screens, loud MathGym moments) without adding a second family, and because the face is 'uniwidth' (every weight takes the same space) a tab or button can turn bold when selected without the text jumping, a small win in kids' UI."
+    },
+    {
+      "id": "2026-11-20-5",
+      "title": "\"A good designer can make a free font look expensive\": Callum Abbott on designing publications around type",
+      "url": "https://www.itsnicethat.com/articles/callum-abbott-other-almanac-mutt-art-review-graphic-design-publication-project-181126",
+      "source": "It's Nice That",
+      "lane": "inspiration",
+      "summary": "Interview with publication designer Callum Abbott (formerly in-house at Dazed and Pitchfork) on two projects: The Other Almanac 2027, a 200-plus-page update of the old American farmers' almanac set in 40 typefaces, many of them free fonts, with no newly commissioned images; and Mutt Art Review, which keeps the same 1970s-flavoured set of typefaces every issue but changes the page templates each time.",
+      "why": "Mutt's rule (fixed type, fresh layouts every issue) is a ready model for any recurring Cuemath content, like worksheets, MathGym seasons or parent newsletters, where the type keeps it recognisable and the layout keeps it from going stale; the Almanac shows how far confident scale and hierarchy can stretch a zero-budget type palette."
+    }
+  ]
+}
